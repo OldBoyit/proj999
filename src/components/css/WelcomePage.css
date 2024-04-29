@@ -4,6 +4,7 @@
 }
 
 .header-logo {
+  margin-top: 20px;	
   display: block;
   margin: 0 auto; /* Centra il logo orizzontalmente */
   max-width: 100%; /* Opzionale: assicura che il logo si adatti se troppo grande */
