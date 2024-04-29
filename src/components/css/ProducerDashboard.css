@@ -1,0 +1,67 @@
+/* src/components/css/ProducerDashboard.css */
+.producer-dashboard-container {
+  max-width: 800px;  /* leggermente più grande per più spazio */
+  margin: 20px auto; /* più margini per centratura e spazio dal top */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff; /* sfondo più chiaro per una migliore leggibilità */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Aggiunta di ombra per profondità */
+}
+
+h1 {
+  margin-bottom: 20px; /* Più spazio sotto l'intestazione */
+}
+
+.dashboard-button, .option-button, .sub-option-button {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px; /* Più spazio tra i bottoni */
+  padding: 15px 0; /* Più padding per bottoni più grandi */
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #fff;
+  font-size: 18px; /* Font più grande per leggibilità */
+  text-transform: uppercase; /* Testo in maiuscolo per un look più pulito */
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s; /* Aggiunta di transizione per feedback visivo */
+}
+
+.dashboard-button:hover, .option-button:hover, .sub-option-button:hover {
+  background-color: #45a049;
+  transform: scale(1.05); /* Leggero ingrandimento al hover */
+}
+
+.options-container {
+  border-top: 2px solid #ccc; /* Linea divisoria */
+  padding-top: 10px; /* Padding sopra dopo la linea */
+}
+
+.option-button, .sub-option-button {
+  background-color: #3498db; /* Blu per differenziare i livelli di opzioni */
+}
+
+.option-button:hover, .sub-option-button:hover {
+  background-color: #2980b9;
+}
+
+.sub-option-button {
+  background-color: #2980b9; /* Blu più scuro per sub-opzioni */
+  margin-left: 20px; /* Indentazione per gerarchia visiva */
+  width: calc(100% - 40px); /* Adjust width considering margin */
+}
+
+.sub-option-button:hover {
+  background-color: #2471a3;
+}
+
+.home-button {
+  margin-top: 30px; /* Spazio sopra il bottone home */
+  background-color: #f1c40f; /* Giallo per distinguibilità */
+  color: #333;
+}
+
+.home-button:hover {
+  background-color: #f39c12; /* Giallo più scuro al hover */
+}

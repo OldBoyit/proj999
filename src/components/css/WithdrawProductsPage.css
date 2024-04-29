@@ -1,0 +1,28 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.dashboardLink {
+  display: block;
+  font-size: 16px;
+  color: blue;
+  text-decoration: underline;
+  margin-top: 20px;
+}
+
+.exampleText {
+  text-align: center;
+  margin-top: 40px;
+}

@@ -1,0 +1,36 @@
+/* src/components/css/ViewAssignedKeysPage.css */
+
+.assigned-keys-container {
+  max-width: 600px; /* Imposta la larghezza massima del box */
+  margin: 0 auto; /* Centra il box orizzontalmente */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.assigned-keys-container h1 {
+  margin-bottom: 20px;
+}
+
+.key-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.key-item {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.key-item p {
+  margin: 0;
+}
+
+.assigned-products-list {
+  list-style-type: disc;
+  margin-left: 20px;
+}

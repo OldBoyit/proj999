@@ -1,0 +1,33 @@
+/* ViewDigitalSignaturesPage.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.no-signatures {
+  margin-top: 20px;
+}
+
+.dashboard-button {
+  margin-top: 20px;
+}

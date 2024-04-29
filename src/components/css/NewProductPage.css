@@ -1,0 +1,79 @@
+/* src/components/css/NewProductPage.css */
+
+.product-form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.product-form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.product-form-container form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.product-form-container form input,
+.product-form-container form select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.product-form-container form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product-form-container form button:hover {
+  background-color: #0056b3;
+}
+
+.product-details {
+  margin-top: 40px;
+}
+
+.product-details h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.product-details div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.product-details div span {
+  flex: 0 1 calc(50% - 10px);
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+
+.example-text {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.example-text p {
+  font-size: 16px;
+  color: #666;
+}

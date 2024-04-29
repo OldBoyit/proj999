@@ -1,0 +1,65 @@
+.welcome-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.header-logo {
+  display: block;
+  margin: 0 auto; /* Centra il logo orizzontalmente */
+  max-width: 100%; /* Opzionale: assicura che il logo si adatti se troppo grande */
+}
+
+/* Aggiungi questa regola per cambiare il colore del testo e di sfondo quando il cursore è sopra il pulsante */
+.welcome-button:hover {
+  background-color: white;
+  color: #4CAF50; /* Cambia il colore del testo quando il cursore è sopra il pulsante */
+}
+
+/* Rimuovi la regola per cambiare il colore del testo quando il cursore è sopra il link */
+.link-style:hover {
+  color: #4CAF50; /* Cambia il colore del testo quando il cursore è sopra il link */
+}
+
+.button-container {
+  margin: 20px 0;
+}
+
+.welcome-button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.link-style {
+  text-decoration: none;
+  color: white;
+}
+
+.welcome-button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.welcome-button:hover {
+  background-color: white;
+  color: black;
+}
+
+.info-section {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+h2 {
+  color: #333;
+}

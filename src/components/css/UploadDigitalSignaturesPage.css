@@ -1,0 +1,63 @@
+/* UploadDigitalSignaturesPage.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+/* UploadDigitalSignaturesPage.css */
+/* Presumendo che hai già stili simili per i bottoni, aggiungi/modifica: */
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px; /* Assicurati che questo non sia già definito se vuoi evitare spazi eccessivi */
+    background-color: #4CAF50; /* Personalizza il colore se necessario */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Per il primo pulsante (se vuoi specificamente mirare solo quello) */
+form button[type="submit"] {
+    margin-bottom: 20px; /* Aggiunge spazio sotto il pulsante di submit */
+}
+
+/* Per il backButton specificamente, se necessario */
+.backButton {
+    margin-top: 20px; /* Aggiunge spazio sopra il pulsante di ritorno alla dashboard */
+}
+
+
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* Per evitare problemi con il padding e la larghezza */
+}
+
+
+/* Opzionale: stile per il focus sugli input e textarea per migliorare l'accessibilità */
+input:focus, textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+}

@@ -1,0 +1,25 @@
+/* src/components/ViewProductsPage.css */
+
+.table {
+  width: 100%;
+  border-collapse: collapse; /* Rimuove lo spazio tra i bordi delle celle */
+  margin-top: 20px; /* Aggiunge spazio sopra la tabella */
+  background-color: #ffffff; /* Imposta uno sfondo bianco per la tabella */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Aggiunge un'ombreggiatura sottile */
+}
+
+.th, .td {
+  padding: 12px 15px; /* Aumenta il padding per rendere il testo più leggibile */
+  border: 1px solid #ccc; /* Utilizza un colore più leggero per i bordi */
+  text-align: left;
+}
+
+.th {
+  background-color: #007bff; /* Imposta un colore di sfondo blu per le intestazioni */
+  color: #ffffff; /* Imposta il colore del testo a bianco per le intestazioni */
+  font-weight: bold;
+}
+
+.tr:nth-child(even) {
+  background-color: #f2f2f2; /* Utilizza un colore di sfondo alternato per le righe */
+}

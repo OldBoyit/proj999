@@ -1,0 +1,61 @@
+/* NewProductForm.css */
+.form-container {
+  max-width: 800px; /* o la larghezza che preferisci */
+  margin: auto;
+  padding: 20px;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.form-group > div,
+.form-group > input,
+.form-group > select {
+  flex: 1;
+  margin-right: 20px; /* Spazio tra le etichette/input */
+}
+
+.form-group > div {
+  flex-basis: 50%; /* o la percentuale che preferisci per le descrizioni */
+}
+
+.form-section {
+  border-bottom: 1px solid #ccc; /* aggiunge un divisore */
+  padding-bottom: 10px; /* spazio sotto il contenuto prima del divisore */
+  margin-bottom: 20px; /* spazio dopo il divisore prima della prossima sezione */
+}
+
+input[type='text'],
+select {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.form-description {
+  font-size: 0.8rem;
+  color: #666;
+  margin-top: 2px; /* se vuoi spazio tra input e descrizione */
+}
+
+.form-section input,
+.form-section select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 2px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+

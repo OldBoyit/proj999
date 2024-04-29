@@ -1,0 +1,63 @@
+/* src/components/css/UploadNFCKeysPage.css */
+
+.upload-keys-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  max-width: 400px; /* Imposta la larghezza massima */
+  margin: 0 auto; /* Imposta il margine automatico per centrare il box */
+}
+
+.num-keys-input {
+  margin-bottom: 20px;
+}
+
+.dashboard-button {
+  padding: 8px 10px; /* Riduci il padding */
+  font-size: 14px;
+  min-width: 100px; /* Imposta la larghezza minima */
+}
+
+.generate-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.generate-button:hover {
+  background-color: #0056b3;
+}
+
+.keys-list {
+  margin-top: 20px;
+}
+
+.key-info {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.additional-info {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.additional-info p {
+  font-size: 14px;
+  color: #666;
+}
