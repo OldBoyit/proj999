@@ -15,13 +15,15 @@ const handler = async (event) => {
       return {
         statusCode: 400,
         body: JSON.stringify({ error: 'No collection specified' }),
+        headers: {
+          'Access-Control-Allow-Origin': '*', // Modifica per specificare il dominio in produzione
+          'Access-Control-Allow-Headers': 'Content-Type',
+          'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS'
+        }
       };
     }
 
     const collection = database.collection(collezione);
-
-    // Qui puoi aggiungere diversi tipi di operazioni a seconda del contesto
-    // Esempio: ottiene tutti i documenti dalla collezione specificata
     result = await collection.find({}).toArray();
 
   } catch (error) {
@@ -29,6 +31,11 @@ const handler = async (event) => {
     return {
       statusCode: 500,
       body: JSON.stringify({ error: 'Failed to connect to database' }),
+      headers: {
+        'Access-Control-Allow-Origin': '*', // Modifica per specificare il dominio in produzione
+        'Access-Control-Allow-Headers': 'Content-Type',
+        'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS'
+      }
     };
   } finally {
     await client.close();
@@ -37,6 +44,11 @@ const handler = async (event) => {
   return {
     statusCode: 200,
     body: JSON.stringify(result),
+    headers: {
+      'Access-Control-Allow-Origin': '*', // Modifica per specificare il dominio in produzione
+      'Access-Control-Allow-Headers': 'Content-Type',
+      'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS'
+    }
   };
 };
 
