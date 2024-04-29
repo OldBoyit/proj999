@@ -11,7 +11,7 @@ function AdminLogin() {
 
     const handleAdminLogin = async () => {
         try {
-            const response = await fetch('http://localhost:3001/api/users/admin/login', {
+            const response = await fetch('https://chain.project999.it/.netlify/functions/accessMongoDB?collezione=users', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
