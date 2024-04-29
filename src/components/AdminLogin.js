@@ -11,13 +11,14 @@ function AdminLogin() {
 
     const handleAdminLogin = async () => {
         try {
-            const response = await fetch('https://chain.project999.it/.netlify/functions/accessMongoDB?collezione=users', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({ username, password }),
-            });
+			const response = await fetch('https://chain.project999.it/.netlify/functions/accessMongoDB?collezione=users', {
+				method: 'POST',
+				headers: {
+					'Content-Type': 'application/json',
+				},
+				body: JSON.stringify({ username, password }),
+			});
+
 
             const data = await response.json();
             if (response.ok) {
