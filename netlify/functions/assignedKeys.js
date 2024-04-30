@@ -16,9 +16,9 @@ exports.handler = async (event) => {
         const database = client.db('blockchainProducts');
         const keysCollection = database.collection('chiaves');
 
-        // Cambia qui: forse vuoi filtrare solo chiavi assegnate, quindi ad esempio:
-        const keys = await keysCollection.find({ isActive: true, assignedProducts: { $exists: true, $not: {$size: 0} }}).toArray(); 
-        console.log("Assigned keys found:", keys);
+        // Qui assumiamo che vuoi vedere solo le chiavi che sono "utilizzate" e attive.
+        const keys = await keysCollection.find({isActive: true, status: "utilizzata"}).toArray();
+        console.log("Keys found:", keys);
 
         return {
             statusCode: 200,
