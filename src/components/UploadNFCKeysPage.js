@@ -83,6 +83,12 @@ function UploadNFCKeysPage() {
                 <p>Per tornare alla DashBoard Produttore premere il tasto sotto</p>
                 <button onClick={() => navigate('/producer-dashboard')} className="dashboard-button">Dashboard</button>
             </div>
+            {/* Descrizione sotto il box */}
+            <div className="page-description">
+                <p>
+                    Questa pagina consente ai produttori di generare e caricare chiavi NFC in modo sicuro. Utilizzando strumenti all'avanguardia, possiamo garantire la sicurezza e la tracciabilità di ogni prodotto.
+                </p>
+            </div>
         </div>
     );
 }
