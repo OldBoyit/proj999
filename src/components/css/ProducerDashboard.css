@@ -1,12 +1,10 @@
 /* src/components/css/ProducerDashboard.css */
 .producer-dashboard-container {
-  max-width: 800px;  /* leggermente più grande per più spazio */
-  margin: 20px auto; /* più margini per centratura e spazio dal top */
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  background-color: #fff; /* sfondo più chiaro per una migliore leggibilità */
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Aggiunta di ombra per profondità */
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 h1 {
@@ -64,4 +62,12 @@ h1 {
 
 .home-button:hover {
   background-color: #f39c12; /* Giallo più scuro al hover */
+}
+
+.dashboard-description {
+  margin-top: 20px;
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }

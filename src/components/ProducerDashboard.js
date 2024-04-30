@@ -98,11 +98,17 @@ function ProducerDashboard() {
       )}
 
       <center><button onClick={handleGoHome} className="home-button">Home</button></center>
-      <div style={{ marginTop: '20px' }}>
-        <center><p>Esempio di testo sotto il box del login.</p></center>
-      </div>
-    </div>
-  );
+	  </div>
+	  <div className="dashboard-description">
+		<h2>Descrizione del Dashboard</h2>
+		<p>
+		  Questa dashboard è progettata per fornire ai produttori tutti gli strumenti necessari per gestire efficacemente la sicurezza e l'autenticità dei loro prodotti. Utilizzate i pulsanti qui sopra per accedere alle varie funzionalità: ogni pulsante attiva specifiche opzioni che vi permetteranno di caricare chiavi NFC, gestire firme digitali, creare e tracciare prodotti attraverso vari stadi di produzione e distribuzione.
+		</p>
+		<p>
+		  Ogni funzionalità è progettata per garantire che ogni prodotto mantenga gli standard più elevati di qualità e sicurezza, supportando la tutela e la valorizzazione del Made in Italy.
+		</p>
+	  </div>
+	);
 }
 
 export default ProducerDashboard;
