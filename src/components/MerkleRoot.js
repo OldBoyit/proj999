@@ -14,17 +14,31 @@ window.Buffer = Buffer;
 const web3 = new Web3(window.ethereum);
 
 async function fetchAvailableKeys() {
-    const response = await fetch('/.netlify/functions/availableKeys'); // Updated to point to Netlify function
-    const data = await response.json();
-    return data;
-}
-async function fetchDigitalSignatures() {
-    const response = await fetch('/.netlify/functions/fetchDigitalSignatures'); // Updated to point to Netlify function
-    if (!response.ok) {
-        throw new Error('Failed to fetch digital signatures');
+    try {
+        const response = await fetch('/.netlify/functions/availableKeys');
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const data = await response.json();
+        return data;
+    } catch (error) {
+        console.error("Failed to fetch available keys: ", error);
+        throw error; // Re-throw the error if you want to handle it further up the chain.
     }
-    const data = await response.json();
-    return data.map(sig => ({ id: sig._id, signature: sig.signatureData }));
+}
+
+async function fetchDigitalSignatures() {
+    try {
+        const response = await fetch('/.netlify/functions/fetchDigitalSignatures');
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const data = await response.json();
+        return data.map(sig => ({ id: sig._id, signature: sig.signatureData }));
+    } catch (error) {
+        console.error("Failed to fetch digital signatures: ", error);
+        throw error;
+    }
 }
 
 const AddMultipleProducts = () => {
