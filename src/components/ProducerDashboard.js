@@ -61,6 +61,7 @@ function ProducerDashboard() {
             <button className="option-button" onClick={() => navigate('/upload-nfc-keys')}>Carica Chiavi NFC</button>
             <button className="option-button" onClick={() => navigate('/available-keys')}>Chiavi Disponibili</button>
             <button className="option-button" onClick={() => navigate('/view-assigned-keys')}>Visualizza Chiavi Assegnate</button>
+			<button className="option-button" onClick={() => navigate('/view-retires-keys')}>Visualizza Chiavi Ritirate</button>
             <button className="option-button" onClick={() => navigate('/withdraw-nfc')}>Ritira NFC</button>
           </div>
         )}

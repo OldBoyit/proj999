@@ -26,7 +26,7 @@ import ViewDigitalSignaturesPage from './components/ViewDigitalSignaturesPage';
 import RemoveDigitalSignaturesPage from './components/RemoveDigitalSignaturesPage';
 import AddMultipleProducts from './components/AddMultipleProducts';
 import MerkleRoot from './components/MerkleRoot';
-
+import ProducerDashboard from './components/ProducerDashboard';
 
 function App() {
   const [availableKeys, setAvailableKeys] = useState([]);
@@ -58,6 +58,7 @@ function App() {
 		  <Route path="/create-single-product" element={<NewProductPage />} />
 		  <Route path="/create-multiple-products" element={<AddMultipleProducts />} />
 		  <Route path="/create-merkle-root" element={<MerkleRoot />} />
+		  <Route path="/view-retired-keys" element={<ViewRetiredKeys />} />
         </Routes>
       </Router>
     </UserProvider>
