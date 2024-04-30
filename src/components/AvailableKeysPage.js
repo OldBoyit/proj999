@@ -66,9 +66,14 @@ function AvailableKeysPage() {
                 <button onClick={() => navigate('/producer-dashboard')} className="dashboard-button">
                     Dashboard del Produttore
                 </button>
-            </div>
         </div>
-    );
+        <div className="page-description">
+            <p>
+                Questa pagina mostra le chiavi pubbliche NFC che sono attualmente disponibili e non ancora associate a prodotti. Ogni chiave pubblica elencata qui può essere utilizzata per garantire l'autenticità di un prodotto attraverso l'interazione con dispositivi mobili compatibili con NFC. Questi dati sono gestiti con la massima sicurezza per assicurare che solo i produttori autorizzati possano accedere e utilizzare le chiavi per i loro prodotti, rafforzando ulteriormente la sicurezza e la tracciabilità del Made in Italy nel mercato globale.
+            </p>
+        </div>
+    </div>
+);
 }
 
 export default AvailableKeysPage;

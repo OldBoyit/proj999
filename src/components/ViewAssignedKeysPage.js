@@ -62,10 +62,16 @@ function ViewAssignedKeys() {
                 {currentPage * keysPerPage < keys.length && (
                     <button onClick={nextPage} className="page-button">Pagina Successiva</button>
                 )}
-            </div>
-            <button onClick={() => navigate('/producer-dashboard')} className="dashboard-button">Dashboard</button>
-        </div>
-    );
+			<div className="page-description">
+				<p>
+					Questa pagina mostra le chiavi NFC assegnate ai prodotti. Ogni chiave elencata qui è già stata utilizzata per autenticare un prodotto specifico nel nostro sistema di tracciabilità. Le chiavi "Attiva" indicano che i prodotti associati non sono stati segnalati come contraffatti e continuano a essere validi e sicuri per l'uso nel mercato.
+				</p>
+				<p>
+					La visibilità di chiavi pubbliche e private in questa pagina aiuta a mantenere la trasparenza e permette una gestione efficace del processo di autenticazione. È essenziale per assicurare che solo prodotti autentici siano circolanti, rafforzando così la fiducia dei clienti.
+				</p>
+			</div>
+		</div>
+	);
 }
 
 export default ViewAssignedKeys;
