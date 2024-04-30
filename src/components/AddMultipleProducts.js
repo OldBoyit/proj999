@@ -20,6 +20,7 @@ async function fetchDigitalSignatures() {
 }
 
 	const AddMultipleProducts = () => {
+	  const navigate = useNavigate();
 	  const [digitalSignatures, setDigitalSignatures] = useState([]);
 	  const [availableKeys, setAvailableKeys] = useState([]);
 	  const [numberOfProducts, setNumberOfProducts] = useState(1);
