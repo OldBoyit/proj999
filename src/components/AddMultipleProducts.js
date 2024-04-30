@@ -4,6 +4,7 @@ import Web3 from 'web3';
 import CryptoJS from 'crypto-js'; 
 import { contractAddress, contractABI } from '../config/contractConfig';
 import { v4 as uuidv4 } from 'uuid'; // Per generare ID unici se necessario
+import { useNavigate } from 'react-router-dom';
 
 async function fetchAvailableKeys() {
     const response = await fetch('/.netlify/functions/availableKeys'); // Updated to point to Netlify function
