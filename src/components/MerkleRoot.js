@@ -13,6 +13,42 @@ window.Buffer = Buffer;
 
 const web3 = new Web3(window.ethereum);
 
+// Function to initialize Web3
+function getWeb3() {
+    return new Promise((resolve, reject) => {
+        window.addEventListener('load', async () => {
+            if (window.ethereum) {
+                const web3 = new Web3(window.ethereum);
+                try {
+                    // Request account access if needed
+                    await window.ethereum.enable();
+                    resolve(web3);
+                } catch (error) {
+                    reject('User denied account access.');
+                }
+            } else if (window.web3) {
+                // Legacy dapp browsers...
+                console.log('Injected web3 detected.');
+                resolve(new Web3(window.web3.currentProvider));
+            } else {
+                // Fallback to localhost; use dev console port by default...
+                const provider = new Web3.providers.HttpProvider(
+                    'http://127.0.0.1:9545'
+                );
+                console.log('No web3 instance injected, using Local web3.');
+                resolve(new Web3(provider));
+            }
+        });
+    });
+}
+
+// Use the function in your component or app initialization logic
+getWeb3().then((web3) => {
+    console.log("Web3 initialized!");
+    // Your web3 is ready and you can use it for your calls
+}).catch((error) => {
+    console.error("Error in Web3 initialization:", error);
+});
 async function fetchAvailableKeys() {
     try {
         const response = await fetch('/.netlify/functions/availableKeys');
