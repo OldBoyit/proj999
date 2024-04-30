@@ -23,6 +23,7 @@ function AdminDashboard() {
             <button onClick={goToProducerRegistrationPage}>Crea nuovo Produttore</button>
             <button onClick={goToProducerDeletionPage}>Elimina Produttore</button>
             <button onClick={goToProducersListPage}>Visualizza Produttori</button>  {/* Nuovo pulsante aggiunto */}
+            <button onClick={goToHomePage}>Torna alla Home</button>  {/* Nuovo bottone per tornare alla home */}
         </div>
     );
 }

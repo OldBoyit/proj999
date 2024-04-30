@@ -20,11 +20,12 @@ const ViewProductsPage = () => {
     navigate('/producer-dashboard');
   };
 
-  return (
-    <div className={styles.tableContainer}>
-      <h1>Prodotti Attivi</h1>
-      <button onClick={handleDashboardClick} className={styles.dashboardButton}>Torna alla Dashboard</button>
+return (
+  <div className={styles.tableContainer}>
+    <h1>Prodotti Attivi</h1>
+    <button onClick={handleDashboardClick} className={styles.dashboardButton}>Torna alla Dashboard</button>
 
+    <div style={{ overflowX: 'auto' }}> {/* Ensures the table is scrollable */}
       <table className={styles.table}>
         <thead>
           <tr>
@@ -61,12 +62,12 @@ const ViewProductsPage = () => {
           ))}
         </tbody>
       </table>
-
-      <div className={styles.exampleText}>
-        <p>Testo di esempio aggiunto qui.</p>
-      </div>
     </div>
-  );
-};
+
+    <div className={styles.exampleText}>
+      <p>Testo di esempio aggiunto qui.</p>
+    </div>
+  </div>
+);
 
 export default ViewProductsPage;

@@ -71,12 +71,15 @@ async function fetchDigitalSignatures() {
     try {
         const response = await fetch('/.netlify/functions/fetchDigitalSignatures');
         if (!response.ok) {
+            console.error(`Failed to fetch with status: ${response.status}, url: ${response.url}`);
             throw new Error(`HTTP error! status: ${response.status}`);
         }
         const data = await response.json();
         return data.map(sig => ({ id: sig._id, signature: sig.signatureData }));
     } catch (error) {
         console.error("Failed to fetch digital signatures: ", error);
+        // Depending on the failure, you might want to handle it differently
+        // Example: Re-throw the error, or handle it gracefully in the UI
         throw error;
     }
 }

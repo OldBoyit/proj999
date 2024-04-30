@@ -1,6 +1,12 @@
+.tableContainer {
+  overflow-x: auto;  /* Allows horizontal scrolling */
+  margin: 20px;      /* Adds some spacing around the table container */
+}
+
 .table {
   border-collapse: collapse;
   width: 100%;
+  min-width: 600px; /* Ensures the table has a minimum width and will scroll if container is too small */
 }
 
 .table th,
@@ -21,6 +27,7 @@
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  margin-bottom: 20px; /* Adds space below the button */
 }
 
 .exampleText {
