@@ -14,7 +14,11 @@ function AdminDashboard() {
     };
 
     const goToProducersListPage = () => {
-        navigate('/producers-list');  // Assicurati che il percorso sia definito nel tuo router
+        navigate('/producers-list');
+    };
+
+    const goToHomePage = () => {
+        navigate('/');
     };
 
     return (
@@ -22,10 +26,11 @@ function AdminDashboard() {
             <h1>Dashboard Admin</h1>
             <button onClick={goToProducerRegistrationPage}>Crea nuovo Produttore</button>
             <button onClick={goToProducerDeletionPage}>Elimina Produttore</button>
-            <button onClick={goToProducersListPage}>Visualizza Produttori</button>  {/* Nuovo pulsante aggiunto */}
-            <button onClick={goToHomePage}>Torna alla Home</button>  {/* Nuovo bottone per tornare alla home */}
+            <button onClick={goToProducersListPage}>Visualizza Produttori</button>
+            <button onClick={goToHomePage}>Torna alla Home</button>
         </div>
     );
 }
 
 export default AdminDashboard;
+
