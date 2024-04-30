@@ -26,6 +26,7 @@ import ViewDigitalSignaturesPage from './components/ViewDigitalSignaturesPage';
 import RemoveDigitalSignaturesPage from './components/RemoveDigitalSignaturesPage';
 import AddMultipleProducts from './components/AddMultipleProducts';
 import MerkleRoot from './components/MerkleRoot';
+import ViewRetiredKeys from './components/ViewRetiredKeysPage'; 
 
 function App() {
   const [availableKeys, setAvailableKeys] = useState([]);
