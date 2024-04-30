@@ -103,9 +103,9 @@ const ViewProductsPage = () => {
 			<p><b>Hash della Transazione:</b> L'hash della transazione blockchain in cui il prodotto è stato registrato o aggiornato.</p>
 			<p><b>Stato:</b> Lo stato attuale del prodotto nel sistema (es. attivo, in revisione, disattivato).</p>
 			<p><b>Creato il e Aggiornato il:</b> Timestamp che indicano rispettivamente la creazione e l'ultima modifica del record del prodotto nel sistema.</p>
-			<p><b>Funzionalità di Ricerca e Filtraggio: Anche se non esplicitamente menzionato nel codice fornito, l'aggiunta di funzionalità di ricerca e filtraggio potrebbe migliorare ulteriormente l'esperienza utente, permettendo agli utenti di trovare rapidamente specifici prodotti basandosi su vari criteri come il nome, lo stato, la data di creazione, ecc.</p>
-			<p><b>Adattabilità e Scalabilità: La struttura della pagina è progettata per gestire un numero variabile di prodotti, adattandosi dinamicamente al carico di dati attraverso funzionalità di scrolling overflow, il che è essenziale per operazioni su larga scala.</p>
-            <p><b>Sicurezza e Accesso ai Dati: Assicurati che le interazioni con l'API e i trasferimenti di dati siano protetti e che solo gli utenti autorizzati abbiano accesso alle informazioni sensibili.</p>
+			<p>Funzionalità di Ricerca e Filtraggio: Anche se non esplicitamente menzionato nel codice fornito, l'aggiunta di funzionalità di ricerca e filtraggio potrebbe migliorare ulteriormente l'esperienza utente, permettendo agli utenti di trovare rapidamente specifici prodotti basandosi su vari criteri come il nome, lo stato, la data di creazione, ecc.</p>
+			<p>Adattabilità e Scalabilità: La struttura della pagina è progettata per gestire un numero variabile di prodotti, adattandosi dinamicamente al carico di dati attraverso funzionalità di scrolling overflow, il che è essenziale per operazioni su larga scala.</p>
+            <p>Sicurezza e Accesso ai Dati: Assicurati che le interazioni con l'API e i trasferimenti di dati siano protetti e che solo gli utenti autorizzati abbiano accesso alle informazioni sensibili.</p>
 			<p>Questa pagina rappresenta un componente fondamentale dell'infrastruttura di monitoraggio e gestione del sistema, essendo vitale per il controllo qualità, la verifica dell'autenticità e la gestione generale dei prodotti all'interno del sistema di blockchain.</p>
 		  </div>
         </div>
