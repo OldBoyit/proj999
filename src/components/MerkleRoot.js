@@ -49,19 +49,23 @@ getWeb3().then((web3) => {
 }).catch((error) => {
     console.error("Error in Web3 initialization:", error);
 });
+
 async function fetchAvailableKeys() {
+    console.log("Fetching available keys");
     try {
         const response = await fetch('/.netlify/functions/availableKeys');
         if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
+            throw new Error(`HTTP error! Status: ${response.status}`);
         }
         const data = await response.json();
+        console.log("Available keys fetched:", data);
         return data;
     } catch (error) {
-        console.error("Failed to fetch available keys: ", error);
-        throw error; // Re-throw the error if you want to handle it further up the chain.
+        console.error("Failed to fetch available keys:", error);
+        return []; // Returning empty array on failure for safety
     }
 }
+
 
 async function fetchDigitalSignatures() {
     try {
