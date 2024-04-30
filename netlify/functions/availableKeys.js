@@ -13,11 +13,11 @@ exports.handler = async (event) => {
 
     try {
         await client.connect();
-        console.log("Connected to database");
         const database = client.db('blockchainProducts');
         const keysCollection = database.collection('chiaves');
 
-        const keys = await keysCollection.find({available: true}).toArray();
+        // Cambia qui: usa `isActive` invece di `available`
+        const keys = await keysCollection.find({ isActive: true }).toArray(); 
         console.log("Keys found:", keys);
 
         return {
