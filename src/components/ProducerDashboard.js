@@ -47,64 +47,55 @@ function ProducerDashboard() {
   const handleGoHome = () => {
     navigate('/');
   };
-  
+
   return (
-    <div>
-      <div className="producer-dashboard-container">
-        <h1>Dashboard del Produttore</h1>
-        <button className="dashboard-button" onClick={toggleNFCOptions}>NFC</button>
-        <button className="dashboard-button" onClick={toggleProductOptions}>Prodotti</button>
-        <button className="dashboard-button" onClick={toggleDigitalSignatureOptions}>Firma Digitale</button>
-        <a
-          href="https://sepolia.etherscan.io/address/0x2CbE824d1E53a88A5Fa438871943A1bF8149949e"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="link-button"
-        >
-          Visualizza su Blockchain
-        </a>
-      </div>
+    <div className="producer-dashboard-container">
+      <h1>Dashboard del Produttore</h1>
+      <button className="dashboard-button" onClick={toggleNFCOptions}>NFC</button>
+      <button className="dashboard-button" onClick={toggleProductOptions}>Prodotti</button>
+      <button className="dashboard-button" onClick={toggleDigitalSignatureOptions}>Firma Digitale</button>
+      <a href="https://sepolia.etherscan.io/address/0x2CbE824d1E53a88A5Fa438871943A1bF8149949e" target="_blank" rel="noopener noreferrer" className="link-button">
+        Visualizza su Blockchain
+      </a>
 
+      {showNFCOptions && (
+        <div className="options-container">
+          <button className="option-button" onClick={() => navigate('/upload-nfc-keys')}>Carica Chiavi NFC</button>
+          <button className="option-button" onClick={() => navigate('/available-keys')}>Chiavi Disponibili</button>
+          <button className="option-button" onClick={() => navigate('/view-assigned-keys')}>Visualizza Chiavi Assegnate</button>
+          <button className="option-button" onClick={() => navigate('/view-retires-keys')}>Visualizza Chiavi Ritirate</button>
+          <button className="option-button" onClick={() => navigate('/withdraw-nfc')}>Ritira NFC</button>
+        </div>
+      )}
 
-        {showNFCOptions && (
-          <div className="options-container">
-            <button className="option-button" onClick={() => navigate('/upload-nfc-keys')}>Carica Chiavi NFC</button>
-            <button className="option-button" onClick={() => navigate('/available-keys')}>Chiavi Disponibili</button>
-            <button className="option-button" onClick={() => navigate('/view-assigned-keys')}>Visualizza Chiavi Assegnate</button>
-			<button className="option-button" onClick={() => navigate('/view-retires-keys')}>Visualizza Chiavi Ritirate</button>
-            <button className="option-button" onClick={() => navigate('/withdraw-nfc')}>Ritira NFC</button>
-          </div>
-        )}
+      {showProductOptions && (
+        <div className="options-container">
+          <button className="option-button" onClick={toggleProductCreationOptions}>Creazione Nuovi Prodotti</button>
+          {showProductCreationOptions && (
+            <div>
+              <button className="sub-option-button" onClick={(e) => handleButtonClick(e, '/create-single-product')}>Crea singolo Prodotto</button>
+              <button className="sub-option-button" onClick={(e) => handleButtonClick(e, '/create-multiple-products')}>Creazione Prodotti Multipla</button>
+              <button className="sub-option-button" onClick={(e) => handleButtonClick(e, '/create-merkle-root')}>Creazione Merkle Root</button>
+            </div>
+          )}
+          {!showProductCreationOptions && (
+            <>
+              <button className="option-button" onClick={() => navigate('/view-products')}>Visualizza Prodotti Registrati</button>
+              <button className="option-button" onClick={() => navigate('/withdraw-products')}>Ritira Prodotti</button>
+            </>
+          )}
+        </div>
+      )}
 
-        {showProductOptions && (
-          <div className="options-container">
-            <button className="option-button" onClick={toggleProductCreationOptions}>Creazione Nuovi Prodotti</button>
-            {showProductCreationOptions && (
-              <div>
-                <button className="sub-option-button" onClick={(e) => handleButtonClick(e, '/create-single-product')}>Crea singolo Prodotto</button>
-                <button className="sub-option-button" onClick={(e) => handleButtonClick(e, '/create-multiple-products')}>Creazione Prodotti Multipla</button>
-                <button className="sub-option-button" onClick={(e) => handleButtonClick(e, '/create-merkle-root')}>Creazione Merkle Root</button>
-              </div>
-            )}
-            {!showProductCreationOptions && (
-              <>
-                <button className="option-button" onClick={() => navigate('/view-products')}>Visualizza Prodotti Registrati</button>
-                <button className="option-button" onClick={() => navigate('/withdraw-products')}>Ritira Prodotti</button>
-              </>
-            )}
-          </div>
-        )}
+      {showDigitalSignatureOptions && (
+        <div className="options-container">
+          <button className="option-button" onClick={(e) => handleButtonClick(e, '/upload-digital-signatures')}>Carica Firma Digitale</button>
+          <button className="option-button" onClick={() => navigate('/view-digital-signatures')}>Visualizza Firme Digitali</button>
+          <button className="option-button" onClick={() => navigate('/remove-digital-signatures')}>Rimuovi Firme Digitali</button>
+        </div>
+      )}
 
-        {showDigitalSignatureOptions && (
-          <div className="options-container">
-            <button className="option-button" onClick={(e) => handleButtonClick(e, '/upload-digital-signatures')}>Carica Firma Digitale</button>
-            <button className="option-button" onClick={() => navigate('/view-digital-signatures')}>Visualizza Firme Digitali</button>
-            <button className="option-button" onClick={() => navigate('/remove-digital-signatures')}>Rimuovi Firme Digitali</button>
-          </div>
-        )}
-
-        <center><button onClick={handleGoHome} className="home-button">Home</button></center>
-      </div>
+      <center><button onClick={handleGoHome} className="home-button">Home</button></center>
       <div style={{ marginTop: '20px' }}>
         <center><p>Esempio di testo sotto il box del login.</p></center>
       </div>
@@ -113,3 +104,4 @@ function ProducerDashboard() {
 }
 
 export default ProducerDashboard;
+
