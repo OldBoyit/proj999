@@ -63,8 +63,6 @@ function ProducerDashboard() {
       >
         Visualizza su Blockchain
       </a>
-
-      {/* Additional content */}
     </div>
 
 
