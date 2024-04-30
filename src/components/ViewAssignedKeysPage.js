@@ -39,7 +39,7 @@ function ViewAssignedKeys() {
     };
 
     return (
-        <div className="assigned-keys-container">
+        <div className="assigned-keys-container" style={{ marginTop: '20px' }}>
             <button onClick={() => navigate('/producer-dashboard')} className="dashboard-button">Dashboard</button>
             <h1>Chiavi Assegnate</h1>
             {keys.length > 0 ? (
