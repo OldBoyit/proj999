@@ -16,7 +16,10 @@ exports.handler = async (event) => {
         const database = client.db('blockchainProducts');
         const keysCollection = database.collection('chiaves');
 
+        // Qui assumiamo che vuoi vedere solo le chiavi che sono "utilizzate" e attive.
         const keys = await keysCollection.find({isActive: true, status: "ritirata"}).toArray();
+        console.log("Keys found:", keys);
+
         return {
             statusCode: 200,
             body: JSON.stringify(keys),

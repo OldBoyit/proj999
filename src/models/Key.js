@@ -13,7 +13,7 @@ const chiaveSchema = new mongoose.Schema({
   },
   status: {
     type: String,
-    enum: ['disponibile', 'assegnata', 'ritirata'],
+    enum: ['disponibile', 'assegnata'],
     default: 'disponibile'
   },
   isActive: {

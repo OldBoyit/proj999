@@ -2,26 +2,24 @@ import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './css/ViewAssignedKeysPage.css'; 
 
-function ViewRetiredKeys() {
-  const navigate = useNavigate();
-  const [keys, setKeys] = useState([]);
-
-	useEffect(() => {
-	  fetch('/.netlify/functions/retiredKeys')
-		.then(response => {
-		  if (!response.ok) {
-			throw new Error('Network response was not ok');
-		  }
-		  return response.json();
-		})
-		.then(data => {
-		  console.log("Retrieved keys:", data);
-		  setKeys(data);
-		})
-		.catch(error => {
-		  console.error('Failed to fetch retired keys:', error);
-		});
-	}, []);
+useEffect(() => {
+  fetch('/.netlify/functions/retiredKeys')
+    .then(response => {
+      console.log(response);
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      return response.json();
+    })
+    .then(data => {
+      console.log("Retrieved keys:", data);
+      setKeys(data);
+    })
+    .catch(error => {
+      console.error('Failed to fetch retired keys:', error);
+      console.log(error);
+    });
+}, []);
 
   return (
     <div className="retired-keys-container">
