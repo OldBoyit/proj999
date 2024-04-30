@@ -27,7 +27,8 @@ import RemoveDigitalSignaturesPage from './components/RemoveDigitalSignaturesPag
 import AddMultipleProducts from './components/AddMultipleProducts';
 import MerkleRoot from './components/MerkleRoot';
 import ViewRetiredKeys from './components/ViewRetiredKeysPage'; 
-import withdraw-nfc from './components/WithdrawNFCPage';
+import WithdrawNFCPage from './components/WithdrawNFCPage';
+
 function App() {
   const [availableKeys, setAvailableKeys] = useState([]);
 
@@ -48,7 +49,7 @@ function App() {
 		  <Route path="/withdraw-products" element={<WithdrawProductsPage />} />
           <Route path="/insert-nfc" element={<PrivateRoute><InsertNFCPage /></PrivateRoute>} />
           <Route path="/view-nfc-tokens" element={<PrivateRoute><ViewNFCTokensPage /></PrivateRoute>} />
-          <Route path="/withdraw-nfc" element={<PrivateRoute><WithdrawNFCPage /></PrivateRoute>} />
+          <Route path="/withdraw-nfc" element={<WithdrawNFCPage />} />
           <Route path="/upload-nfc-keys" element={<UploadNFCKeysPage />} />
           <Route path="/view-assigned-keys" element={<ViewAssignedKeysPage />} />
           <Route path="/available-keys" element={<AvailableKeysPage keys={availableKeys} />} />
