@@ -27,7 +27,7 @@ import RemoveDigitalSignaturesPage from './components/RemoveDigitalSignaturesPag
 import AddMultipleProducts from './components/AddMultipleProducts';
 import MerkleRoot from './components/MerkleRoot';
 import ViewRetiredKeys from './components/ViewRetiredKeysPage'; 
-
+import withdraw-nfc from './components/WithdrawNFCPage';
 function App() {
   const [availableKeys, setAvailableKeys] = useState([]);
 
