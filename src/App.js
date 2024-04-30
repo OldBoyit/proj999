@@ -41,8 +41,8 @@ function App() {
           <Route path="/producer-register" element={<ProducerRegistrationPage />} />
           <Route path="/admin-dashboard" element={<AdminDashboard />} />
           <Route path="/producer-dashboard" element={<ProducerDashboard />} />
-          <Route path="/delete-producer" element={<PrivateRoute><DeleteProducerPage /></PrivateRoute>} />
-          <Route path="/producers-list" element={<PrivateRoute><ProducersListPage /></PrivateRoute>} />
+          <Route path="/delete-producer" element={<DeleteProducerPage />} />
+          <Route path="/producers-list" element={<ProducersListPage />} />
 		  <Route path="/new-products" element={<NewProductPage />} />
 		  <Route path="/view-products" element={<ViewProductsPage />} />
 		  <Route path="/withdraw-products" element={<WithdrawProductsPage />} />
