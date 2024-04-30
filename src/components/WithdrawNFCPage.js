@@ -60,8 +60,8 @@ function ViewNFCTokensPage() {
 
   return (
     <div className="tokens-page-container">
-      <h1>View NFC Tokens</h1>
-      <p className="subtitle">Here you can manage all your NFC tokens, view their status and retire them if necessary.</p>
+      <h1>Ritira NFC Tokens</h1>
+      <p className="subtitle"><p>Questa pagina visualizza tutti i tuoi token NFC. Puoi visualizzare il loro stato e ritirarli se necessario. I token selezionati possono essere ritirati utilizzando il pulsante "Ritira Chiavi Selezionate". Utilizza la paginazione per navigare attraverso l'elenco dei token.</p></p>
       <ul className="tokens-list">
         {currentKeys.map(key => (
           <li key={key._id} className="token-item">
