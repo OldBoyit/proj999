@@ -14,7 +14,7 @@ exports.handler = async (event) => {
     try {
         await client.connect();
         const database = client.db('blockchainProducts');
-        const keysCollection = database.collection('keys');
+        const keysCollection = database.collection('chiaves');
 
         const keys = await keysCollection.find({available: true}).toArray(); // Assumendo che ci sia un campo 'available'
 
