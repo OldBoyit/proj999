@@ -7,12 +7,17 @@ function ViewAssignedKeys() {
   const navigate = useNavigate(); // Per la navigazione
   const [keys, setKeys] = useState([]);
 
-  useEffect(() => {
-    fetch('http://localhost:3001/api/keys/assigned')
-      .then(response => response.json())
-      .then(data => setKeys(data))
-      .catch(error => console.error('Failed to fetch assigned keys:', error));
-  }, []);
+	useEffect(() => {
+		fetch('/.netlify/functions/assignedKeys') 
+		  .then(response => {
+			if (!response.ok) {
+				throw new Error('Network response was not ok');
+			}
+			return response.json();
+		  })
+		  .then(data => setKeys(data))
+		  .catch(error => console.error('Failed to fetch assigned keys:', error));
+	}, []);
 
   return (
     <div className="assigned-keys-container">
