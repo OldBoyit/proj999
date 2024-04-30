@@ -6,12 +6,22 @@ function ViewRetiredKeys() {
   const navigate = useNavigate();
   const [keys, setKeys] = useState([]);
 
-  useEffect(() => {
-    fetch('/.netlify/functions/retiredKeys')
-      .then(response => response.json())
-      .then(data => setKeys(data))
-      .catch(error => console.error('Failed to fetch retired keys:', error));
-  }, []);
+	useEffect(() => {
+	  fetch('/.netlify/functions/retiredKeys')
+		.then(response => {
+		  if (!response.ok) {
+			throw new Error('Network response was not ok');
+		  }
+		  return response.json();
+		})
+		.then(data => {
+		  console.log("Retrieved keys:", data);
+		  setKeys(data);
+		})
+		.catch(error => {
+		  console.error('Failed to fetch retired keys:', error);
+		});
+	}, []);
 
   return (
     <div className="retired-keys-container">
