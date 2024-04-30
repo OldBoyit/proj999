@@ -49,7 +49,7 @@ function ProducerDashboard() {
   };
 
   const handleViewBlockchain = () => {
-    navigate("https://sepolia.etherscan.io/address/0x2CbE824d1E53a88A5Fa438871943A1bF8149949e", { target: "_blank" });
+    window.open('https://sepolia.etherscan.io/address/0x2CbE824d1E53a88A5Fa438871943A1bF8149949e', '_blank');
   };
   
   return (
