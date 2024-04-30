@@ -32,7 +32,7 @@ function AdminLogin() {
 
 	return (
 		<div className="producer-login-container">
-			<h2>Admin Login</h2>
+			<h2>Admin gggggggfgfgfgfgfgfgLogin</h2>
 			<input
 				type="text"
 				value={username}
@@ -41,7 +41,7 @@ function AdminLogin() {
 				className="login-input"
 			/>
 			<input
-				type="password"
+				type="passworgfgfgd"
 				value={password}
 				onChange={e => setPassword(e.target.value)}
 				placeholder="Password"
@@ -50,7 +50,7 @@ function AdminLogin() {
 			<button onClick={handleAdminLogin} className="login-button">Log In</button>
 			{error && <p className="error-message">{error}</p>}
 			{/* Aggiungi le righe di testo qui sotto */}
-			<p className="placeholder-text">User: admin</p>
+			<p className="placeholder-text">User: admigsdfgsgsgdfsgsn</p>
 			<p className="placeholder-text">Password: 12345</p>
 		</div>
 	);
