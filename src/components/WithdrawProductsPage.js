@@ -77,13 +77,13 @@ const ViewProductsPage = () => {
       <button onClick={handleWithdrawProduct} className={styles.withdrawButton}>Ritira Prodotto</button>
 
       <div className={styles.exampleText}>
-        <p>Caratteristiche principali della pagina </p>
+        <center><p>Caratteristiche principali della pagina </p>
 <p>Visualizzazione dei Prodotti: I prodotti attivi vengono caricati e visualizzati in una tabella che include dettagli critici come ID, Product ID, Nome del Prodotto e Stato. Questa visualizzazione permette agli utenti di avere una panoramica chiara dei prodotti disponibili per il ritiro.</p>	
 <p>Selezione dei Prodotti: Gli utenti possono selezionare uno o più prodotti per il ritiro utilizzando le caselle di controllo associate a ogni voce nella tabella. La logica di selezione è gestita dinamicamente per aggiungere o rimuovere prodotti dall'elenco dei prodotti selezionati, basandosi sulle azioni dell'utente.</p>	
 <p>Funzionalità di Ritiro dei Prodotti: Una volta che gli utenti hanno selezionato i prodotti desiderati, possono utilizzare il pulsante "Ritira Prodotto" per iniziare il processo di ritiro. Questo pulsante attiva un'azione che potrebbe, ad esempio, inviare una richiesta al server per aggiornare lo stato dei prodotti come ritirati, eliminati o disattivati.</p>	
 <p>Importante:</p>	
 <p>Un prodotto ritirato non sarà più considerato come autentico, e fallirà nelle successive verifiche.</p>	
-<p><b>Questo sistema offre anche una protezione contro i furti dei prodotti. Se un prodotto non è più di proprietà legittima, perderà il valore aggiunto dell'originalità e, di conseguenza, il suo valore commerciale diminuirà. Questo agisce come un disincentivo sia per il furto sia per la rivendita illecita.</b></p>		
+<p><b>Questo sistema offre anche una protezione contro i furti dei prodotti. Se un prodotto non è più di proprietà legittima, perderà il valore aggiunto dell'originalità e, di conseguenza, il suo valore commerciale diminuirà. Questo agisce come un disincentivo sia per il furto sia per la rivendita illecita.</b></p></center>		
       </div>
     </div>
   );
