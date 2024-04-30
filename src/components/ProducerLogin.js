@@ -10,7 +10,7 @@ function ProducerLogin() {
 
     const handleProducerLogin = async () => {
         try {
-            const response = await fetch('http://localhost:3001/api/producers/login', {
+            const response = await fetch('/.netlify/functions/producerLogin', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
