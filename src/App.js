@@ -58,7 +58,7 @@ function App() {
 		  <Route path="/create-single-product" element={<NewProductPage />} />
 		  <Route path="/create-multiple-products" element={<AddMultipleProducts />} />
 		  <Route path="/create-merkle-root" element={<MerkleRoot />} />
-		  <Route path="/view-retired-keys" element={<ViewRetiredKeys />} />
+		  <Route path="/view-retires-keys" element={<ViewRetiredKeys />} />
         </Routes>
       </Router>
     </UserProvider>
