@@ -290,9 +290,15 @@ const [popupMessage, setPopupMessage] = useState("");
             ))}
             <button onClick={() => navigate('/producer-dashboard')} style={{ margin: '20px', padding: '10px' }}>Torna alla Dashboard</button>
             <div style={{ textAlign: 'center', marginTop: '20px' }}>
-		<p>Esempio di testo: Questa è una simulazione del processo di aggiunta di più prodotti.</p>
-		<p>Per ogni prodotto viene generato un ID unico e associato a una chiave pubblica NFC.</p>
-		<p>Una firma digitale del produttore è richiesta per garantire l'autenticità di ogni prodotto aggiunto.</p>
+		<p>La pagina MerkleRoot del progetto implementa un metodo avanzato per la creazione e la registrazione di più prodotti utilizzando la struttura dati del Merkle Tree. Questo approccio è particolarmente efficace nel ridurre i costi di transazione e allo stesso tempo garantire l'unicità e la verificabilità di ogni singolo prodotto sulla blockchain. Utilizzando algoritmi di hashing come keccak256, la pagina genera un hash radice (Merkle Root) che rappresenta l'intero set di prodotti in una singola transazione, anziché richiedere una transazione separata per ogni prodotto.</p>
+		<p>Differenza rispetto alla Creazione di Prodotti Multipli Tradizionale:</p>
+		<p>Efficienza di Costo e Transazione: Invece di registrare ogni prodotto singolarmente sulla blockchain, che richiederebbe una transazione per ogni inserimento, l'uso di un Merkle Tree consente di aggregare i prodotti in un batch e di registrarli tutti insieme. Questo riduce significativamente i costi di gas associati alle transazioni sulla rete Ethereum.</p>
+<p>Sicurezza e Integrità dei Dati: Utilizzando hash crittografici, ogni prodotto è univocamente rappresentato e verificabile tramite il Merkle Root. Anche se i dati di un singolo prodotto non sono immessi direttamente sulla blockchain, la loro integrità è garantita dal Merkle Root e può essere verificata individualmente senza necessità di recuperare l'intero set di dati.</p>
+<p>Vantaggi di Utilizzo del Merkle Root nel Contesto Blockchain:</p>
+<p>Diminuzione dei Costi: Ogni transazione su Ethereum richiede gas; aggregare più prodotti in una singola transazione può ridurre notevolmente i costi.</p>
+<p>Aumento dell'Efficienza: Registra grandi volumi di prodotti più rapidamente senza sacrificare la sicurezza o l'auditabilità.</p>
+<p>Verificabilità: Ogni prodotto, nonostante non sia immesso singolarmente nella blockchain, rimane completamente verificabile attraverso il Merkle Root, assicurando che i dati non siano stati alterati post-registrazione.</p>
+<p>Questa implementazione di Merkle Tree nel contesto della registrazione di prodotti sulla blockchain rappresenta un'eccellente dimostrazione di come le tecniche avanzate di crittografia e le strutture dati possono essere sfruttate per ottimizzare e sicurizzare le applicazioni distribuite su larga scala.</p>
 </div>
 
         </div>
