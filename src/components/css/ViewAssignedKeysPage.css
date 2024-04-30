@@ -36,3 +36,7 @@
         font-size: 0.8em;
     }
 }
+
+.dashboard-button {
+    margin-bottom: 20px; /* Aggiungiamo un margine inferiore per separare il bottone dal contenuto */
+}
