@@ -103,11 +103,9 @@ function ProducerDashboard() {
           </div>
         )}
 
-        {/* Bottone per tornare alla Home */}
         <center><button onClick={handleGoHome} className="home-button">Home</button></center>
       </div>
 
-      {/* Righe con testi di esempio sotto il box del login */}
       <div style={{ marginTop: '20px' }}>
         <center><p>Esempio di testo sotto il box del login.</p></center>
       </div>
