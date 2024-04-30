@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './css/UploadDigitalSignaturesPage.css'; // Assicurati che il percorso del CSS sia corretto
+import './css/UploadDigitalSignaturesPage.css'; 
+import styles from './css/UploadDigitalSignaturesPage.css';
 
 function UploadDigitalSignaturesPage() {
   const [signatureData, setSignatureData] = useState('Firma creata il ' + new Date().toISOString().split('T')[0]);
