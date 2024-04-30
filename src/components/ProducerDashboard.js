@@ -48,15 +48,17 @@ function ProducerDashboard() {
     navigate('/');
   };
 
+  const handleViewBlockchain = () => {
+    navigate("https://sepolia.etherscan.io/address/0x2CbE824d1E53a88A5Fa438871943A1bF8149949e", { target: "_blank" });
+  };
+  
   return (
     <div className="producer-dashboard-container">
       <h1>Dashboard del Produttore</h1>
       <button className="dashboard-button" onClick={toggleNFCOptions}>NFC</button>
       <button className="dashboard-button" onClick={toggleProductOptions}>Prodotti</button>
       <button className="dashboard-button" onClick={toggleDigitalSignatureOptions}>Firma Digitale</button>
-      <a href="https://sepolia.etherscan.io/address/0x2CbE824d1E53a88A5Fa438871943A1bF8149949e" target="_blank" rel="noopener noreferrer" className="link-button">
-        Visualizza su Blockchain
-      </a>
+      <button className="dashboard-button" onClick={handleViewBlockchain}>Visualizza su Blockchain</button> {/* Aggiunto pulsante per visualizzare su Blockchain */}
 
       {showNFCOptions && (
         <div className="options-container">
