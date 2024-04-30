@@ -1,0 +1,88 @@
+/* Stili per la pagina ViewNFCTokens */
+.tokens-page-container {
+  padding-top: 30px;  /* Aggiunge spazio sopra il contenuto */
+  padding-bottom: 20px;  /* Aggiunge spazio sotto il contenuto */
+  background-color: #f4f4f4;
+}
+
+.tokens-list {
+  list-style-type: none; /* Rimuove i punti delle liste */
+  padding: 0; /* Rimuove il padding predefinito */
+  margin-top: 20px; /* Distanza tra titolo e lista */
+}
+
+.token-item {
+  display: flex; /* Disposizione flessibile per allineare elementi della lista */
+  align-items: center; /* Allinea verticalmente il testo e il checkbox */
+  padding: 10px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #ccc; /* Linea sotto ogni voce */
+}
+
+.token-item input[type="checkbox"] {
+  margin-right: 10px; /* Spazio tra checkbox e testo */
+}
+
+.retire-button {
+  background-color: #007BFF; /* Colore di sfondo per il pulsante */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px; /* Spazio sopra il pulsante */
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #efefef;
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: #ddd;
+}
+
+.back-button {
+  background-color: #ff4757;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.page-title, .subtitle {
+  text-align: center;
+}
+
+.tokens-page-container {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #f4f4f4;
+  text-align: center; /* Centra tutto il contenuto della pagina */
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 14px; /* Font size più piccolo per il testo sotto il titolo */
+  color: #666; /* Colore grigio per il testo */
+  margin-bottom: 20px; /* Spazio sotto il sottotitolo */
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #0f0;
+  color: #fff;
+  z-index: 1000; /* Assicurati che sia visibile sopra altri contenuti */

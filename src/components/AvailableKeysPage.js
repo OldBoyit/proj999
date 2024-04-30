@@ -1,35 +1,48 @@
-// src/components/AvailableKeysPage.js
 import React, { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom'; // Importa useNavigate
-import './css/AvailableKeysPage.css'; // Importa lo stile CSS per la pagina delle chiavi disponibili
+import { useNavigate } from 'react-router-dom';
+import './css/AvailableKeysPage.css';
 
 function AvailableKeysPage() {
-    const navigate = useNavigate(); // Utilizza useNavigate per la navigazione
+    const navigate = useNavigate();
     const [keys, setKeys] = useState([]);
+    const [currentPage, setCurrentPage] = useState(1);
+    const keysPerPage = 6;
 
-	useEffect(() => {
-		fetch('/.netlify/functions/availableKeys')
-			.then(response => {
-				console.log("Full response received:", response);
-				if (!response.ok) {
-					throw new Error('Network response was not ok');
-				}
-				return response.json();
-			})
-			.then(data => {
-				console.log("Data received:", data);
-				setKeys(data);
-			})
-			.catch(error => console.error('Error fetching available keys:', error));
-	}, []);
+    useEffect(() => {
+        fetch('/.netlify/functions/availableKeys')
+            .then(response => {
+                console.log("Full response received:", response);
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                console.log("Data received:", data);
+                setKeys(data);
+            })
+            .catch(error => console.error('Error fetching available keys:', error));
+    }, []);
+
+    const indexOfLastKey = currentPage * keysPerPage;
+    const indexOfFirstKey = indexOfLastKey - keysPerPage;
+    const currentKeys = keys.slice(indexOfFirstKey, indexOfLastKey);
+
+    const nextPage = () => {
+        setCurrentPage(prev => prev + 1);
+    };
+
+    const prevPage = () => {
+        setCurrentPage(prev => prev > 1 ? prev - 1 : 1);
+    };
 
     return (
         <div className="available-keys-container">
             <h1>Chiavi Disponibili</h1>
             <p>Numero di chiavi disponibili: {keys.length}</p>
             <div className="keys-grid">
-                {keys.length > 0 ? (
-                    keys.map((key, index) => (
+                {currentKeys.length > 0 ? (
+                    currentKeys.map((key, index) => (
                         <div key={index} className="key-item">
                             <p>Chiave Pubblica:</p>
                             <p>{key.publicKey}</p>
@@ -40,6 +53,16 @@ function AvailableKeysPage() {
                 )}
             </div>
             <div className="navigation-button">
+                {currentPage > 1 && (
+                    <button onClick={prevPage} className="page-button">
+                        Pagina Precedente
+                    </button>
+                )}
+                {currentPage * keysPerPage < keys.length && (
+                    <button onClick={nextPage} className="page-button">
+                        Pagina Successiva
+                    </button>
+                )}
                 <button onClick={() => navigate('/producer-dashboard')} className="dashboard-button">
                     Dashboard del Produttore
                 </button>

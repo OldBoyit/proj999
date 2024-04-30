@@ -7,7 +7,7 @@ const ViewProductsPage = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch('http://localhost:3001/api/products/active')
+    fetch('/.netlify/functions/getActiveProducts')
       .then(response => response.json())
       .then(data => {
         console.log(data);

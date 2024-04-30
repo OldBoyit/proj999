@@ -1,4 +1,3 @@
-// src/components/ViewDigitalSignaturesPage.js
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import styles from './css/ViewDigitalSignaturesPage.css';
@@ -10,7 +9,8 @@ function ViewDigitalSignaturesPage() {
   useEffect(() => {
     const fetchSignatures = async () => {
       try {
-        const response = await fetch('http://localhost:3001/api/digital-signatures');
+        // Aggiornato per puntare alla funzione serverless corretta
+        const response = await fetch('/.netlify/functions/fetchDigitalSignatures');
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
@@ -49,9 +49,6 @@ function ViewDigitalSignaturesPage() {
       </table>
       {signatures.length === 0 && <p className={styles.noSignatures}>Nessuna firma digitale registrata.</p>}
       <button onClick={() => navigate('/producer-dashboard')} className={styles.dashboardButton}>Dashboard</button>
-      <div className={styles.exampleText}>
-        <p>Testo di esempio aggiunto qui.</p>
-      </div>
     </div>
   );
 }

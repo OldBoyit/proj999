@@ -1,4 +1,3 @@
-// src/components/RemoveDigitalSignaturesPage.js
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import styles from './css/RemoveDigitalSignaturesPage.css';
@@ -11,7 +10,8 @@ function RemoveDigitalSignaturesPage() {
     useEffect(() => {
         const fetchSignatures = async () => {
             try {
-                const response = await fetch('http://localhost:3001/api/digital-signatures');
+                // Assicurati di aggiornare questo URL per usare la funzione serverless corretta
+                const response = await fetch('/.netlify/functions/fetchDigitalSignatures');
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
                 }
@@ -32,20 +32,8 @@ function RemoveDigitalSignaturesPage() {
         setSelectedSignatures(newSelectedSignatures);
     };
 
-    const handleRemoveSignatures = async () => {
-        try {
-            await Promise.all(selectedSignatures.map(signatureId =>
-                fetch(`http://localhost:3001/api/digital-signatures/${signatureId}`, {
-                    method: 'DELETE'
-                })
-            ));
-            setSignatures(signatures.filter(signature => !selectedSignatures.includes(signature._id)));
-            setSelectedSignatures([]);
-            alert('Firme digitali rimosse con successo!');
-        } catch (error) {
-            console.error('Error removing signatures:', error);
-            alert('Errore nella rimozione delle firme digitali.');
-        }
+    const handleRemoveSignatures = () => {
+        alert("Funzione temporaneamente disabilitata dall'Admin.");
     };
 
     return (

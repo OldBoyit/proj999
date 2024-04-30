@@ -12,13 +12,12 @@ window.Buffer = Buffer;
 const web3 = new Web3(window.ethereum);
 
 async function fetchAvailableKeys() {
-    const response = await fetch('http://localhost:3001/api/keys/available');
+    const response = await fetch('/.netlify/functions/availableKeys'); // Updated to point to Netlify function
     const data = await response.json();
-    return data; // Assuming this returns an array of available keys
+    return data;
 }
-
 async function fetchDigitalSignatures() {
-    const response = await fetch('http://localhost:3001/api/digital-signatures');
+    const response = await fetch('/.netlify/functions/fetchDigitalSignatures'); // Updated to point to Netlify function
     if (!response.ok) {
         throw new Error('Failed to fetch digital signatures');
     }
@@ -73,7 +72,7 @@ const AddMultipleProducts = () => {
 
     const saveProductDetails = async (product) => {
         try {
-            const response = await fetch('http://localhost:3001/api/products/save', {
+            const response = await fetch('/.netlify/functions/saveProductDetails', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -229,6 +228,13 @@ const [popupMessage, setPopupMessage] = useState("");
                     <span style={{flexGrow: 1}}><strong>Transaction Hash:</strong> {product.transactionHash}</span>
                 </div>
             ))}
+            <button onClick={() => navigate('/producer-dashboard')} style={{ margin: '20px', padding: '10px' }}>Torna alla Dashboard</button>
+            <div style={{ textAlign: 'center', marginTop: '20px' }}>
+		<p>Esempio di testo: Questa è una simulazione del processo di aggiunta di più prodotti.</p>
+		<p>Per ogni prodotto viene generato un ID unico e associato a una chiave pubblica NFC.</p>
+		<p>Una firma digitale del produttore è richiesta per garantire l'autenticità di ogni prodotto aggiunto.</p>
+</div>
+
         </div>
     );
 };

@@ -1,4 +1,3 @@
-// src/components/ViewAssignedKeysPage.js
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './css/ViewAssignedKeysPage.css';
@@ -6,31 +5,64 @@ import './css/ViewAssignedKeysPage.css';
 function ViewAssignedKeys() {
     const navigate = useNavigate();
     const [keys, setKeys] = useState([]);
+    const [currentPage, setCurrentPage] = useState(1);
+    const keysPerPage = 5;  // Cambiato da 6 a 5 per mostrare 5 chiavi per pagina
 
     useEffect(() => {
         fetch('/.netlify/functions/assignedKeys')
-        .then(response => response.json())
-        .then(data => setKeys(data))
-        .catch(error => console.error('Failed to fetch assigned keys:', error));
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                setKeys(data);
+            })
+            .catch(error => console.error('Failed to fetch assigned keys:', error));
     }, []);
+
+    const indexOfLastKey = currentPage * keysPerPage;
+    const indexOfFirstKey = indexOfLastKey - keysPerPage;
+    const currentKeys = keys.slice(indexOfFirstKey, indexOfLastKey);
+
+    const nextPage = () => {
+        if (currentPage * keysPerPage < keys.length) {
+            setCurrentPage(currentPage + 1);
+        }
+    };
+
+    const prevPage = () => {
+        if (currentPage > 1) {
+            setCurrentPage(currentPage - 1);
+        }
+    };
 
     return (
         <div className="assigned-keys-container">
             <h1>Chiavi Assegnate</h1>
             {keys.length > 0 ? (
                 <ul className="key-list">
-                {keys.map((key) => (
+                {currentKeys.map((key) => (
                     <li key={key._id} className="key-item">
                         <p>Chiave Pubblica: {key.publicKey}</p>
-                        <p>Chiave Privata: {key.privateKey}</p> {/* Aggiunto */}
-                        <p>Stato: {key.status}</p> {/* Aggiunto */}
-                        <p>Attiva: {key.isActive ? 'Sì' : 'No'}</p> {/* Aggiunto */}
+                        <p>Chiave Privata: {key.privateKey}</p>
+                        <p>Stato: {key.status}</p>
+                        <p>Attiva: {key.isActive ? 'Sì' : 'No'}</p>
                     </li>
                 ))}
                 </ul>
             ) : (
                 <p>Nessuna chiave assegnata.</p>
             )}
+            <div className="navigation-buttons">
+                {currentPage > 1 && (
+                    <button onClick={prevPage} className="page-button">Pagina Precedente</button>
+                )}
+                {currentPage * keysPerPage < keys.length && (
+                    <button onClick={nextPage} className="page-button">Pagina Successiva</button>
+                )}
+            </div>
             <button onClick={() => navigate('/producer-dashboard')} className="dashboard-button">Dashboard</button>
         </div>
     );

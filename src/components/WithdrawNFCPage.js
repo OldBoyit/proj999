@@ -1,11 +1,17 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
+import './css/ViewAssignedKeysPage.css';
 
 function ViewNFCTokensPage() {
+  const navigate = useNavigate();
   const [keys, setKeys] = useState([]);
   const [selectedKeys, setSelectedKeys] = useState([]);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [showSuccess, setShowSuccess] = useState(false);
+  const keysPerPage = 5;
 
   useEffect(() => {
-    fetch('/.netlify/functions/getAssignedKeys') // Assumi che questa sia la tua endpoint API
+    fetch('/.netlify/functions/getAssignedKeys')
       .then(response => response.json())
       .then(data => setKeys(data))
       .catch(error => console.error('Error fetching keys:', error));
@@ -29,17 +35,36 @@ function ViewNFCTokensPage() {
           }
           setKeys(keys.filter(k => k._id !== keyId));
           setSelectedKeys(selectedKeys.filter(id => id !== keyId));
+          setShowSuccess(true);
+          setTimeout(() => setShowSuccess(false), 3000);  // Hide the popup after 3 seconds
         })
         .catch(error => console.error('Error retiring key:', error));
     });
   };
 
+  const handleGoBack = () => {
+    navigate('/producer-dashboard');
+  };
+
+  const nextPage = () => {
+    setCurrentPage(prev => prev + 1);
+  };
+
+  const prevPage = () => {
+    setCurrentPage(prev => prev > 1 ? prev - 1 : 1);
+  };
+
+  const indexOfLastKey = currentPage * keysPerPage;
+  const indexOfFirstKey = indexOfLastKey - keysPerPage;
+  const currentKeys = keys.slice(indexOfFirstKey, indexOfLastKey);
+
   return (
-    <div>
+    <div className="tokens-page-container">
       <h1>View NFC Tokens</h1>
-      <ul>
-        {keys.map(key => (
-          <li key={key._id}>
+      <p className="subtitle">Here you can manage all your NFC tokens, view their status and retire them if necessary.</p>
+      <ul className="tokens-list">
+        {currentKeys.map(key => (
+          <li key={key._id} className="token-item">
             <input
               type="checkbox"
               checked={selectedKeys.includes(key._id)}
@@ -50,10 +75,14 @@ function ViewNFCTokensPage() {
         ))}
       </ul>
       {selectedKeys.length > 0 && (
-        <div>
-          <button onClick={retireSelectedKeys}>Ritira Chiavi Selezionate</button>
-        </div>
+        <button onClick={retireSelectedKeys} className="retire-button">Ritira Chiavi Selezionate</button>
       )}
+      {showSuccess && <div className="popup">Prodotto Ritirato con Successo!</div>}
+      <div className="pagination">
+        {currentPage > 1 && <button onClick={prevPage}>Pagina Precedente</button>}
+        {currentPage * keysPerPage < keys.length && <button onClick={nextPage}>Pagina Successiva</button>}
+      </div>
+      <button onClick={handleGoBack} className="back-button">Torna alla Dashboard</button>
     </div>
   );
 }

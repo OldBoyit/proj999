@@ -7,6 +7,7 @@ import CryptoJS from 'crypto-js';
 import './css/NewProductPage.css';
 import { useNavigate } from 'react-router-dom';
 
+  
 const ProductForm = () => {
   const [productData, setProductData] = useState({
     productId: '',
@@ -42,34 +43,35 @@ const ProductForm = () => {
     }));
   };
 
-  const fetchPublicKeys = () => {
-    fetch('http://localhost:3001/api/keys/available') 
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('Network response was not ok');
-            }
-            return response.json();
-        })
-        .then(data => setPublicKeys(data))
-        .catch(error => console.error('Error fetching public keys:', error));
-  };
+	const fetchPublicKeys = () => {
+		fetch('/.netlify/functions/availableKeys')  // Modificata per puntare alla funzione Netlify
+			.then(response => {
+				if (!response.ok) {
+					throw new Error('Network response was not ok');
+				}
+				return response.json();
+			})
+			.then(data => setPublicKeys(data))
+			.catch(error => console.error('Error fetching public keys:', error));
+	};
 
 	const fetchDigitalSignatures = () => {
-		fetch('http://localhost:3001/api/digital-signatures')
-			.then(response => response.json())
-			.then(data => {
-				console.log("Fetched Digital Signatures:", data); // Check the structure here
-				setDigitalSignatures(data);
-			})
-			.catch(error => console.error('Error fetching digital signatures:', error));
+	  fetch('/.netlify/functions/fetchDigitalSignatures')
+		.then(response => response.json())
+		.then(data => {
+		  console.log("Fetched Digital Signatures:", data); // Controlla la struttura qui
+		  setDigitalSignatures(data);
+		})
+		.catch(error => console.error('Error fetching digital signatures:', error));
 	};
+
 
   const handleInputChange = (e) => {
     setProductData({ ...productData, [e.target.name]: e.target.value });
   };
 
 	const updatePublicKeyStatus = async (publicKeyId) => {
-	  fetch('http://localhost:3001/api/keys/mark-used', {
+	  fetch('/.netlify/functions/updatePublicKeyStatus', {
 		method: 'POST',
 		headers: {
 		  'Content-Type': 'application/json'
@@ -95,8 +97,10 @@ const ProductForm = () => {
 	  }
 
 	  const web3 = new Web3(window.ethereum);
+	  await window.ethereum.enable(); // Assicurati che l'utente abbia concesso l'accesso
+	  const hardcodedAddress = "0x2CbE824d1E53a88A5Fa438871943A1bF8149949e";
+
 	  const productContract = new web3.eth.Contract(contractABI, contractAddress);
-	  const accounts = await web3.eth.getAccounts();
 
 	  const publicKeyBytes = web3.utils.hexToBytes(productData.publicKey);
 	  const secretBytes32 = web3.utils.asciiToHex(productData.secret);
@@ -112,9 +116,10 @@ const ProductForm = () => {
 		  formattedSecretBytes32,
 		  productData.manufacturerSignature,
 		  formattedRandomSecretBytes32
-		).send({ from: accounts[0] });
+		).send({ from: hardcodedAddress });
 
 		const transactionHash = response.transactionHash;
+		alert('Prodotto aggiunto con successo! Transaction Hash: ' + transactionHash);
 
 		const saveData = {
 		  ...productData,
@@ -139,7 +144,7 @@ const ProductForm = () => {
 	// Function to save product details to MongoDB
 	const saveProductDetails = async (productDetails) => {
 	  try {
-		const response = await fetch('http://localhost:3001/api/products/save', {
+		const response = await fetch('/.netlify/functions/saveProductDetails', {
 		  method: 'POST',
 		  headers: {
 			'Content-Type': 'application/json'

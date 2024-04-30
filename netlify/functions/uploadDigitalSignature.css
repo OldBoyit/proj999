@@ -1,0 +1,52 @@
+// Nome file: uploadDigitalSignature.js (da posizionare nella cartella delle funzioni Netlify)
+
+const { MongoClient } = require('mongodb');
+const { MONGO_URI } = process.env; // Assicurati di aver configurato questa variabile d'ambiente su Netlify
+
+const connectToDatabase = async () => {
+  const client = new MongoClient(MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true });
+  await client.connect();
+  return client;
+};
+
+const insertSignature = async (client, signature) => {
+  const db = client.db('myDatabaseName'); // Sostituisci con il nome del tuo database
+  const signatures = db.collection('digitalSignatures'); // Sostituisci con il nome della tua collezione
+  const result = await signatures.insertOne(signature);
+  return result;
+};
+
+exports.handler = async (event) => {
+  if (event.httpMethod !== 'POST') {
+    return { statusCode: 405, body: JSON.stringify({ message: 'Method Not Allowed' }) };
+  }
+
+  const data = JSON.parse(event.body);
+  let client;
+
+  try {
+    client = await connectToDatabase();
+    const signature = {
+      creator: data.creator,
+      signatureData: data.signatureData,
+      createdAt: new Date(),
+    };
+
+    const { insertedId } = await insertSignature(client, signature);
+
+    return {
+      statusCode: 200,
+      body: JSON.stringify({ message: 'Firma digitale salvata con successo', id: insertedId }),
+    };
+  } catch (error) {
+    console.error('Errore nel salvare la firma digitale:', error);
+    return {
+      statusCode: 500,
+      body: JSON.stringify({ message: 'Errore nel salvataggio della firma digitale', error: error.toString() }),
+    };
+  } finally {
+    if (client) {
+      client.close();
+    }
+  }
+};

@@ -17,7 +17,7 @@ exports.handler = async (event) => {
         const keysCollection = database.collection('chiaves');
 
         // Qui assumiamo che vuoi vedere solo le chiavi che sono "utilizzate" e attive.
-        const keys = await keysCollection.find({isActive: true, status: "ritirata"}).toArray();
+        const keys = await keysCollection.find({isActive: true, status: "utilizzata"}).toArray();
         console.log("Keys found:", keys);
 
         return {
