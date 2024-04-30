@@ -8,7 +8,7 @@ function AvailableKeysPage() {
     const [keys, setKeys] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:3001/api/keys/available')
+        fetch('https://chain.project999.it/.netlify/functions/availableKeys')
             .then(response => {
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
