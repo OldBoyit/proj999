@@ -38,7 +38,7 @@ function ViewRetiredKeys() {
           ))}
         </ul>
       ) : (
-        <p>Nessuna chiave ritirata.</p>
+        <p>  Questa pagina mostra le chiavi NFC che sono state ritirate dal sistema. Le chiavi ritirate sono state precedentemente associate a prodotti ma sono state rimosse per varie ragioni, come la fine della validità del prodotto o segnalazioni di contraffazione. La visibilità di queste chiavi aiuta a mantenere la trasparenza nel sistema di tracciabilità e permette un'adeguata gestione delle chiavi nel sistema.</p>
       )}
       <button onClick={() => navigate('/producer-dashboard')} className="dashboard-button">Dashboard</button>
     </div>

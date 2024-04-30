@@ -6,7 +6,7 @@ function ViewAssignedKeys() {
     const navigate = useNavigate();
     const [keys, setKeys] = useState([]);
     const [currentPage, setCurrentPage] = useState(1);
-    const keysPerPage = 5;  // Cambiato da 6 a 5 per mostrare 5 chiavi per pagina
+    const keysPerPage = 3;  // Cambiato da 6 a 5 per mostrare 5 chiavi per pagina
 
     useEffect(() => {
         fetch('/.netlify/functions/assignedKeys')
