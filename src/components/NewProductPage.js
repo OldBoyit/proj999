@@ -227,15 +227,15 @@ const ProductForm = () => {
 		<div className="example-text">
 		  <p>Questa pagina è specificamente progettata per l'aggiunta di un prodotto alla volta, differenziandosi da altre pagine dell'applicazione che possono gestire operazioni batch o multiple.
 
-Funzionalità Principali:
+<p>Funzionalità Principali:</p>
 
-Generazione di Dati Casuali: All'apertura della pagina, vengono generati automaticamente dati unici per il nuovo prodotto, come productId, secret, seed, e randomSecret. Questi elementi sono cruciali per garantire risposte uniche e sicure durante le verifiche di autenticità, rendendo ogni interazione sicura e non manipolabile.
-Raccolta delle Chiavi Pubbliche e Firme Digitali: La pagina recupera da specifici endpoint API le chiavi pubbliche disponibili e le firme digitali del produttore. Questi dati sono essenziali per associare al prodotto una chiave pubblica NFC e una firma digitale, confermando così l'autenticità del prodotto e del produttore stesso.
-Inserimento e Validazione dei Dati del Prodotto: L'utente inserisce i dati del prodotto come il nome, seleziona una chiave pubblica NFC e una firma digitale del produttore da liste pre-caricate. Queste selezioni sono obbligatorie per procedere con l'aggiunta del prodotto.</p>
-		  <p>Registrazione del Prodotto su Blockchain: Tramite l'uso di Web3 e smart contracts sulla rete Ethereum, il prodotto viene registrato sulla blockchain. Le informazioni registrate includono l'ID del prodotto, la chiave pubblica NFC, il secret (criptato), la firma del produttore e il random secret. Questo passaggio assicura l'immutabilità e la tracciabilità dei dati.
-Salvataggio dei Dettagli del Prodotto: Una volta che il prodotto è stato aggiunto con successo alla blockchain, i dettagli del prodotto vengono inviati a un altro endpoint API per essere salvati in un database MongoDB. Questo serve per un facile accesso e gestione dei dati al di fuori della blockchain.
-Gestione dello Stato delle Chiavi Pubbliche: Dopo l'uso di una chiave pubblica, la pagina invia una richiesta per aggiornare lo stato della chiave come utilizzata, prevenendo il suo riutilizzo in operazioni future.
-Interfaccia Utente e Navigazione: La pagina offre un'interfaccia chiara e diretta per inserire i dettagli del prodotto, visualizzare le informazioni correnti del prodotto generato, e navigare facilmente verso altre sezioni dell'applicazione, come la dashboard del produttore.</p>
+<p>Generazione di Dati creati da avanzati algoritmi: All'apertura della pagina, vengono generati automaticamente dati unici per il nuovo prodotto, come productId, secret, seed, e randomSecret. Questi elementi sono cruciali per garantire risposte uniche e sicure durante le verifiche di autenticità, rendendo ogni interazione sicura e non manipolabile.</p>
+<p>Raccolta delle Chiavi Pubbliche e Firme Digitali: La pagina recupera da specifici endpoint API le chiavi pubbliche disponibili e le firme digitali del produttore. Questi dati sono essenziali per associare al prodotto una chiave pubblica NFC e una firma digitale, confermando così l'autenticità del prodotto e del produttore stesso.</p>
+<p>Inserimento e Validazione dei Dati del Prodotto: L'utente inserisce i dati del prodotto come il nome, seleziona una chiave pubblica NFC e una firma digitale del produttore da liste pre-caricate. Queste selezioni sono obbligatorie per procedere con l'aggiunta del prodotto.</p>
+		  <p>Registrazione del Prodotto su Blockchain: Tramite l'uso di Web3 e smart contracts sulla rete Ethereum, il prodotto viene registrato sulla blockchain. Le informazioni registrate includono l'ID del prodotto, la chiave pubblica NFC, il secret (criptato), la firma del produttore e il random secret. Questo passaggio assicura l'immutabilità e la tracciabilità dei dati.</p>
+<p>Salvataggio dei Dettagli del Prodotto: Una volta che il prodotto è stato aggiunto con successo alla blockchain, i dettagli del prodotto vengono inviati a un altro endpoint API per essere salvati in un database MongoDB. Questo serve per un facile accesso e gestione dei dati al di fuori della blockchain.</p>
+<p>Gestione dello Stato delle Chiavi Pubbliche: Dopo l'uso di una chiave pubblica, la pagina invia una richiesta per aggiornare lo stato della chiave come utilizzata, prevenendo il suo riutilizzo in operazioni future.</p>
+<p>Interfaccia Utente e Navigazione: La pagina offre un'interfaccia chiara e diretta per inserire i dettagli del prodotto, visualizzare le informazioni correnti del prodotto generato, e navigare facilmente verso altre sezioni dell'applicazione, come la dashboard del produttore.</p>
 		</div>
 	  </div>
 );

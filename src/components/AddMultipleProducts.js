@@ -96,10 +96,15 @@ const AddMultipleProducts = () => {
             ))}
             <button onClick={() => navigate('/producer-dashboard')} style={{ margin: '20px', padding: '10px' }}>Back to Dashboard</button>
             <div style={{ textAlign: 'center', marginTop: '20px' }}>
-                <p>This is a simulation of the process of adding multiple products.</p>
-                <p>Each product is generated with a unique ID and associated with an NFC public key.</p>
-                <p>A digital signature from the manufacturer is required to ensure the authenticity of each added product.</p>
-            </div>
+                <p>La pagina AddMultipleProducts del progetto è specificamente progettata per la creazione simultanea di più prodotti, ognuno con attributi unici e associato a una chiave pubblica NFC. Questo modulo è parte di un sistema di gestione basato su blockchain che utilizza tecnologie avanzate come Web3, CryptoJS e NFC per assicurare l'integrità, l'autenticità e la tracciabilità dei prodotti.</p>
+                <p>Funzionalità Principali:</p>
+                <p>Generazione di Dati Unici per Ogni Prodotto: Quando si stabilisce il numero di prodotti da creare, il sistema genera automaticamente un ID unico, una chiave segreta (secret), un seed casuale, e un random secret per ogni prodotto. Questi dati sono essenziali per garantire che ogni prodotto abbia una identità unica e dati di sicurezza inconfondibili.</p>
+           <p>Associazione di Chiavi Pubbliche e Firme Digitali: Ogni prodotto viene associato a una chiave pubblica NFC, selezionata da un elenco di chiavi disponibili recuperate via API. Inoltre, ogni prodotto richiede una firma digitale del produttore, che conferma l'autenticità del prodotto e del suo produttore, integrando così un ulteriore livello di sicurezza e verificabilità.</p>
+<p>Creazione Multipla: L'utente può specificare il numero di prodotti da creare, con il sistema che assicura che non si superi il numero di chiavi pubbliche disponibili. Questo previene l'assegnazione di una stessa chiave pubblica a più di un prodotto, mantenendo l'unicità delle chiavi.</p>
+<p>Interfaccia Utente Intuitiva: L'interfaccia permette agli utenti di inserire facilmente il nome del prodotto, selezionare la firma del produttore, e determinare il numero di prodotti da registrare. La formattazione e la validazione dei dati inseriti sono automatizzate per facilitare il processo e ridurre gli errori.</p>
+<p>Visualizzazione dei Prodotti Generati: I prodotti generati sono visualizzati dinamicamente nella pagina, mostrando dettagli come il nome del prodotto, ID unico, chiave pubblica NFC, secret, seed, firma del produttore, e lo stato della transazione.		</p>   
+	<p>Questa pagina è cruciale per gestire l'introduzione di volumi più elevati di prodotti nel sistema, permettendo una efficiente scalabilità dell'operazione di aggiunta di nuovi prodotti senza compromettere la sicurezza. Ogni prodotto creato attraverso questa pagina è unico, sicuro e tracciabile, grazie all'uso di tecnologie all'avanguardia e all'integrazione di dati crittografati e blockchain.</p>		
+			</div>
         </div>
     );
 };
