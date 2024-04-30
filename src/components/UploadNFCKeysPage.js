@@ -86,7 +86,7 @@ function UploadNFCKeysPage() {
             {/* Descrizione sotto il box */}
             <div className="page-description">
                 <p>
-                    Questa pagina consente ai produttori di generare e caricare chiavi NFC in modo sicuro. Utilizzando strumenti all'avanguardia, possiamo garantire la sicurezza e la tracciabilità di ogni prodotto.
+                    Questa pagina simula il caricamento dei dati delle chiavi NFC in modo sicuro. Utilizzando strumenti all'avanguardia, possiamo garantire la sicurezza e la tracciabilità di ogni prodotto. Le chiavi pubbliche e private NFC sono essenziali per la verifica dell'autenticità dei prodotti e per la generazione di risposte crittografiche alle challenge. Questo sistema di sicurezza multilivello assicura che ogni prodotto Made in Italy venduto sotto il nostro sigillo sia autentico, sicuro e tracciabile, rafforzando la fiducia nell'eccellenza italiana a livello globale.
                 </p>
             </div>
         </div>
