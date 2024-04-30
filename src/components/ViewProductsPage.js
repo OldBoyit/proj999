@@ -63,26 +63,27 @@ const ViewProductsPage = () => {
           </tbody>
         </table>
       </div>
-
-      <div className={styles.exampleText}>
-        <p>Questa visualizzazione è cruciale per la gestione e il monitoraggio dei prodotti, permettendo agli utenti autorizzati (produttori) di accedere facilmente a tutte le informazioni rilevanti riguardanti ogni singolo prodotto registrato. L'interfaccia utente è costruita per supportare la trasparenza e facilitare l'audit dei prodotti in tempo reale.</p>
-		<p>Principali Caratteristiche della Pagina:</p>
-		<p>Visualizzazione Completa dei Dati: La pagina mostra un'ampia gamma di dati per ogni prodotto, includendo:</p>
-		<p>ID e Product ID: Identificativi unici per riferimenti interni e tracciabilità.</p>
-		<p>Nome Prodotto: Il nome commerciale del prodotto.</p>
-		<p>PublicKey NFC: La chiave pubblica NFC usata per l'interazione sicura e l'identificazione del prodotto.</p>
-		<p>Key Challenge-Response: Una chiave usata in un sistema di sicurezza per verificare l'integrità e l'autenticità del prodotto.</p>
-		<p>Seed: Un valore generato casualmente usato per aumentare la sicurezza delle operazioni crittografiche relative al prodotto.</p>
-		<p>Firma del Produttore: Una firma digitale che certifica l'origine e l'autenticità del prodotto, collegando il prodotto al suo produttore o a chi ha inserito il prodotto.</p>
-		<p>ID Unico (Random Secret): Un identificativo aggiuntivo generato casualmente per ulteriori misure di sicurezza e di verifica.</p>
-		<p>Hash della Transazione: L'hash della transazione blockchain in cui il prodotto è stato registrato o aggiornato.</p>
-		<p>Stato: Lo stato attuale del prodotto nel sistema (es. attivo, in revisione, disattivato).</p>
-		<p>Creato il e Aggiornato il: Timestamp che indicano rispettivamente la creazione e l'ultima modifica del record del prodotto nel sistema.</p>
-<p>Funzionalità di Ricerca e Filtraggio: Anche se non esplicitamente menzionato nel codice fornito, l'aggiunta di funzionalità di ricerca e filtraggio potrebbe migliorare ulteriormente l'esperienza utente, permettendo agli utenti di trovare rapidamente specifici prodotti basandosi su vari criteri come il nome, lo stato, la data di creazione, ecc.</p>      
-<p>Adattabilità e Scalabilità: La struttura della pagina è progettata per gestire un numero variabile di prodotti, adattandosi dinamicamente al carico di dati attraverso funzionalità di scrolling overflow, il che è essenziale per operazioni su larga scala.</p> 	  
-<p>Sicurezza e Accesso ai Dati: Assicurati che le interazioni con l'API e i trasferimenti di dati siano protetti e che solo gli utenti autorizzati abbiano accesso alle informazioni sensibili.</p> 
-<p>Questa pagina rappresenta un componente fondamentale dell'infrastruttura di monitoraggio e gestione del sistema, essendo vitale per il controllo qualità, la verifica dell'autenticità e la gestione generale dei prodotti all'interno del sistema di blockchain.</p>  
-	  </div>
+		<div className={styles.exampleText}>
+			<p>Questa visualizzazione è cruciale per la gestione e il monitoraggio dei prodotti, permettendo agli utenti autorizzati (produttori) di accedere facilmente a tutte le informazioni rilevanti riguardanti ogni singolo prodotto registrato. L'interfaccia utente è costruita per supportare la trasparenza e facilitare l'audit dei prodotti in tempo reale.</p>
+			<p>Principali Caratteristiche della Pagina:</p>
+			<p>Visualizzazione Completa dei Dati: La pagina mostra un'ampia gamma di dati per ogni prodotto, includendo:</p>
+			<ul>
+				<li>ID e Product ID: Identificativi unici per riferimenti interni e tracciabilità.</li>
+				<li>Nome Prodotto: Il nome commerciale del prodotto.</li>
+				<li>PublicKey NFC: La chiave pubblica NFC usata per l'interazione sicura e l'identificazione del prodotto.</li>
+				<li>Key Challenge-Response: Una chiave usata in un sistema di sicurezza per verificare l'integrità e l'autenticità del prodotto.</li>
+				<li>Seed: Un valore generato casualmente usato per aumentare la sicurezza delle operazioni crittografiche relative al prodotto.</li>
+				<li>Firma del Produttore: Una firma digitale che certifica l'origine e l'autenticità del prodotto, collegando il prodotto al suo produttore o a chi ha inserito il prodotto.</li>
+				<li>ID Unico (Random Secret): Un identificativo aggiuntivo generato casualmente per ulteriori misure di sicurezza e di verifica.</li>
+				<li>Hash della Transazione: L'hash della transazione blockchain in cui il prodotto è stato registrato o aggiornato.</li>
+				<li>Stato: Lo stato attuale del prodotto nel sistema (es. attivo, in revisione, disattivato).</li>
+				<li>Creato il e Aggiornato il: Timestamp che indicano rispettivamente la creazione e l'ultima modifica del record del prodotto nel sistema.</li>
+			</ul>
+			<p>Funzionalità di Ricerca e Filtraggio: Anche se non esplicitamente menzionato nel codice fornito, l'aggiunta di funzionalità di ricerca e filtraggio potrebbe migliorare ulteriormente l'esperienza utente, permettendo agli utenti di trovare rapidamente specifici prodotti basandosi su vari criteri come il nome, lo stato, la data di creazione, ecc.</p>
+			<p>Adattabilità e Scalabilità: La struttura della pagina è progettata per gestire un numero variabile di prodotti, adattandosi dinamicamente al carico di dati attraverso funzionalità di scrolling overflow, il che è essenziale per operazioni su larga scala.</p>
+			<p>Sicurezza e Accesso ai Dati: Assicurati che le interazioni con l'API e i trasferimenti di dati siano protetti e che solo gli utenti autorizzati abbiano accesso alle informazioni sensibili.</p>
+			<p>Questa pagina rappresenta un componente fondamentale dell'infrastruttura di monitoraggio e gestione del sistema, essendo vitale per il controllo qualità, la verifica dell'autenticità e la gestione generale dei prodotti all'interno del sistema di blockchain.</p>
+		</div>
     </div>
   );
 };
