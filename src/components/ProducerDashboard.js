@@ -105,7 +105,6 @@ function ProducerDashboard() {
 
         <center><button onClick={handleGoHome} className="home-button">Home</button></center>
       </div>
-
       <div style={{ marginTop: '20px' }}>
         <center><p>Esempio di testo sotto il box del login.</p></center>
       </div>
