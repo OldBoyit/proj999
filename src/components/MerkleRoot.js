@@ -7,6 +7,8 @@ import { MerkleTree } from 'merkletreejs';
 import { keccak256 } from 'js-sha3';
 import CryptoJS from 'crypto-js';
 import { Buffer } from 'buffer';
+import { useNavigate } from 'react-router-dom';
+
 window.Buffer = Buffer;  
 
 const web3 = new Web3(window.ethereum);
@@ -26,6 +28,7 @@ async function fetchDigitalSignatures() {
 }
 
 const AddMultipleProducts = () => {
+	const navigate = useNavigate();
     const [digitalSignatures, setDigitalSignatures] = useState([]);
     const [availableKeys, setAvailableKeys] = useState([]);
     const [numberOfProducts, setNumberOfProducts] = useState(1);
