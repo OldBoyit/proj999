@@ -7,17 +7,21 @@ function AvailableKeysPage() {
     const navigate = useNavigate(); // Utilizza useNavigate per la navigazione
     const [keys, setKeys] = useState([]);
 
-    useEffect(() => {
-        fetch('/.netlify/functions/availableKeys')
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error('Network response was not ok');
-                }
-                return response.json();
-            })
-            .then(data => setKeys(data))
-            .catch(error => console.error('Error fetching available keys:', error));
-    }, []);
+	useEffect(() => {
+		fetch('/.netlify/functions/availableKeys')
+			.then(response => {
+				console.log("Full response received:", response);
+				if (!response.ok) {
+					throw new Error('Network response was not ok');
+				}
+				return response.json();
+			})
+			.then(data => {
+				console.log("Data received:", data);
+				setKeys(data);
+			})
+			.catch(error => console.error('Error fetching available keys:', error));
+	}, []);
 
     return (
         <div className="available-keys-container">

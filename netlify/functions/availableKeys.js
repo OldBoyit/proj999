@@ -13,10 +13,12 @@ exports.handler = async (event) => {
 
     try {
         await client.connect();
+        console.log("Connected to database");
         const database = client.db('blockchainProducts');
         const keysCollection = database.collection('chiaves');
 
-        const keys = await keysCollection.find({available: true}).toArray(); // Assumendo che ci sia un campo 'available'
+        const keys = await keysCollection.find({available: true}).toArray();
+        console.log("Keys found:", keys);
 
         return {
             statusCode: 200,
@@ -30,7 +32,7 @@ exports.handler = async (event) => {
         console.error('Failed to connect to database', error);
         return {
             statusCode: 500,
-            body: JSON.stringify({ message: 'Failed to connect to database' })
+            body: JSON.stringify({ message: 'Failed to connect to database', error: error.toString() })
         };
     } finally {
         await client.close();
