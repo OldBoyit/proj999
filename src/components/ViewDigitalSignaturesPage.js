@@ -51,14 +51,14 @@ function ViewDigitalSignaturesPage() {
       <button onClick={() => navigate('/producer-dashboard')} className={styles.dashboardButton}>Dashboard</button>
        <div className={styles.exampleText}>
         <center><p>Caratteristiche principali della pagina </p>   
-<p>Caricamento e Visualizzazione delle Firme:</p>	
-<p>Utilizza una chiamata API per recuperare le firme digitali dal server. La funzione fetchSignatures gestisce il recupero dei dati in modo asincrono, assicurando che l'interfaccia rimanga reattiva e efficiente.</p>	
-<p>Interfaccia Tabellare per la Visualizzazione dei Dati:</p>	
-<p>La pagina mostra le firme in una tabella ben strutturata, facilitando la lettura e l'interpretazione dei dati. Ogni riga rappresenta una firma e include:</p>	
-<p>ID: L'identificativo unico della firma.</p>	
-<p>Creator: Il creatore della firma, mostrando chi ha generato la firma.</p>
-<p>Signature Data: I dati specifici della firma, che potrebbero includere informazioni crittografiche o altri dettagli pertinenti.</p>	
-<p>Created: La data di creazione della firma, mostrata in un formato facilmente leggibile.</p>	</center>	
+		<p>Caricamento e Visualizzazione delle Firme:</p>	
+		<p>Utilizza una chiamata API per recuperare le firme digitali dal server. La funzione fetchSignatures gestisce il recupero dei dati in modo asincrono, assicurando che l'interfaccia rimanga reattiva e efficiente.</p>	
+		<p>Interfaccia Tabellare per la Visualizzazione dei Dati:</p>	
+		<p>La pagina mostra le firme in una tabella ben strutturata, facilitando la lettura e l'interpretazione dei dati. Ogni riga rappresenta una firma e include:</p>	
+		<p>ID: L'identificativo unico della firma.</p>	
+		<p>Creator: Il creatore della firma, mostrando chi ha generato la firma.</p>
+		<p>Signature Data: I dati specifici della firma, che potrebbero includere informazioni crittografiche o altri dettagli pertinenti.</p>	
+		<p>Created: La data di creazione della firma, mostrata in un formato facilmente leggibile.</p></center>	
 	</div>
   );
 }
