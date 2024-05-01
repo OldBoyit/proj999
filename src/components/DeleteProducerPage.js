@@ -8,7 +8,7 @@ function DeleteProducerPage() {
     useEffect(() => {
         const fetchProducers = async () => {
             try {
-                const response = await fetch('/api/producers'); // Assicurati che questo endpoint sia corretto
+                const response = await fetch('/.netlify/functions/producerLogin'); // Assicurati che questo endpoint sia corretto
                 const data = await response.json();
                 if (response.ok) {
                     setProducers(data.map(producer => ({ ...producer, isSelected: false })));
