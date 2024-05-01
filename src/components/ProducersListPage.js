@@ -8,7 +8,7 @@ function ProducersListPage() {
     useEffect(() => {
         const fetchProducers = async () => {
             try {
-                const response = await fetch('/.netlify/functions/producerView'); // Assicurati che questo endpoint sia corretto
+                const response = await fetch('/.netlify/functions/producerView');
                 const data = await response.json();
                 if (response.ok) {
                     // Ordina i produttori per username
@@ -25,17 +25,19 @@ function ProducersListPage() {
     }, []);
 
     return (
-        <div>
-            <h1>Elenco dei Produttori</h1>
-            <ul>
+        <div style={{ margin: '20px', fontFamily: 'Arial, sans-serif' }}>
+            <h1 style={{ textAlign: 'center' }}>Elenco dei Produttori</h1>
+            <ul style={{ listStyleType: 'none', padding: 0 }}>
                 {producers.map(producer => (
-                    <li key={producer._id || producer.id}> {/* Assicurati che gli ID siano consistenti */}
-                        Username: {producer.username} - Wallet: {producer.walletAddress}
+                    <li key={producer._id || producer.id} style={{ background: '#f4f4f4', margin: '10px 0', padding: '10px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                        <span>Username: {producer.username} - Wallet: {producer.walletAddress}</span>
                     </li>
                 ))}
             </ul>
-            <button onClick={() => navigate('/admin-dashboard')}>Torna alla Dashboard Admin</button>
-            <p style={{ marginTop: '20px' }}>Questa pagina mostra l'elenco dei produttori registrati nel sistema.</p>
+            <div style={{ textAlign: 'center', marginTop: '20px' }}>
+                <button onClick={() => navigate('/admin-dashboard')} style={{ background: '#007BFF', color: 'white', border: 'none', padding: '10px 20px', cursor: 'pointer' }}>Torna alla Dashboard Admin</button>
+            </div>
+            <p style={{ marginTop: '20px', textAlign: 'center' }}>Questa pagina mostra l'elenco dei produttori registrati nel sistema.</p>
         </div>
     );
 }

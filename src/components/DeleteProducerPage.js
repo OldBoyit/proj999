@@ -8,7 +8,7 @@ function DeleteProducerPage() {
     useEffect(() => {
         const fetchProducers = async () => {
             try {
-                const response = await fetch('/.netlify/functions/producerView'); // Assicurati che questo endpoint sia corretto
+                const response = await fetch('/.netlify/functions/producerView');
                 const data = await response.json();
                 if (response.ok) {
                     setProducers(data.map(producer => ({ ...producer, isSelected: false })));
@@ -44,26 +44,27 @@ function DeleteProducerPage() {
     };
 
     return (
-        <div>
-            <h1>Elimina Produttore</h1>
-            <ul>
+        <div style={{ margin: '20px', fontFamily: 'Arial, sans-serif' }}>
+            <h1 style={{ textAlign: 'center' }}>Elimina Produttore</h1>
+            <ul style={{ listStyleType: 'none', padding: 0 }}>
                 {producers.map((producer) => (
-                    <li key={producer._id}>
-                        <label>
+                    <li key={producer._id} style={{ background: '#f4f4f4', margin: '10px 0', padding: '10px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+                        <label style={{ flex: '1' }}>
                             <input
                                 type="checkbox"
                                 checked={producer.isSelected}
                                 onChange={() => toggleProducerSelection(producer._id)}
+                                style={{ marginRight: '10px' }}
                             />
                             {producer.username} - {producer.walletAddress}
                         </label>
                     </li>
                 ))}
             </ul>
-            <button onClick={handleDelete}>Elimina</button>
-            <button onClick={() => navigate('/admin-dashboard')}>Annulla</button>
-            <p>Questa pagina consente agli amministratori di rimuovere i produttori registrati nel sistema. È possibile selezionare uno o più produttori dall'elenco e procedere con l'eliminazione. L'operazione richiede una conferma per evitare eliminazioni accidentali. Una volta confermata, l'eliminazione è irreversibile e i dati del produttore vengono permanentemente rimossi dal sistema.</p>
-            <p>Questa operazione al momento è integrata e funzionante ma disabilitata.</p>
+            <div style={{ textAlign: 'center', margin: '20px 0' }}>
+                <button onClick={handleDelete} style={{ background: 'red', color: 'white', border: 'none', padding: '10px 20px', cursor: 'pointer', marginRight: '10px' }}>Elimina</button>
+                <button onClick={() => navigate('/admin-dashboard')} style={{ background: 'gray', color: 'white', border: 'none', padding: '10px 20px', cursor: 'pointer' }}>Annulla</button>
+            </div>
         </div>
     );
 }
