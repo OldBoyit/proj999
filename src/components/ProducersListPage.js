@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 function ProducersListPage() {
     const [producers, setProducers] = useState([]);
+    const navigate = useNavigate();
 
     useEffect(() => {
         const fetchProducers = async () => {
@@ -9,7 +11,9 @@ function ProducersListPage() {
                 const response = await fetch('/api/producers'); // Assicurati che questo endpoint sia corretto
                 const data = await response.json();
                 if (response.ok) {
-                    setProducers(data);
+                    // Ordina i produttori per username
+                    const sortedProducers = data.sort((a, b) => a.username.localeCompare(b.username));
+                    setProducers(sortedProducers);
                 } else {
                     throw new Error('Failed to fetch producers');
                 }
@@ -30,8 +34,11 @@ function ProducersListPage() {
                     </li>
                 ))}
             </ul>
+            <button onClick={() => navigate('/admin-dashboard')}>Torna alla Dashboard Admin</button>
+            <p style={{ marginTop: '20px' }}>Questa pagina mostra l'elenco dei produttori registrati nel sistema.</p>
         </div>
     );
 }
 
 export default ProducersListPage;
+

@@ -64,9 +64,9 @@ function DeleteProducerPage() {
             <button onClick={handleDelete}>Elimina</button>
             <button onClick={() => navigate('/admin-dashboard')}>Annulla</button>
             <p>Questa pagina consente agli amministratori di rimuovere i produttori registrati nel sistema. È possibile selezionare uno o più produttori dall'elenco e procedere con l'eliminazione. L'operazione richiede una conferma per evitare eliminazioni accidentali. Una volta confermata, l'eliminazione è irreversibile e i dati del produttore vengono permanentemente rimossi dal sistema.</p>
-        </div>
+			<p>Questa operazione al momento è integrata e funzionante ma disabilitata.</>
+		</div>
     );
 }
 
 export default DeleteProducerPage;
-
