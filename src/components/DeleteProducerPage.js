@@ -1,4 +1,3 @@
-// src/components/DeleteProducerPage.js
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
@@ -9,7 +8,7 @@ function DeleteProducerPage() {
     useEffect(() => {
         const fetchProducers = async () => {
             try {
-                const response = await fetch('/api/producers');
+                const response = await fetch('/api/producers'); // Assicurati che questo endpoint sia corretto
                 const data = await response.json();
                 if (response.ok) {
                     setProducers(data.map(producer => ({ ...producer, isSelected: false })));
@@ -64,8 +63,8 @@ function DeleteProducerPage() {
             <button onClick={handleDelete}>Elimina</button>
             <button onClick={() => navigate('/admin-dashboard')}>Annulla</button>
             <p>Questa pagina consente agli amministratori di rimuovere i produttori registrati nel sistema. È possibile selezionare uno o più produttori dall'elenco e procedere con l'eliminazione. L'operazione richiede una conferma per evitare eliminazioni accidentali. Una volta confermata, l'eliminazione è irreversibile e i dati del produttore vengono permanentemente rimossi dal sistema.</p>
-			<p>Questa operazione al momento è integrata e funzionante ma disabilitata.</>
-		</div>
+            <p>Questa operazione al momento è integrata e funzionante ma disabilitata.</p>
+        </div>
     );
 }
 
