@@ -14,15 +14,19 @@ function AdminDashboard() {
     };
 
     const goToProducersListPage = () => {
-        navigate('/producers-list');  // Assicurati che il percorso sia definito nel tuo router
+        navigate('/producers-list');  
     };
 
+    const goToHomePage = () => {
+        navigate('/');  
+    };
+	
     return (
         <div>
             <h1>Dashboard Admin</h1>
             <button onClick={goToProducerRegistrationPage}>Crea nuovo Produttore</button>
             <button onClick={goToProducerDeletionPage}>Elimina Produttore</button>
-            <button onClick={goToProducersListPage}>Visualizza Produttori</button>  {/* Nuovo pulsante aggiunto */}
+            <button onClick={goToProducersListPage}>Visualizza Produttori</button>  
             <div style={{ marginTop: '20px' }}>
                 <h2>Descrizione delle Funzionalità</h2>
                 <p>Questa è la dashboard dell'amministratore. Da qui, puoi gestire i produttori all'interno del sistema:</p>
