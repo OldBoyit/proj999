@@ -11,7 +11,7 @@ Questa modularità garantisce che Project999 possa adattarsi subito ad ogni tipo
 Ma non basta, con Project999 i furti non avranno più alcun senso. Quando il cliente segnalerà il prodotto come rubato, mostrando il suo ID consegnatogli all'acquisto in modo del tutto anonimo, l'intelligenza artificiale (in fase di sviluppo) invaliderà immediatamente il prodotto, rendendolo di fatto non più attraente per i malintenzionati.
 
 **Project999 è la garanzia di possedere un prodotto originale.**  
-**Project999 è la soluzione definitiva, che estirpa la contraffazione alla radice.**
+**La soluzione definitiva, che estirpa la contraffazione alla radice.**
 
 Fasi e Spiegazione del Processo  
 Fase 1: Integrazione e Preparazione NFC  
