@@ -6,8 +6,12 @@ Project999 è una soluzione innovativa progettata per proteggere l'autenticità 
 Nella Repository c'è il progetto principale "Project999", il prototipo del sistema di Autenticazione per l'utente (simulato in versione Desktop) RealCheck, ed il prototipo di Intelligenza Artificiale sviluppato per trovare i pattern di contraffazione, suggerire quali prodotti sono più a rischio contraffazione su tutto la filiera. Questo modello è addestrato su controlli del Trasporto e Venditore ma è facilmente allargabile su più controlli incrociati. 
 Lo scopo non è solo quello di riconoscere i pattern di contraffazione, ma anche di suggerire i livelli di Sicurezza adeguati per il prodotto, offrendo Project999 una totale scalabilità sui livelli di sicurezza offerti, andando così ad individuare quale è il livello di sicurezza adeguato per ogni prodotto ed in qualunque condizione di vendita (online, in negozio, in base al trasportatore o la zona, ecc...).
 
-La forza di Project999 risiede nella sua flessibilità e capacità di adattamento. È progettato per essere modulabile, consentendo alle aziende di personalizzare i livelli di sicurezza in base alle loro specifiche esigenze. Questa modularità garantisce che Project999 possa crescere ed evolversi con le mutevoli minacce alla contraffazione, mantenendo sempre la protezione dei prodotti come priorità.
+La forza di Project999 risiede nella sua flessibilità e capacità di adattamento. È progettato per essere modulabile, consentendo alle aziende di personalizzare i livelli di sicurezza in base alle loro specifiche esigenze, i costi di registrazione del prodotto in base alle quantità ed al meccanismo di registrazione (Prodotto singolo, Batch Products, Merkle Root, ed altre in arrivo). 
+Questa modularità garantisce che Project999 possa adattarsi subito ad ogni tipologia di Mercato e clientela, e continuare a crescere ed evolversi con le mutevoli minacce alla contraffazione, mantenendo sempre la protezione dei prodotti come priorità.
+Ma non basta, con Project999 i furti non avranno più alcun senso. Quando il cliente segnalerà il prodotto come rubato, mostrando il suo ID consegnatogli all'acquisto in modo del tutto anonimo, l'intelligenza artificiale (in fase di sviluppo) invaliderà immediatamente il prodotto, rendendolo di fatto non più attraente per i malintenzionati.
 
+Project999 è la garanzia di possedere un prodotto originale.
+Project999 è la soluzione definitiva, che estirpa la contraffazione alla radice.
 
 Fasi e Spiegazione del Processo
 Fase 1: Integrazione e Preparazione NFC
