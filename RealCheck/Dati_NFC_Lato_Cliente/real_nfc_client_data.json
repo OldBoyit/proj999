@@ -1,0 +1,57 @@
+[
+    {
+		"Nome": "Prodotto di Moda",
+        "ID Unico": "bfef04fd541bedab",
+        "Stato": "attivo",
+        "Creato il": "29/4/2024, 04:21:40",
+        "Aggiornato il": "29/4/2024, 04:21:40",
+        "Nome Prodotto": "ProductTest1",
+        "PublicKey NFC": "662de9be974d3950a04324fd",
+        "Seed": "965",
+        "Hash della Transazione": "0xa7a64e2e24b756aec72ed9d557ac4d4e4c4f953a0e0122a385bd1036bace1596"
+    },
+    {
+		"Nome": "Prodotto Elettronico",
+        "ID Unico": "dc1016e14de6abcc",
+        "Stato": "attivo",
+        "Creato il": "29/4/2024, 05:20:04",
+        "Aggiornato il": "29/4/2024, 05:20:04",
+        "Nome Prodotto": "testkey",
+        "PublicKey NFC": "662de9be974d3950a04324fd",
+        "Seed": "109",
+        "Hash della Transazione": "0xbaadf8d1a5f6e457e7f4277c1961fef833ab57aef5b4eea858fbfa2316fc7aea"
+    },
+    {
+		"Nome": "Prodotto Alimentare",
+        "ID Unico": "32d4cc541a251930",
+        "Stato": "attivo",
+        "Creato il": "29/4/2024, 13:21:01",
+        "Aggiornato il": "29/4/2024, 13:21:01",
+        "Nome Prodotto": "ProductTest1",
+        "PublicKey NFC": "662de9be974d3950a04324ff",
+        "Seed": "828",
+        "Hash della Transazione": "0x2363686f38c9b4be97fd3882ddf544e84714db4c3848c4593aad1327f8811903"
+    },
+    {
+		"Nome": "Accessori",
+        "ID Unico": "2bcdf02b1f8c4fe4",
+        "Stato": "attivo",
+        "Creato il": "29/4/2024, 13:28:02",
+        "Aggiornato il": "29/4/2024, 13:28:02",
+        "Nome Prodotto": "76786",
+        "PublicKey NFC": "662e081a4c10023c92b4a9c1",
+        "Seed": "179",
+        "Hash della Transazione": "0xccb68bdc5f619bdb2b50f1c42b1bc8524ab170e524e49635c93fbf9a4ded54b3"
+    },
+    {
+		"Nome": "Gioiello",
+        "ID Unico": "a04b9a7eeabe4a1c",
+        "Stato": "attivo",
+        "Creato il": "Invalid Date",
+        "Aggiornato il": "Invalid Date",
+        "Nome Prodotto": "teete",
+        "PublicKey NFC": "662cbe59d02851d901ee32eb",
+        "Seed": "933",
+        "Hash della Transazione": "0x21f07a0b3aeda83e08d0f48a5f8288026b274495a894b90c493b44772b64e77b"
+    }
+]

@@ -1,0 +1,1001 @@
+Transporter,Sales_Channel,City,Sale_Date,Sale_Price,Lot_Number,Return_Frequency,Counterfeit
+Logistica Italia,Amazon Italia,Napoli,2023-08-30,214.29,Lot-134,0,0
+National Cargo,Amazon Italia,Napoli,2023-02-08,180.37,Lot-181,0,0
+Euro Transport,Local Market,Palermo,2022-07-14,196.18,Lot-184,0,0
+Logistica Italia,Local Market,Verona,2023-02-18,210.17,Lot-187,0,0
+RapidWay Trans,Local Market,Torino,2022-07-03,268.03,Lot-177,0,0
+RapidWay Trans,eBay,Verona,2023-09-13,317.02,Lot-171,0,0
+RapidWay Trans,Mall Outlet,Roma,2023-09-10,242.23,Lot-111,1,0
+Global Move,Boutique Milano,Bologna,2022-09-14,196.6,Lot-106,1,0
+Global Move,Boutique Milano,Verona,2024-01-27,232.39,Lot-157,1,0
+National Cargo,Mall Outlet,Milano,2023-09-10,244.01,Lot-128,1,0
+Direct Logistics,Boutique Milano,Genova,2022-12-13,288.27,Lot-112,2,0
+Euro Transport,Boutique Milano,Venezia,2024-01-08,259.98,Lot-196,0,0
+National Cargo,Boutique Milano,Venezia,2022-06-21,238.71,Lot-105,0,0
+Global Move,Boutique Milano,Venezia,2023-02-13,259.35,Lot-161,1,0
+Logistica Italia,eBay,Parma,2024-02-23,261.79,Lot-173,0,0
+Logistica Italia,Local Market,Verona,2023-03-12,241.91,Lot-178,0,0
+Logistica Italia,Boutique Milano,Bologna,2024-03-27,248.96,Lot-186,1,0
+Direct Logistics,Direct Sale,Firenze,2022-10-30,202.97,Lot-141,1,0
+RapidWay Trans,Boutique Milano,Padova,2023-04-30,333.01,Lot-181,0,0
+National Cargo,Negozio di Roma,Bologna,2023-09-18,305.67,Lot-114,0,0
+National Cargo,eBay,Genova,2023-03-12,303.67,Lot-181,0,0
+Euro Transport,Amazon Italia,Padova,2022-07-12,218.98,Lot-167,0,0
+National Cargo,Mall Outlet,Verona,2023-10-11,268.83,Lot-167,0,0
+Euro Transport,Boutique Milano,Palermo,2023-05-22,256.64,Lot-160,0,0
+InterCity Courier,eBay,Napoli,2022-08-25,282.24,Lot-166,0,0
+Direct Logistics,Negozio di Roma,Milano,2023-04-21,292.82,Lot-121,0,0
+RapidWay Trans,Local Market,Parma,2023-01-31,166.65,Lot-112,0,0
+Global Move,Boutique Milano,Padova,2022-06-02,185.98,Lot-101,1,0
+National Cargo,eBay,Genova,2023-01-05,202.41,Lot-144,0,0
+Euro Transport,eBay,Milano,2022-10-23,270.11,Lot-175,0,0
+Direct Logistics,Mall Outlet,Bologna,2023-04-08,251.19,Lot-118,0,0
+Global Move,Local Market,Padova,2022-12-22,234.65,Lot-113,0,0
+Global Move,Online Shop,Genova,2024-04-06,292.22,Lot-191,2,0
+RapidWay Trans,Online Shop,Torino,2023-08-08,190.87,Lot-170,0,0
+National Cargo,Boutique Milano,Genova,2023-08-07,288.37,Lot-198,0,0
+Direct Logistics,Online Shop,Verona,2023-08-15,201.43,Lot-169,0,0
+Euro Transport,Online Shop,Padova,2022-07-23,296.93,Lot-168,2,0
+Quick Ship,Negozio di Roma,Padova,2023-11-21,185.24,Lot-163,2,0
+InterCity Courier,Online Shop,Parma,2023-05-30,295.05,Lot-191,0,0
+RapidWay Trans,Negozio di Roma,Venezia,2022-10-01,241.28,Lot-124,1,0
+Euro Transport,Online Shop,Padova,2023-06-12,246.57,Lot-195,1,0
+Quick Ship,Direct Sale,Venezia,2023-02-03,202.78,Lot-139,0,0
+Quick Ship,eBay,Parma,2023-05-15,330.73,Lot-158,2,0
+InterCity Courier,Boutique Milano,Palermo,2024-03-26,308.72,Lot-134,0,0
+National Cargo,Online Shop,Napoli,2022-07-17,315.56,Lot-156,0,0
+Logistica Italia,eBay,Napoli,2023-07-21,249.06,Lot-179,1,0
+RapidWay Trans,Direct Sale,Padova,2024-04-17,310.92,Lot-112,0,0
+Global Move,Boutique Milano,Parma,2022-11-06,215.82,Lot-113,0,0
+Euro Transport,Amazon Italia,Milano,2022-08-25,366.12,Lot-185,0,0
+RapidWay Trans,Online Shop,Firenze,2023-11-25,245.65,Lot-109,1,0
+Euro Transport,Direct Sale,Genova,2022-12-18,280.36,Lot-103,0,0
+RapidWay Trans,Amazon Italia,Torino,2022-12-11,277.33,Lot-149,1,0
+National Cargo,Direct Sale,Padova,2023-01-10,254.67,Lot-169,0,0
+Quick Ship,Mall Outlet,Firenze,2023-11-05,199.81,Lot-181,0,0
+InterCity Courier,Mall Outlet,Napoli,2023-07-07,232.75,Lot-187,0,0
+RapidWay Trans,Mall Outlet,Genova,2022-10-23,204.33,Lot-182,0,0
+Logistica Italia,Local Market,Napoli,2023-07-24,225.91,Lot-101,1,0
+Direct Logistics,Direct Sale,Verona,2023-11-09,218.29,Lot-178,1,0
+InterCity Courier,Direct Sale,Parma,2023-03-06,256.89,Lot-156,2,0
+National Cargo,Direct Sale,Parma,2023-04-04,345.24,Lot-106,0,0
+Euro Transport,Negozio di Roma,Napoli,2023-04-16,359.38,Lot-125,0,0
+Logistica Italia,Amazon Italia,Parma,2024-01-01,279.36,Lot-163,3,0
+National Cargo,Negozio di Roma,Verona,2022-12-03,269.36,Lot-179,0,0
+Global Move,eBay,Padova,2023-07-23,284.22,Lot-166,0,0
+Logistica Italia,Amazon Italia,Bologna,2024-01-09,216.94,Lot-170,0,0
+National Cargo,Direct Sale,Firenze,2022-10-31,162.16,Lot-128,0,0
+National Cargo,eBay,Verona,2024-03-08,295.23,Lot-145,0,0
+Logistica Italia,Online Shop,Padova,2023-01-30,198.11,Lot-121,0,0
+Euro Transport,Negozio di Roma,Bologna,2023-07-13,214.99,Lot-169,0,0
+InterCity Courier,Boutique Milano,Palermo,2022-12-24,198.45,Lot-125,0,0
+Logistica Italia,Online Shop,Milano,2023-06-13,305.15,Lot-190,0,0
+Global Move,Amazon Italia,Palermo,2022-09-15,260.39,Lot-171,0,0
+InterCity Courier,Amazon Italia,Torino,2023-04-17,238.4,Lot-178,0,0
+Logistica Italia,Negozio di Roma,Firenze,2024-01-20,234.16,Lot-193,2,0
+Euro Transport,Online Shop,Firenze,2023-02-10,303.18,Lot-150,1,0
+RapidWay Trans,Mall Outlet,Parma,2022-12-07,305.3,Lot-125,0,0
+National Cargo,eBay,Padova,2022-09-08,217.79,Lot-172,0,0
+Direct Logistics,Boutique Milano,Parma,2022-05-29,179.83,Lot-112,0,0
+InterCity Courier,Local Market,Milano,2023-10-26,186.7,Lot-119,2,0
+Direct Logistics,Mall Outlet,Parma,2023-01-18,235.32,Lot-170,1,0
+National Cargo,eBay,Venezia,2022-09-28,275.13,Lot-105,0,0
+Quick Ship,Mall Outlet,Roma,2022-10-01,309.36,Lot-175,0,0
+Direct Logistics,Amazon Italia,Genova,2022-08-03,196.9,Lot-116,0,0
+Logistica Italia,Boutique Milano,Venezia,2023-12-11,287.24,Lot-184,0,0
+National Cargo,Direct Sale,Genova,2022-12-24,288.36,Lot-182,1,0
+RapidWay Trans,Mall Outlet,Firenze,2022-06-09,261.73,Lot-194,0,0
+Logistica Italia,eBay,Venezia,2023-06-04,115.15,Lot-125,0,0
+Quick Ship,Online Shop,Genova,2023-01-30,179.75,Lot-109,1,0
+Euro Transport,Local Market,Venezia,2023-01-30,288.81,Lot-175,1,0
+Global Move,Online Shop,Verona,2023-02-06,256.04,Lot-188,1,0
+Logistica Italia,Boutique Milano,Palermo,2024-01-03,223.22,Lot-120,0,0
+Euro Transport,Online Shop,Firenze,2022-08-31,235.67,Lot-163,0,0
+Euro Transport,Negozio di Roma,Bologna,2024-03-24,179.91,Lot-117,0,0
+RapidWay Trans,Mall Outlet,Firenze,2023-09-08,229.64,Lot-186,1,0
+RapidWay Trans,Online Shop,Firenze,2022-07-26,334.3,Lot-193,1,0
+RapidWay Trans,Online Shop,Genova,2022-05-26,236.74,Lot-139,1,0
+InterCity Courier,Amazon Italia,Palermo,2023-06-27,233.48,Lot-131,0,0
+Direct Logistics,Local Market,Verona,2023-05-07,292.08,Lot-102,0,0
+National Cargo,eBay,Bologna,2022-11-28,243.55,Lot-130,1,0
+RapidWay Trans,Negozio di Roma,Napoli,2024-04-17,319.67,Lot-182,0,0
+Global Move,Local Market,Palermo,2022-12-01,211.57,Lot-112,1,0
+Quick Ship,Mall Outlet,Firenze,2023-10-07,297.71,Lot-168,1,0
+Global Move,Online Shop,Bologna,2023-08-27,286.56,Lot-122,0,0
+Quick Ship,eBay,Firenze,2023-06-15,264.86,Lot-186,1,0
+Euro Transport,Amazon Italia,Venezia,2022-11-15,222.11,Lot-102,0,0
+Global Move,Local Market,Padova,2022-11-14,245.01,Lot-121,1,0
+InterCity Courier,Boutique Milano,Parma,2023-01-23,258.62,Lot-166,1,0
+RapidWay Trans,Mall Outlet,Torino,2023-04-02,229.25,Lot-197,0,0
+InterCity Courier,Direct Sale,Roma,2023-01-08,280.21,Lot-147,0,0
+Euro Transport,eBay,Venezia,2022-07-10,269.29,Lot-114,0,0
+Logistica Italia,Online Shop,Bologna,2023-01-16,164.46,Lot-102,0,0
+Logistica Italia,Negozio di Roma,Padova,2023-10-22,228.37,Lot-125,0,0
+Direct Logistics,Boutique Milano,Torino,2024-04-20,203.04,Lot-138,0,0
+Quick Ship,Online Shop,Padova,2023-07-29,240.32,Lot-187,1,0
+InterCity Courier,Mall Outlet,Firenze,2023-04-28,321.83,Lot-185,0,0
+Global Move,Direct Sale,Firenze,2024-04-28,252.23,Lot-142,1,0
+RapidWay Trans,Amazon Italia,Torino,2024-04-03,267.26,Lot-191,0,0
+Euro Transport,Amazon Italia,Torino,2022-08-08,251.96,Lot-110,0,0
+InterCity Courier,Online Shop,Roma,2022-05-26,349.69,Lot-122,0,0
+Global Move,Direct Sale,Napoli,2023-06-26,243.33,Lot-174,1,0
+Global Move,Online Shop,Palermo,2023-10-19,196.62,Lot-171,3,0
+Quick Ship,Negozio di Roma,Verona,2023-07-09,264.89,Lot-178,0,0
+Euro Transport,Local Market,Napoli,2022-08-22,279.4,Lot-150,0,0
+Euro Transport,Negozio di Roma,Genova,2022-12-14,233.8,Lot-164,1,0
+Quick Ship,Local Market,Firenze,2023-02-24,265.12,Lot-180,2,0
+National Cargo,Boutique Milano,Bologna,2023-05-04,426.67,Lot-198,0,0
+National Cargo,Negozio di Roma,Venezia,2024-01-21,238.94,Lot-138,0,0
+Logistica Italia,Local Market,Venezia,2024-04-09,255.9,Lot-135,0,0
+Direct Logistics,Amazon Italia,Padova,2023-01-26,161.3,Lot-128,0,0
+Direct Logistics,eBay,Torino,2022-10-05,266.26,Lot-140,0,0
+RapidWay Trans,Boutique Milano,Palermo,2022-08-30,304.03,Lot-109,0,0
+Direct Logistics,Local Market,Parma,2024-04-13,276.51,Lot-189,0,0
+Quick Ship,Direct Sale,Padova,2024-04-03,208.17,Lot-127,0,0
+InterCity Courier,Mall Outlet,Torino,2023-12-23,163.08,Lot-158,0,0
+Direct Logistics,Mall Outlet,Genova,2023-11-29,295.61,Lot-165,0,0
+Direct Logistics,Amazon Italia,Venezia,2024-01-15,272.39,Lot-114,0,0
+Euro Transport,eBay,Milano,2022-10-22,261.2,Lot-161,1,0
+RapidWay Trans,Amazon Italia,Padova,2023-01-21,198.57,Lot-170,1,0
+Direct Logistics,Direct Sale,Verona,2023-06-08,157.7,Lot-146,0,0
+National Cargo,Mall Outlet,Milano,2022-09-29,228.75,Lot-193,1,0
+Quick Ship,Direct Sale,Palermo,2022-12-17,257.49,Lot-158,1,0
+Global Move,Mall Outlet,Bologna,2022-09-03,260.3,Lot-111,2,0
+Logistica Italia,eBay,Parma,2022-11-11,303.82,Lot-167,0,0
+Quick Ship,Online Shop,Torino,2022-08-09,366.97,Lot-160,0,0
+Direct Logistics,Local Market,Bologna,2022-05-05,270.5,Lot-196,0,0
+National Cargo,Boutique Milano,Torino,2024-04-19,300.48,Lot-127,1,0
+National Cargo,Amazon Italia,Genova,2023-06-20,259.42,Lot-123,0,0
+Direct Logistics,Mall Outlet,Bologna,2022-11-22,264.6,Lot-171,1,0
+Global Move,Online Shop,Padova,2024-01-31,243.79,Lot-146,0,0
+Quick Ship,Mall Outlet,Torino,2023-08-27,313.04,Lot-101,2,0
+Logistica Italia,Local Market,Torino,2023-05-29,333.07,Lot-188,1,0
+Global Move,eBay,Firenze,2024-03-26,100.47,Lot-138,1,0
+Direct Logistics,Local Market,Roma,2023-08-31,265.05,Lot-146,0,0
+Euro Transport,Negozio di Roma,Palermo,2022-07-03,250.03,Lot-173,0,0
+Direct Logistics,eBay,Palermo,2024-04-16,185.63,Lot-150,1,0
+InterCity Courier,Direct Sale,Torino,2022-07-07,316.95,Lot-109,0,0
+InterCity Courier,Amazon Italia,Napoli,2024-03-27,159.75,Lot-127,0,0
+InterCity Courier,Negozio di Roma,Palermo,2022-08-03,176.05,Lot-112,2,0
+Direct Logistics,Amazon Italia,Padova,2022-08-24,219.36,Lot-150,1,0
+Global Move,Mall Outlet,Parma,2024-05-02,271.05,Lot-133,2,0
+Logistica Italia,Amazon Italia,Bologna,2023-07-06,244.66,Lot-146,1,0
+Euro Transport,eBay,Torino,2023-11-20,190.4,Lot-165,0,0
+National Cargo,Amazon Italia,Palermo,2024-04-05,258.47,Lot-174,0,0
+Global Move,eBay,Bologna,2022-06-22,281.75,Lot-179,1,0
+Euro Transport,Negozio di Roma,Verona,2023-12-22,237.97,Lot-173,1,0
+Euro Transport,Boutique Milano,Roma,2024-04-04,289.0,Lot-174,0,0
+Global Move,Online Shop,Verona,2022-05-20,273.21,Lot-135,0,0
+Global Move,Amazon Italia,Genova,2022-05-15,279.02,Lot-176,0,0
+Global Move,Mall Outlet,Bologna,2023-02-27,214.95,Lot-141,1,0
+RapidWay Trans,Online Shop,Genova,2024-04-18,297.67,Lot-193,1,0
+RapidWay Trans,Online Shop,Padova,2022-09-25,315.26,Lot-179,1,0
+InterCity Courier,eBay,Verona,2023-06-08,323.07,Lot-108,1,0
+Quick Ship,Direct Sale,Palermo,2023-03-02,229.93,Lot-146,1,0
+Global Move,Local Market,Parma,2024-03-01,235.93,Lot-145,1,0
+Logistica Italia,Online Shop,Palermo,2023-12-10,288.44,Lot-108,0,0
+Quick Ship,Boutique Milano,Roma,2023-12-08,198.12,Lot-128,0,0
+Euro Transport,eBay,Firenze,2022-05-17,300.24,Lot-121,0,0
+Global Move,Amazon Italia,Venezia,2022-10-15,205.57,Lot-193,0,0
+Direct Logistics,Mall Outlet,Milano,2022-10-02,115.28,Lot-128,1,0
+National Cargo,Online Shop,Torino,2024-01-06,206.81,Lot-116,0,0
+InterCity Courier,Local Market,Verona,2023-01-05,269.3,Lot-197,0,0
+InterCity Courier,Amazon Italia,Firenze,2023-01-13,178.4,Lot-165,0,0
+Global Move,Direct Sale,Padova,2024-03-23,320.23,Lot-160,1,0
+Euro Transport,Online Shop,Verona,2022-09-15,182.0,Lot-130,0,0
+National Cargo,eBay,Padova,2023-12-26,178.1,Lot-129,0,0
+Euro Transport,Amazon Italia,Roma,2023-03-16,347.89,Lot-143,0,0
+Euro Transport,eBay,Padova,2023-05-16,240.5,Lot-108,1,0
+National Cargo,Negozio di Roma,Parma,2024-03-02,234.06,Lot-111,1,0
+RapidWay Trans,Mall Outlet,Verona,2023-01-14,284.14,Lot-111,0,0
+Direct Logistics,Mall Outlet,Bologna,2023-06-18,206.31,Lot-196,2,0
+Euro Transport,eBay,Milano,2024-04-30,226.54,Lot-158,0,0
+Direct Logistics,Amazon Italia,Verona,2024-04-29,259.18,Lot-179,0,0
+Direct Logistics,Mall Outlet,Verona,2022-12-04,226.43,Lot-173,2,0
+RapidWay Trans,Boutique Milano,Milano,2022-09-30,214.09,Lot-170,1,0
+Global Move,Boutique Milano,Roma,2022-09-23,222.9,Lot-177,0,0
+Euro Transport,Negozio di Roma,Bologna,2023-10-30,208.1,Lot-197,3,0
+RapidWay Trans,Direct Sale,Genova,2022-11-14,207.4,Lot-145,2,0
+Quick Ship,Negozio di Roma,Firenze,2023-10-31,166.3,Lot-150,1,0
+Euro Transport,Boutique Milano,Napoli,2023-12-22,261.86,Lot-110,1,0
+Quick Ship,Local Market,Palermo,2022-10-29,240.69,Lot-182,2,0
+Global Move,eBay,Roma,2022-09-25,269.36,Lot-111,0,0
+Logistica Italia,Amazon Italia,Genova,2023-03-14,303.73,Lot-174,0,0
+RapidWay Trans,Amazon Italia,Parma,2022-11-17,182.98,Lot-163,2,0
+Direct Logistics,Direct Sale,Padova,2022-05-17,208.99,Lot-199,0,0
+InterCity Courier,eBay,Roma,2023-02-06,290.0,Lot-130,0,0
+Logistica Italia,Boutique Milano,Palermo,2023-02-04,263.4,Lot-165,1,0
+Global Move,Online Shop,Padova,2022-11-18,266.68,Lot-154,0,0
+InterCity Courier,Mall Outlet,Verona,2023-04-30,169.69,Lot-130,1,0
+RapidWay Trans,Boutique Milano,Roma,2024-01-10,286.9,Lot-142,0,0
+InterCity Courier,Boutique Milano,Genova,2022-09-28,222.93,Lot-187,0,0
+National Cargo,Online Shop,Milano,2022-10-02,243.66,Lot-192,0,0
+InterCity Courier,Negozio di Roma,Bologna,2023-05-05,230.42,Lot-152,2,0
+Direct Logistics,Mall Outlet,Torino,2022-07-15,304.17,Lot-157,0,0
+Euro Transport,Direct Sale,Genova,2024-01-20,243.54,Lot-199,0,0
+InterCity Courier,Local Market,Firenze,2022-05-05,225.25,Lot-181,0,0
+Global Move,Direct Sale,Napoli,2022-11-05,270.68,Lot-125,2,0
+RapidWay Trans,Mall Outlet,Venezia,2024-01-03,286.09,Lot-139,0,0
+InterCity Courier,Local Market,Milano,2023-10-26,273.18,Lot-190,1,0
+Global Move,Amazon Italia,Firenze,2024-02-09,248.79,Lot-130,0,0
+Euro Transport,Online Shop,Genova,2023-06-12,212.2,Lot-135,1,0
+Global Move,Online Shop,Roma,2024-02-14,194.37,Lot-139,1,0
+Logistica Italia,Direct Sale,Bologna,2022-10-13,215.12,Lot-174,0,0
+InterCity Courier,Online Shop,Palermo,2023-07-23,237.69,Lot-183,1,0
+Quick Ship,Amazon Italia,Torino,2023-12-07,336.63,Lot-190,0,0
+Logistica Italia,Mall Outlet,Milano,2022-05-15,119.27,Lot-159,0,0
+InterCity Courier,eBay,Firenze,2024-04-09,276.61,Lot-110,3,0
+InterCity Courier,Direct Sale,Verona,2023-10-29,221.59,Lot-164,0,0
+Quick Ship,Boutique Milano,Parma,2023-10-18,300.62,Lot-101,0,0
+Logistica Italia,Boutique Milano,Firenze,2023-07-05,233.54,Lot-182,0,0
+Euro Transport,Amazon Italia,Padova,2023-04-17,172.75,Lot-160,2,0
+National Cargo,Amazon Italia,Padova,2023-09-20,172.93,Lot-139,1,0
+Euro Transport,eBay,Roma,2023-08-20,267.14,Lot-170,1,0
+RapidWay Trans,Local Market,Palermo,2023-09-15,209.05,Lot-169,0,0
+Global Move,Direct Sale,Torino,2023-08-13,212.82,Lot-114,1,0
+RapidWay Trans,eBay,Verona,2022-11-04,226.5,Lot-123,0,0
+Euro Transport,Amazon Italia,Napoli,2024-01-14,252.64,Lot-153,0,0
+Global Move,Local Market,Bologna,2023-03-07,203.87,Lot-144,1,0
+Global Move,Local Market,Napoli,2023-06-03,219.96,Lot-181,1,0
+Direct Logistics,Direct Sale,Roma,2023-10-06,297.03,Lot-197,1,0
+Global Move,Amazon Italia,Genova,2022-12-03,287.8,Lot-110,1,0
+Logistica Italia,Boutique Milano,Palermo,2022-07-28,203.71,Lot-119,0,0
+Euro Transport,Boutique Milano,Napoli,2022-07-18,212.2,Lot-151,0,0
+Quick Ship,Amazon Italia,Venezia,2023-05-01,158.25,Lot-181,0,0
+Direct Logistics,Local Market,Napoli,2023-02-23,330.93,Lot-190,1,0
+RapidWay Trans,Mall Outlet,Roma,2023-04-17,235.37,Lot-101,0,0
+Logistica Italia,Direct Sale,Verona,2023-06-15,240.87,Lot-192,1,0
+Euro Transport,Negozio di Roma,Palermo,2023-11-15,301.02,Lot-125,1,0
+RapidWay Trans,Amazon Italia,Milano,2022-05-27,250.2,Lot-163,0,0
+Quick Ship,Boutique Milano,Genova,2023-01-28,274.38,Lot-108,1,0
+InterCity Courier,eBay,Parma,2023-05-04,274.99,Lot-171,0,0
+InterCity Courier,eBay,Parma,2023-01-21,327.75,Lot-160,1,0
+Global Move,Boutique Milano,Verona,2024-02-10,274.27,Lot-165,2,0
+Logistica Italia,Mall Outlet,Bologna,2024-03-21,253.56,Lot-159,0,0
+Euro Transport,Boutique Milano,Palermo,2022-12-03,279.41,Lot-119,0,0
+InterCity Courier,Amazon Italia,Palermo,2022-07-02,326.31,Lot-126,2,0
+Global Move,Boutique Milano,Roma,2022-06-11,245.49,Lot-161,2,0
+Logistica Italia,Online Shop,Padova,2023-02-15,212.37,Lot-143,0,0
+Global Move,Direct Sale,Torino,2022-06-28,190.49,Lot-108,0,0
+RapidWay Trans,Online Shop,Padova,2023-09-20,290.48,Lot-195,0,0
+Quick Ship,Negozio di Roma,Napoli,2022-09-13,184.74,Lot-161,0,0
+Direct Logistics,Negozio di Roma,Bologna,2023-05-02,186.15,Lot-180,0,0
+InterCity Courier,Negozio di Roma,Verona,2024-04-07,214.45,Lot-161,0,0
+Euro Transport,Negozio di Roma,Palermo,2023-07-03,256.37,Lot-128,0,0
+InterCity Courier,Negozio di Roma,Roma,2024-02-07,158.42,Lot-111,1,0
+Euro Transport,Mall Outlet,Roma,2022-05-03,286.68,Lot-166,0,0
+Direct Logistics,Mall Outlet,Milano,2023-09-09,169.82,Lot-188,0,0
+Global Move,Negozio di Roma,Verona,2023-08-19,179.9,Lot-191,2,0
+Global Move,Negozio di Roma,Parma,2022-07-07,294.89,Lot-139,0,0
+Global Move,Mall Outlet,Genova,2023-02-27,305.71,Lot-176,0,0
+RapidWay Trans,Mall Outlet,Verona,2022-06-28,334.86,Lot-188,0,0
+RapidWay Trans,Online Shop,Napoli,2022-06-01,222.12,Lot-123,1,0
+Euro Transport,Local Market,Venezia,2022-09-10,254.64,Lot-193,0,0
+National Cargo,Boutique Milano,Venezia,2023-10-24,318.39,Lot-160,1,0
+Global Move,Mall Outlet,Napoli,2022-10-12,189.02,Lot-172,0,0
+InterCity Courier,eBay,Verona,2023-06-14,291.44,Lot-108,0,0
+Global Move,Boutique Milano,Palermo,2023-03-06,244.73,Lot-187,0,0
+InterCity Courier,Local Market,Verona,2023-08-21,275.42,Lot-131,0,0
+National Cargo,Negozio di Roma,Genova,2024-03-16,156.56,Lot-157,2,0
+National Cargo,Mall Outlet,Padova,2023-02-09,195.55,Lot-167,0,0
+RapidWay Trans,Local Market,Genova,2024-02-12,224.35,Lot-148,1,0
+Direct Logistics,Local Market,Torino,2023-11-20,253.2,Lot-142,2,0
+Global Move,Direct Sale,Venezia,2024-02-03,319.23,Lot-191,1,0
+National Cargo,eBay,Venezia,2024-02-19,247.98,Lot-119,0,0
+Logistica Italia,Direct Sale,Milano,2022-08-06,288.72,Lot-158,1,0
+RapidWay Trans,Local Market,Firenze,2023-04-18,298.88,Lot-151,0,0
+Direct Logistics,eBay,Torino,2023-07-02,305.98,Lot-182,1,0
+National Cargo,Mall Outlet,Verona,2023-11-22,231.79,Lot-130,0,0
+Global Move,Negozio di Roma,Genova,2022-09-02,262.47,Lot-110,1,0
+RapidWay Trans,Direct Sale,Venezia,2024-04-09,234.67,Lot-143,1,0
+InterCity Courier,Online Shop,Venezia,2023-02-20,205.98,Lot-114,0,0
+Logistica Italia,Negozio di Roma,Parma,2023-09-04,357.84,Lot-165,0,0
+Logistica Italia,Online Shop,Genova,2023-11-27,229.23,Lot-160,0,0
+Logistica Italia,Mall Outlet,Palermo,2022-11-10,306.62,Lot-156,0,0
+National Cargo,Mall Outlet,Bologna,2023-02-12,284.66,Lot-141,0,0
+Direct Logistics,Mall Outlet,Milano,2023-06-28,303.87,Lot-156,1,0
+RapidWay Trans,Online Shop,Roma,2023-12-13,384.65,Lot-134,1,0
+Direct Logistics,eBay,Milano,2023-07-15,246.66,Lot-180,1,0
+RapidWay Trans,Local Market,Bologna,2022-05-17,131.8,Lot-145,0,0
+Direct Logistics,Direct Sale,Genova,2022-10-18,306.03,Lot-107,1,0
+Euro Transport,Online Shop,Firenze,2023-04-30,268.29,Lot-162,1,0
+Direct Logistics,Amazon Italia,Parma,2022-12-03,315.98,Lot-135,1,0
+Direct Logistics,eBay,Firenze,2022-07-18,236.54,Lot-141,1,0
+RapidWay Trans,Amazon Italia,Firenze,2023-11-20,288.39,Lot-198,1,0
+Global Move,Online Shop,Verona,2023-04-04,305.62,Lot-178,0,0
+Euro Transport,Local Market,Torino,2022-10-01,400.85,Lot-108,0,0
+National Cargo,Amazon Italia,Bologna,2023-02-21,232.88,Lot-133,0,0
+Euro Transport,Local Market,Bologna,2022-11-10,183.14,Lot-137,0,0
+Quick Ship,Boutique Milano,Palermo,2024-03-15,246.0,Lot-151,0,0
+Logistica Italia,Mall Outlet,Palermo,2023-09-18,284.89,Lot-130,0,0
+Quick Ship,Negozio di Roma,Verona,2024-03-12,296.39,Lot-138,2,0
+Direct Logistics,Negozio di Roma,Padova,2022-10-01,252.9,Lot-103,1,0
+Logistica Italia,Online Shop,Roma,2023-02-23,296.6,Lot-190,0,0
+Logistica Italia,Boutique Milano,Firenze,2024-02-22,197.89,Lot-141,0,0
+Direct Logistics,Online Shop,Venezia,2023-01-22,183.16,Lot-153,0,0
+Euro Transport,Direct Sale,Firenze,2022-09-02,196.08,Lot-119,2,0
+Global Move,Mall Outlet,Torino,2022-06-14,140.28,Lot-137,0,0
+Quick Ship,eBay,Verona,2022-11-30,252.58,Lot-174,0,0
+National Cargo,Mall Outlet,Genova,2022-09-10,276.39,Lot-164,0,0
+Direct Logistics,Online Shop,Parma,2024-02-04,252.11,Lot-113,1,0
+Direct Logistics,eBay,Bologna,2024-01-05,224.03,Lot-198,1,0
+Global Move,Direct Sale,Napoli,2023-02-01,189.79,Lot-153,0,0
+Direct Logistics,Mall Outlet,Verona,2023-04-23,169.94,Lot-112,0,0
+Euro Transport,Local Market,Genova,2023-11-06,327.52,Lot-167,0,0
+RapidWay Trans,Online Shop,Verona,2022-09-20,336.67,Lot-168,1,0
+Global Move,Direct Sale,Milano,2023-03-17,213.54,Lot-194,0,0
+InterCity Courier,Online Shop,Milano,2023-03-25,224.22,Lot-138,0,0
+Logistica Italia,eBay,Roma,2022-05-20,207.52,Lot-157,0,0
+Quick Ship,eBay,Palermo,2022-09-04,239.52,Lot-196,0,0
+RapidWay Trans,Amazon Italia,Bologna,2024-04-23,282.03,Lot-141,0,0
+Quick Ship,Mall Outlet,Milano,2024-04-25,231.87,Lot-182,0,0
+National Cargo,Amazon Italia,Verona,2023-12-09,237.71,Lot-152,1,0
+Quick Ship,Negozio di Roma,Milano,2023-01-23,195.78,Lot-117,1,0
+InterCity Courier,Boutique Milano,Firenze,2024-03-23,311.17,Lot-173,0,0
+Global Move,Online Shop,Napoli,2023-03-11,299.73,Lot-102,0,0
+Logistica Italia,Amazon Italia,Milano,2022-05-25,165.69,Lot-138,0,0
+Logistica Italia,Online Shop,Torino,2024-01-12,259.98,Lot-112,0,0
+Euro Transport,Online Shop,Bologna,2023-07-28,153.29,Lot-122,2,0
+National Cargo,Negozio di Roma,Bologna,2023-08-25,216.88,Lot-121,1,0
+National Cargo,Amazon Italia,Bologna,2023-06-08,279.2,Lot-125,0,0
+Direct Logistics,Direct Sale,Padova,2023-10-08,160.57,Lot-155,0,0
+InterCity Courier,Online Shop,Parma,2023-03-10,240.63,Lot-164,0,0
+Euro Transport,Amazon Italia,Palermo,2023-10-04,223.35,Lot-186,2,0
+Euro Transport,Online Shop,Verona,2023-07-26,261.57,Lot-167,0,0
+Direct Logistics,Mall Outlet,Genova,2022-06-08,206.76,Lot-195,0,0
+Quick Ship,Boutique Milano,Napoli,2024-01-14,217.64,Lot-120,1,0
+Global Move,Amazon Italia,Padova,2023-12-15,195.68,Lot-120,0,0
+Euro Transport,Local Market,Milano,2024-03-11,296.45,Lot-189,0,0
+Quick Ship,Local Market,Padova,2023-07-28,151.92,Lot-103,0,0
+National Cargo,Direct Sale,Padova,2022-06-22,161.4,Lot-155,0,0
+Global Move,Direct Sale,Milano,2023-02-05,238.54,Lot-142,1,0
+Logistica Italia,Boutique Milano,Genova,2023-02-18,318.4,Lot-111,2,0
+RapidWay Trans,Amazon Italia,Milano,2023-03-30,324.66,Lot-180,3,0
+InterCity Courier,Negozio di Roma,Genova,2023-07-16,224.16,Lot-133,1,0
+Quick Ship,Boutique Milano,Bologna,2023-11-25,233.66,Lot-136,2,0
+Direct Logistics,Boutique Milano,Palermo,2022-09-21,262.89,Lot-125,0,0
+National Cargo,Negozio di Roma,Napoli,2023-06-20,287.26,Lot-155,0,0
+Global Move,Local Market,Padova,2023-04-19,296.49,Lot-161,0,0
+RapidWay Trans,Mall Outlet,Firenze,2023-06-24,282.94,Lot-167,1,0
+Global Move,Direct Sale,Palermo,2023-06-27,286.04,Lot-140,0,0
+Logistica Italia,Local Market,Roma,2023-02-28,245.86,Lot-145,1,0
+Direct Logistics,Amazon Italia,Roma,2022-11-08,257.7,Lot-111,0,0
+Direct Logistics,Local Market,Milano,2023-03-09,242.89,Lot-152,1,0
+Global Move,Local Market,Verona,2024-01-05,149.66,Lot-145,0,0
+Direct Logistics,Online Shop,Firenze,2024-01-21,281.8,Lot-197,1,0
+Logistica Italia,eBay,Parma,2024-04-21,323.87,Lot-131,1,0
+RapidWay Trans,Negozio di Roma,Palermo,2023-09-17,211.61,Lot-138,1,0
+Logistica Italia,Local Market,Milano,2022-11-26,282.53,Lot-189,1,0
+RapidWay Trans,Local Market,Venezia,2022-07-12,298.49,Lot-179,0,0
+Logistica Italia,Amazon Italia,Napoli,2022-11-10,289.73,Lot-142,0,0
+Euro Transport,eBay,Bologna,2022-08-08,273.96,Lot-146,0,0
+Euro Transport,Direct Sale,Venezia,2022-10-20,262.59,Lot-140,1,0
+Quick Ship,Online Shop,Napoli,2023-09-02,278.29,Lot-150,0,0
+Global Move,Online Shop,Milano,2023-05-06,115.8,Lot-108,0,0
+RapidWay Trans,Boutique Milano,Milano,2023-07-22,306.42,Lot-147,0,0
+Quick Ship,Negozio di Roma,Firenze,2022-06-09,254.29,Lot-126,1,0
+InterCity Courier,Amazon Italia,Torino,2023-06-09,228.88,Lot-154,0,0
+Global Move,Local Market,Genova,2022-07-14,198.11,Lot-189,0,0
+Quick Ship,Amazon Italia,Genova,2023-01-08,219.39,Lot-196,0,0
+Logistica Italia,Direct Sale,Milano,2023-11-11,273.45,Lot-152,1,0
+InterCity Courier,Negozio di Roma,Firenze,2023-11-21,219.94,Lot-199,1,0
+National Cargo,eBay,Milano,2024-02-04,303.64,Lot-174,0,0
+Global Move,Local Market,Roma,2023-03-25,244.68,Lot-157,0,0
+National Cargo,Mall Outlet,Torino,2023-03-18,288.18,Lot-164,1,0
+National Cargo,Local Market,Bologna,2023-12-04,165.03,Lot-182,0,0
+National Cargo,Direct Sale,Genova,2023-06-09,276.57,Lot-110,1,0
+National Cargo,Direct Sale,Venezia,2022-06-01,329.54,Lot-183,0,0
+Direct Logistics,Mall Outlet,Roma,2023-12-15,265.88,Lot-173,1,0
+Global Move,Negozio di Roma,Venezia,2022-10-06,196.94,Lot-176,2,0
+Euro Transport,Negozio di Roma,Bologna,2022-07-30,257.42,Lot-120,0,0
+Logistica Italia,Negozio di Roma,Napoli,2023-12-27,231.8,Lot-194,0,0
+RapidWay Trans,Amazon Italia,Torino,2024-01-11,201.29,Lot-120,0,0
+Logistica Italia,eBay,Bologna,2023-09-12,308.2,Lot-105,2,0
+InterCity Courier,Local Market,Roma,2022-10-29,216.18,Lot-194,0,0
+Quick Ship,Mall Outlet,Roma,2022-11-25,249.92,Lot-136,0,0
+RapidWay Trans,Mall Outlet,Bologna,2023-07-03,216.75,Lot-160,1,0
+Logistica Italia,Online Shop,Padova,2023-06-10,150.65,Lot-133,0,0
+Direct Logistics,Amazon Italia,Firenze,2024-02-29,220.0,Lot-170,0,0
+National Cargo,Online Shop,Bologna,2023-03-05,256.23,Lot-170,3,0
+RapidWay Trans,Negozio di Roma,Napoli,2022-08-23,268.02,Lot-131,2,0
+Direct Logistics,Mall Outlet,Milano,2023-09-06,256.2,Lot-153,1,0
+Logistica Italia,eBay,Palermo,2023-03-13,312.62,Lot-168,1,0
+Direct Logistics,eBay,Torino,2024-01-03,192.71,Lot-173,1,0
+Direct Logistics,Negozio di Roma,Padova,2022-11-15,289.33,Lot-179,0,0
+RapidWay Trans,Mall Outlet,Torino,2022-08-27,225.17,Lot-173,0,0
+Quick Ship,Online Shop,Roma,2023-04-30,260.61,Lot-194,1,0
+Quick Ship,Boutique Milano,Roma,2023-06-20,215.18,Lot-198,0,0
+Global Move,Local Market,Padova,2022-05-09,224.62,Lot-191,1,0
+Quick Ship,Online Shop,Napoli,2023-04-24,216.74,Lot-125,0,0
+Global Move,eBay,Roma,2022-10-19,303.38,Lot-124,0,0
+InterCity Courier,Mall Outlet,Palermo,2023-11-05,213.57,Lot-194,1,0
+Euro Transport,Mall Outlet,Milano,2023-10-23,264.62,Lot-157,0,0
+Quick Ship,Amazon Italia,Torino,2023-05-13,204.52,Lot-157,0,0
+RapidWay Trans,Negozio di Roma,Genova,2023-11-14,216.4,Lot-124,0,0
+Global Move,Mall Outlet,Bologna,2023-12-01,255.69,Lot-118,0,0
+Global Move,Local Market,Parma,2023-09-14,233.85,Lot-109,0,0
+National Cargo,eBay,Roma,2023-05-19,249.0,Lot-122,1,0
+Global Move,Amazon Italia,Palermo,2022-08-31,218.37,Lot-136,0,0
+Global Move,eBay,Palermo,2023-03-07,236.24,Lot-105,0,0
+Logistica Italia,eBay,Milano,2022-12-01,365.44,Lot-147,0,0
+RapidWay Trans,Online Shop,Venezia,2022-09-28,249.96,Lot-115,0,0
+Quick Ship,eBay,Napoli,2023-08-23,295.26,Lot-121,0,0
+Logistica Italia,Boutique Milano,Milano,2023-02-18,203.14,Lot-169,0,0
+Logistica Italia,Mall Outlet,Firenze,2022-07-18,241.12,Lot-138,1,0
+Quick Ship,Online Shop,Milano,2022-12-12,263.27,Lot-158,1,0
+Euro Transport,Boutique Milano,Padova,2022-11-23,320.84,Lot-191,1,0
+Global Move,Negozio di Roma,Firenze,2023-10-29,163.92,Lot-185,0,0
+RapidWay Trans,eBay,Napoli,2023-07-16,283.44,Lot-188,0,0
+InterCity Courier,Direct Sale,Firenze,2023-05-11,267.19,Lot-183,0,0
+RapidWay Trans,Boutique Milano,Venezia,2023-02-02,207.6,Lot-151,1,0
+Euro Transport,eBay,Milano,2023-10-27,245.06,Lot-174,0,0
+RapidWay Trans,Negozio di Roma,Torino,2024-01-14,308.56,Lot-134,0,0
+Direct Logistics,Amazon Italia,Palermo,2023-07-03,243.46,Lot-174,0,0
+National Cargo,Direct Sale,Palermo,2022-08-20,258.76,Lot-160,0,0
+Global Move,Local Market,Palermo,2022-12-14,236.45,Lot-192,0,0
+InterCity Courier,Mall Outlet,Roma,2023-06-26,294.69,Lot-112,0,0
+Direct Logistics,Mall Outlet,Palermo,2024-01-02,275.22,Lot-180,0,0
+Global Move,Online Shop,Verona,2022-05-24,173.08,Lot-115,1,0
+Quick Ship,Direct Sale,Roma,2022-11-18,170.12,Lot-119,0,0
+Global Move,Local Market,Firenze,2023-12-27,210.39,Lot-159,0,0
+InterCity Courier,Amazon Italia,Torino,2024-01-25,229.61,Lot-127,0,0
+Quick Ship,Amazon Italia,Roma,2022-06-28,188.8,Lot-100,0,0
+Quick Ship,Negozio di Roma,Genova,2022-12-02,251.9,Lot-100,0,0
+Logistica Italia,Amazon Italia,Roma,2023-02-16,311.07,Lot-138,2,0
+Euro Transport,Local Market,Torino,2023-10-27,331.71,Lot-141,0,0
+RapidWay Trans,Direct Sale,Firenze,2024-02-23,341.79,Lot-104,0,0
+RapidWay Trans,Boutique Milano,Genova,2024-02-07,195.93,Lot-131,1,0
+InterCity Courier,Local Market,Parma,2023-02-10,257.01,Lot-149,0,0
+Quick Ship,Negozio di Roma,Roma,2023-03-12,271.24,Lot-175,2,0
+Euro Transport,eBay,Parma,2024-04-18,224.13,Lot-172,2,0
+Global Move,Local Market,Milano,2023-07-15,279.49,Lot-125,1,0
+Quick Ship,Mall Outlet,Napoli,2023-02-15,196.47,Lot-117,0,0
+RapidWay Trans,Direct Sale,Parma,2023-01-28,191.83,Lot-105,0,0
+InterCity Courier,eBay,Verona,2023-10-21,278.66,Lot-123,1,0
+RapidWay Trans,Amazon Italia,Torino,2023-03-14,321.33,Lot-117,2,0
+National Cargo,Local Market,Firenze,2023-04-15,234.1,Lot-174,0,0
+Quick Ship,Online Shop,Torino,2022-05-25,306.22,Lot-148,0,0
+National Cargo,Amazon Italia,Bologna,2023-10-18,269.72,Lot-182,0,0
+Quick Ship,Amazon Italia,Torino,2022-07-15,183.4,Lot-133,1,0
+Logistica Italia,Amazon Italia,Roma,2023-07-14,270.36,Lot-124,0,0
+RapidWay Trans,Local Market,Napoli,2023-03-07,321.97,Lot-168,1,0
+Direct Logistics,Direct Sale,Roma,2023-12-26,250.14,Lot-199,1,0
+RapidWay Trans,Mall Outlet,Firenze,2023-12-04,275.11,Lot-194,1,0
+Quick Ship,Local Market,Padova,2023-03-07,222.38,Lot-108,1,0
+Logistica Italia,Online Shop,Padova,2024-04-21,217.07,Lot-154,0,0
+National Cargo,Online Shop,Milano,2023-09-28,122.93,Lot-111,1,0
+Quick Ship,Negozio di Roma,Milano,2022-06-25,214.32,Lot-178,0,0
+Quick Ship,Online Shop,Parma,2023-07-29,270.46,Lot-184,0,0
+Euro Transport,Boutique Milano,Genova,2024-01-04,301.26,Lot-132,0,0
+National Cargo,eBay,Verona,2024-03-02,209.06,Lot-163,1,0
+RapidWay Trans,Amazon Italia,Verona,2022-11-24,207.42,Lot-108,0,0
+Logistica Italia,Negozio di Roma,Parma,2023-04-07,247.25,Lot-166,0,0
+Quick Ship,Mall Outlet,Parma,2022-08-22,131.57,Lot-121,0,0
+InterCity Courier,Negozio di Roma,Milano,2023-02-09,307.01,Lot-179,2,0
+RapidWay Trans,Amazon Italia,Venezia,2023-09-08,194.26,Lot-110,0,0
+Direct Logistics,Mall Outlet,Genova,2022-10-02,251.85,Lot-128,0,0
+InterCity Courier,Online Shop,Roma,2023-09-24,286.23,Lot-183,0,0
+Euro Transport,Online Shop,Palermo,2024-04-08,254.36,Lot-197,2,0
+Euro Transport,Mall Outlet,Venezia,2023-02-18,182.08,Lot-104,0,0
+Logistica Italia,Amazon Italia,Parma,2022-06-10,270.29,Lot-170,0,0
+Direct Logistics,Boutique Milano,Bologna,2023-11-03,207.3,Lot-158,2,0
+Quick Ship,Local Market,Verona,2023-03-09,270.53,Lot-156,0,0
+Quick Ship,Mall Outlet,Napoli,2022-07-13,359.51,Lot-114,0,0
+Euro Transport,Amazon Italia,Palermo,2022-07-10,175.0,Lot-118,0,0
+Logistica Italia,eBay,Torino,2023-09-07,240.25,Lot-126,0,0
+RapidWay Trans,Boutique Milano,Roma,2023-08-02,268.03,Lot-107,1,0
+National Cargo,Local Market,Milano,2023-02-15,237.77,Lot-180,0,0
+National Cargo,Direct Sale,Torino,2022-08-07,300.24,Lot-100,0,0
+RapidWay Trans,Online Shop,Roma,2023-09-16,281.07,Lot-178,0,0
+RapidWay Trans,Boutique Milano,Bologna,2023-02-01,251.12,Lot-181,0,0
+National Cargo,Negozio di Roma,Parma,2023-08-20,194.57,Lot-195,0,0
+Global Move,Local Market,Torino,2024-02-29,210.18,Lot-187,2,0
+InterCity Courier,Negozio di Roma,Milano,2023-06-16,271.37,Lot-111,0,0
+Direct Logistics,eBay,Verona,2022-07-22,260.71,Lot-195,0,0
+Direct Logistics,Online Shop,Milano,2023-03-04,270.8,Lot-101,1,0
+InterCity Courier,Boutique Milano,Padova,2023-01-28,188.99,Lot-138,0,0
+InterCity Courier,Mall Outlet,Torino,2023-06-02,260.86,Lot-199,1,0
+Quick Ship,Mall Outlet,Roma,2024-02-03,266.35,Lot-178,2,0
+Euro Transport,Local Market,Bologna,2023-01-09,310.97,Lot-140,0,0
+Global Move,Boutique Milano,Bologna,2023-09-25,296.85,Lot-121,0,0
+Direct Logistics,eBay,Verona,2023-08-15,239.26,Lot-189,0,0
+Global Move,Online Shop,Milano,2023-06-07,238.15,Lot-114,1,0
+Quick Ship,Local Market,Parma,2023-03-31,259.22,Lot-110,0,0
+Global Move,Negozio di Roma,Venezia,2022-12-08,262.69,Lot-196,1,0
+Direct Logistics,Direct Sale,Milano,2023-12-11,286.35,Lot-198,1,0
+Euro Transport,Negozio di Roma,Bologna,2022-06-15,232.29,Lot-112,1,0
+InterCity Courier,Online Shop,Venezia,2022-06-13,290.76,Lot-125,0,0
+National Cargo,Direct Sale,Napoli,2024-02-25,243.01,Lot-182,2,0
+Euro Transport,Mall Outlet,Torino,2023-11-05,216.25,Lot-131,0,0
+InterCity Courier,Mall Outlet,Genova,2024-04-04,274.83,Lot-162,1,0
+RapidWay Trans,Mall Outlet,Milano,2022-11-07,222.75,Lot-168,1,0
+Euro Transport,Amazon Italia,Venezia,2022-07-15,364.62,Lot-143,0,0
+Global Move,Local Market,Verona,2023-09-25,317.83,Lot-195,1,0
+InterCity Courier,Amazon Italia,Bologna,2022-12-14,190.31,Lot-194,1,0
+Logistica Italia,Boutique Milano,Verona,2024-04-11,309.17,Lot-166,0,0
+Direct Logistics,Direct Sale,Bologna,2023-08-19,356.6,Lot-109,0,0
+Quick Ship,Mall Outlet,Torino,2022-07-11,149.45,Lot-154,0,0
+Logistica Italia,Boutique Milano,Torino,2023-03-25,283.76,Lot-153,0,0
+RapidWay Trans,eBay,Torino,2023-01-02,335.09,Lot-183,0,0
+Logistica Italia,Amazon Italia,Torino,2024-02-27,251.01,Lot-103,0,0
+Global Move,Mall Outlet,Verona,2023-06-30,288.68,Lot-195,2,0
+RapidWay Trans,Amazon Italia,Padova,2023-12-04,249.16,Lot-122,0,0
+Quick Ship,Local Market,Venezia,2023-01-05,298.7,Lot-168,1,0
+Direct Logistics,Local Market,Padova,2023-04-06,213.77,Lot-119,0,0
+Direct Logistics,Local Market,Padova,2022-07-01,240.46,Lot-184,1,0
+InterCity Courier,Negozio di Roma,Genova,2023-01-31,277.42,Lot-144,0,0
+InterCity Courier,Amazon Italia,Napoli,2024-03-27,270.96,Lot-192,0,0
+Euro Transport,Mall Outlet,Milano,2022-10-07,200.45,Lot-185,0,0
+Direct Logistics,Local Market,Parma,2023-09-21,135.29,Lot-193,2,0
+InterCity Courier,Negozio di Roma,Firenze,2022-11-13,248.04,Lot-105,0,0
+Global Move,Amazon Italia,Firenze,2024-02-02,231.39,Lot-129,0,0
+National Cargo,Amazon Italia,Firenze,2023-06-10,319.65,Lot-161,0,0
+InterCity Courier,eBay,Torino,2023-10-19,169.0,Lot-132,1,0
+Direct Logistics,Boutique Milano,Torino,2023-11-12,263.99,Lot-195,0,0
+InterCity Courier,Local Market,Milano,2022-09-25,287.59,Lot-127,2,0
+Quick Ship,Online Shop,Parma,2022-08-05,182.24,Lot-192,1,0
+RapidWay Trans,Local Market,Bologna,2022-06-18,221.47,Lot-103,0,0
+National Cargo,Online Shop,Firenze,2023-05-18,209.54,Lot-168,1,0
+National Cargo,Direct Sale,Firenze,2024-02-03,289.95,Lot-133,0,0
+RapidWay Trans,Negozio di Roma,Bologna,2023-08-10,184.75,Lot-180,1,0
+Quick Ship,Boutique Milano,Genova,2023-08-08,221.89,Lot-188,0,0
+Logistica Italia,Online Shop,Firenze,2023-04-13,205.35,Lot-115,0,0
+RapidWay Trans,eBay,Firenze,2022-07-04,207.99,Lot-161,1,0
+InterCity Courier,Online Shop,Torino,2022-11-03,268.19,Lot-115,0,0
+Euro Transport,Online Shop,Torino,2023-07-31,255.15,Lot-131,0,0
+Global Move,Online Shop,Roma,2024-03-29,308.37,Lot-168,0,0
+Euro Transport,Amazon Italia,Verona,2024-04-10,215.84,Lot-193,0,0
+RapidWay Trans,Local Market,Genova,2022-05-29,297.17,Lot-179,0,0
+National Cargo,Mall Outlet,Palermo,2024-02-13,132.72,Lot-131,2,0
+InterCity Courier,Boutique Milano,Bologna,2023-03-18,219.7,Lot-101,0,0
+InterCity Courier,Mall Outlet,Parma,2023-08-12,235.54,Lot-174,0,0
+Logistica Italia,Direct Sale,Bologna,2022-12-19,244.91,Lot-186,0,0
+Direct Logistics,Local Market,Torino,2022-09-08,277.57,Lot-111,0,0
+Euro Transport,Mall Outlet,Roma,2023-01-31,209.25,Lot-155,0,0
+Quick Ship,Online Shop,Genova,2023-06-23,249.67,Lot-158,1,0
+National Cargo,Online Shop,Palermo,2022-12-11,234.12,Lot-101,0,0
+Direct Logistics,eBay,Roma,2023-08-21,242.58,Lot-149,1,0
+Global Move,Mall Outlet,Verona,2023-04-16,276.03,Lot-158,0,0
+Global Move,Boutique Milano,Napoli,2023-08-07,230.27,Lot-184,0,0
+Global Move,Online Shop,Palermo,2023-01-25,194.02,Lot-167,2,0
+Direct Logistics,Local Market,Napoli,2023-01-14,309.82,Lot-197,0,0
+Logistica Italia,Direct Sale,Roma,2023-03-29,231.23,Lot-191,0,0
+Quick Ship,Direct Sale,Parma,2023-02-16,199.74,Lot-133,1,0
+Logistica Italia,Boutique Milano,Palermo,2024-01-20,238.26,Lot-177,0,0
+Global Move,Local Market,Parma,2023-12-27,234.18,Lot-102,1,0
+Global Move,Boutique Milano,Napoli,2023-04-23,266.09,Lot-141,0,0
+Logistica Italia,Direct Sale,Verona,2022-08-31,349.78,Lot-112,0,0
+InterCity Courier,Negozio di Roma,Bologna,2023-04-21,326.59,Lot-113,0,0
+Euro Transport,Negozio di Roma,Torino,2023-05-16,296.18,Lot-187,1,0
+Logistica Italia,Local Market,Palermo,2023-06-25,286.38,Lot-181,1,0
+Logistica Italia,Online Shop,Roma,2022-10-18,125.8,Lot-108,0,0
+InterCity Courier,Local Market,Napoli,2023-04-25,190.35,Lot-174,0,0
+Euro Transport,eBay,Venezia,2023-04-02,156.39,Lot-179,0,0
+Global Move,Negozio di Roma,Palermo,2022-07-04,173.74,Lot-136,0,0
+RapidWay Trans,Negozio di Roma,Bologna,2024-03-04,284.66,Lot-166,0,0
+Logistica Italia,Direct Sale,Firenze,2023-12-06,127.91,Lot-199,0,0
+Direct Logistics,eBay,Venezia,2023-02-28,207.66,Lot-111,0,0
+National Cargo,Online Shop,Milano,2023-01-07,242.98,Lot-169,0,0
+RapidWay Trans,Online Shop,Milano,2022-11-14,218.7,Lot-136,0,0
+RapidWay Trans,Online Shop,Venezia,2022-10-22,180.92,Lot-198,3,0
+RapidWay Trans,Amazon Italia,Venezia,2022-10-22,215.45,Lot-196,0,0
+Direct Logistics,Negozio di Roma,Napoli,2024-03-01,291.29,Lot-195,0,0
+Quick Ship,Local Market,Palermo,2022-08-18,300.53,Lot-122,2,0
+RapidWay Trans,Negozio di Roma,Padova,2023-11-29,209.57,Lot-156,1,0
+Logistica Italia,Negozio di Roma,Firenze,2022-07-08,306.96,Lot-189,0,0
+InterCity Courier,Local Market,Padova,2023-05-11,230.72,Lot-154,1,0
+Quick Ship,eBay,Bologna,2024-02-15,174.86,Lot-119,1,0
+RapidWay Trans,Amazon Italia,Verona,2022-07-09,295.37,Lot-102,0,0
+Logistica Italia,eBay,Bologna,2022-07-21,232.92,Lot-133,0,0
+Global Move,Direct Sale,Bologna,2022-05-26,277.72,Lot-152,0,0
+RapidWay Trans,Direct Sale,Genova,2022-10-22,170.59,Lot-100,1,0
+RapidWay Trans,Boutique Milano,Parma,2023-08-12,255.24,Lot-129,0,0
+Global Move,Mall Outlet,Roma,2024-01-15,205.26,Lot-122,0,0
+Euro Transport,eBay,Genova,2023-07-04,209.35,Lot-108,1,0
+Quick Ship,Mall Outlet,Verona,2022-06-23,267.08,Lot-108,1,0
+National Cargo,eBay,Napoli,2023-08-12,174.08,Lot-199,2,0
+Direct Logistics,Direct Sale,Napoli,2022-12-22,294.98,Lot-170,0,0
+Global Move,eBay,Padova,2022-05-16,258.89,Lot-152,1,0
+RapidWay Trans,Direct Sale,Padova,2024-04-11,277.35,Lot-135,0,0
+Euro Transport,Mall Outlet,Torino,2023-03-04,225.32,Lot-198,3,0
+RapidWay Trans,eBay,Parma,2022-09-03,167.65,Lot-108,1,0
+Logistica Italia,Local Market,Parma,2023-06-05,157.11,Lot-112,1,0
+InterCity Courier,Boutique Milano,Parma,2022-10-22,217.09,Lot-167,0,0
+Quick Ship,Amazon Italia,Palermo,2022-11-20,175.9,Lot-161,0,0
+Direct Logistics,eBay,Verona,2023-05-10,223.95,Lot-103,0,0
+RapidWay Trans,Amazon Italia,Firenze,2022-12-16,225.53,Lot-121,0,0
+Quick Ship,Amazon Italia,Palermo,2023-04-21,222.65,Lot-191,0,0
+Logistica Italia,Negozio di Roma,Venezia,2024-04-02,189.18,Lot-156,0,0
+Global Move,Amazon Italia,Verona,2023-11-19,191.24,Lot-148,0,0
+Euro Transport,eBay,Padova,2022-05-25,188.09,Lot-142,1,0
+Euro Transport,Local Market,Venezia,2023-08-03,213.76,Lot-124,0,0
+Global Move,Boutique Milano,Parma,2022-12-08,227.59,Lot-134,1,0
+RapidWay Trans,Direct Sale,Firenze,2023-12-08,362.62,Lot-165,0,0
+Logistica Italia,Mall Outlet,Verona,2022-08-27,284.48,Lot-120,0,0
+Euro Transport,eBay,Napoli,2023-01-31,140.34,Lot-151,0,0
+Logistica Italia,Boutique Milano,Palermo,2023-01-30,250.98,Lot-102,2,0
+RapidWay Trans,Direct Sale,Roma,2022-11-16,278.3,Lot-100,1,0
+Direct Logistics,Boutique Milano,Palermo,2024-03-13,269.48,Lot-108,1,0
+Quick Ship,Mall Outlet,Torino,2022-10-20,309.94,Lot-198,1,0
+RapidWay Trans,Boutique Milano,Palermo,2023-03-24,145.67,Lot-180,0,0
+RapidWay Trans,Online Shop,Padova,2023-04-06,276.23,Lot-132,1,0
+National Cargo,Amazon Italia,Firenze,2022-07-27,119.53,Lot-197,0,0
+RapidWay Trans,Mall Outlet,Genova,2023-10-16,322.84,Lot-194,1,0
+National Cargo,Boutique Milano,Firenze,2024-02-22,156.64,Lot-131,1,0
+Quick Ship,eBay,Verona,2022-11-07,194.84,Lot-166,0,0
+InterCity Courier,Local Market,Genova,2024-01-27,262.48,Lot-143,0,0
+RapidWay Trans,Negozio di Roma,Roma,2022-11-03,243.3,Lot-146,2,0
+National Cargo,Amazon Italia,Firenze,2023-05-02,286.34,Lot-159,1,0
+Global Move,Local Market,Napoli,2024-01-08,204.92,Lot-167,0,0
+National Cargo,Mall Outlet,Palermo,2022-07-28,246.13,Lot-178,0,0
+National Cargo,Negozio di Roma,Bologna,2024-01-26,205.47,Lot-122,1,0
+Direct Logistics,eBay,Firenze,2022-12-10,228.13,Lot-174,0,0
+RapidWay Trans,Boutique Milano,Bologna,2022-06-30,241.06,Lot-148,0,0
+RapidWay Trans,Local Market,Torino,2023-11-22,334.4,Lot-192,0,0
+National Cargo,Mall Outlet,Firenze,2023-03-02,297.67,Lot-120,0,0
+InterCity Courier,Amazon Italia,Parma,2023-07-10,230.88,Lot-118,0,0
+InterCity Courier,Mall Outlet,Parma,2023-07-15,201.64,Lot-130,1,0
+Logistica Italia,Mall Outlet,Milano,2023-09-01,286.64,Lot-112,1,0
+RapidWay Trans,Local Market,Torino,2023-06-12,378.05,Lot-195,1,0
+Logistica Italia,Online Shop,Bologna,2023-01-23,262.69,Lot-137,2,0
+RapidWay Trans,Direct Sale,Napoli,2023-03-10,269.85,Lot-177,1,0
+Logistica Italia,Direct Sale,Palermo,2023-03-26,268.6,Lot-166,1,0
+Logistica Italia,Mall Outlet,Genova,2023-02-15,280.25,Lot-148,0,0
+National Cargo,Online Shop,Padova,2023-10-20,236.69,Lot-141,0,0
+National Cargo,Mall Outlet,Roma,2023-11-02,237.53,Lot-187,0,0
+Euro Transport,Mall Outlet,Venezia,2023-02-26,206.57,Lot-157,0,0
+Global Move,Amazon Italia,Verona,2024-04-09,249.11,Lot-170,1,0
+National Cargo,Boutique Milano,Padova,2023-07-18,192.66,Lot-183,1,0
+Quick Ship,eBay,Verona,2024-04-23,240.23,Lot-126,0,0
+Euro Transport,Negozio di Roma,Milano,2023-10-28,245.95,Lot-135,1,0
+National Cargo,Direct Sale,Napoli,2024-02-09,219.16,Lot-149,0,0
+Global Move,Negozio di Roma,Torino,2022-10-17,247.6,Lot-152,0,0
+National Cargo,Negozio di Roma,Milano,2023-08-27,313.34,Lot-183,0,0
+National Cargo,eBay,Verona,2022-12-22,282.85,Lot-170,0,0
+Euro Transport,Mall Outlet,Venezia,2023-06-04,287.45,Lot-105,1,0
+RapidWay Trans,Amazon Italia,Parma,2023-06-20,233.59,Lot-168,0,0
+InterCity Courier,eBay,Roma,2024-03-02,281.65,Lot-177,1,0
+National Cargo,eBay,Verona,2023-04-24,288.8,Lot-179,0,0
+Logistica Italia,Negozio di Roma,Venezia,2023-12-19,291.51,Lot-101,0,0
+Global Move,Negozio di Roma,Venezia,2022-08-12,165.94,Lot-147,1,0
+InterCity Courier,Direct Sale,Bologna,2022-11-03,189.32,Lot-103,0,0
+RapidWay Trans,Amazon Italia,Palermo,2022-12-11,161.53,Lot-175,1,0
+InterCity Courier,Boutique Milano,Venezia,2023-06-09,297.4,Lot-146,0,0
+Logistica Italia,Online Shop,Verona,2024-01-25,216.92,Lot-118,1,0
+Global Move,eBay,Parma,2023-06-16,257.24,Lot-129,0,0
+Euro Transport,Boutique Milano,Parma,2022-10-15,186.65,Lot-111,0,0
+InterCity Courier,Local Market,Palermo,2024-01-07,286.76,Lot-155,2,0
+Logistica Italia,Boutique Milano,Parma,2023-07-17,268.87,Lot-142,0,0
+Logistica Italia,Boutique Milano,Milano,2022-10-09,277.16,Lot-162,0,0
+RapidWay Trans,Boutique Milano,Palermo,2024-04-22,261.16,Lot-182,1,0
+Logistica Italia,Negozio di Roma,Roma,2023-12-21,176.65,Lot-129,0,0
+Logistica Italia,Amazon Italia,Palermo,2024-02-23,298.33,Lot-130,2,0
+Logistica Italia,Mall Outlet,Palermo,2022-10-29,178.39,Lot-138,0,0
+Direct Logistics,Amazon Italia,Genova,2024-01-18,242.83,Lot-169,0,0
+Euro Transport,Online Shop,Parma,2022-10-07,246.81,Lot-131,1,0
+Direct Logistics,Mall Outlet,Genova,2022-07-04,258.9,Lot-187,1,0
+Quick Ship,Online Shop,Roma,2023-05-20,214.61,Lot-150,0,0
+Global Move,Amazon Italia,Firenze,2024-04-17,224.38,Lot-177,1,0
+Quick Ship,Negozio di Roma,Napoli,2023-02-11,254.94,Lot-155,1,0
+Quick Ship,Mall Outlet,Genova,2022-12-10,197.69,Lot-126,4,0
+Logistica Italia,Direct Sale,Bologna,2022-05-14,303.1,Lot-146,0,0
+Global Move,Boutique Milano,Parma,2023-05-19,257.95,Lot-179,0,0
+Direct Logistics,Online Shop,Firenze,2023-03-26,231.5,Lot-107,0,0
+Logistica Italia,Negozio di Roma,Venezia,2023-02-16,243.97,Lot-164,1,0
+Direct Logistics,Local Market,Parma,2023-03-07,277.53,Lot-174,1,0
+Global Move,Amazon Italia,Firenze,2022-10-12,219.82,Lot-194,0,0
+National Cargo,Local Market,Palermo,2023-01-12,290.25,Lot-159,0,0
+RapidWay Trans,Online Shop,Milano,2023-10-30,213.68,Lot-101,1,0
+Global Move,Boutique Milano,Milano,2023-11-18,269.63,Lot-127,0,0
+RapidWay Trans,Mall Outlet,Roma,2023-05-27,184.68,Lot-120,0,0
+National Cargo,Boutique Milano,Torino,2023-06-18,265.65,Lot-169,0,0
+Euro Transport,Amazon Italia,Firenze,2022-09-01,190.42,Lot-153,1,0
+Global Move,Boutique Milano,Genova,2023-03-03,182.51,Lot-137,0,0
+Euro Transport,Mall Outlet,Firenze,2022-07-11,265.96,Lot-124,0,0
+Euro Transport,Online Shop,Bologna,2023-11-10,282.94,Lot-189,1,0
+National Cargo,Negozio di Roma,Firenze,2023-08-11,214.54,Lot-193,3,0
+RapidWay Trans,eBay,Torino,2023-05-18,273.08,Lot-182,1,0
+Quick Ship,Direct Sale,Parma,2022-08-19,341.34,Lot-115,3,0
+National Cargo,Amazon Italia,Parma,2023-12-19,210.73,Lot-126,0,0
+Logistica Italia,Amazon Italia,Torino,2024-01-24,288.03,Lot-129,0,0
+National Cargo,Local Market,Verona,2023-12-08,246.19,Lot-152,2,0
+Logistica Italia,Amazon Italia,Venezia,2022-07-22,301.82,Lot-146,0,0
+Euro Transport,eBay,Genova,2023-12-26,221.59,Lot-155,3,0
+Euro Transport,Online Shop,Venezia,2022-06-12,198.21,Lot-166,1,0
+Logistica Italia,Online Shop,Palermo,2022-08-12,282.33,Lot-159,0,0
+RapidWay Trans,Mall Outlet,Verona,2023-02-15,214.85,Lot-111,0,0
+Euro Transport,Mall Outlet,Napoli,2023-11-30,238.24,Lot-119,0,0
+Global Move,Amazon Italia,Firenze,2024-04-12,282.62,Lot-115,1,0
+Logistica Italia,Online Shop,Padova,2022-06-07,286.1,Lot-132,0,0
+RapidWay Trans,Boutique Milano,Palermo,2022-08-23,219.62,Lot-189,0,0
+Global Move,Boutique Milano,Milano,2023-11-16,227.01,Lot-159,0,0
+Logistica Italia,eBay,Bologna,2023-03-19,255.97,Lot-149,0,0
+RapidWay Trans,Local Market,Firenze,2022-10-31,264.09,Lot-172,2,0
+Euro Transport,Amazon Italia,Milano,2023-03-17,240.01,Lot-162,1,0
+Quick Ship,eBay,Palermo,2023-05-20,235.82,Lot-101,0,0
+National Cargo,Direct Sale,Parma,2022-08-28,341.54,Lot-108,0,0
+Logistica Italia,Boutique Milano,Milano,2023-08-13,211.73,Lot-179,0,0
+Global Move,eBay,Palermo,2023-05-30,244.91,Lot-184,1,0
+Direct Logistics,Amazon Italia,Roma,2023-12-10,203.04,Lot-169,0,0
+National Cargo,Amazon Italia,Roma,2024-02-13,221.76,Lot-116,0,0
+Quick Ship,Amazon Italia,Verona,2022-05-10,300.5,Lot-109,0,0
+Logistica Italia,Online Shop,Palermo,2024-02-19,239.73,Lot-113,0,0
+Quick Ship,Direct Sale,Verona,2023-10-05,260.2,Lot-192,0,0
+Global Move,Mall Outlet,Palermo,2022-08-06,268.52,Lot-198,3,0
+Euro Transport,Mall Outlet,Verona,2022-10-13,227.49,Lot-147,1,0
+RapidWay Trans,Boutique Milano,Parma,2023-04-16,298.5,Lot-194,1,0
+Logistica Italia,Mall Outlet,Firenze,2023-07-03,312.71,Lot-157,0,0
+InterCity Courier,Local Market,Padova,2023-04-04,341.14,Lot-164,0,0
+Logistica Italia,eBay,Padova,2023-03-23,201.39,Lot-118,2,0
+Quick Ship,Amazon Italia,Palermo,2023-12-15,321.54,Lot-153,0,0
+Quick Ship,Direct Sale,Milano,2023-05-24,250.0,Lot-140,1,0
+Direct Logistics,Amazon Italia,Milano,2024-01-22,242.79,Lot-110,0,0
+InterCity Courier,Amazon Italia,Verona,2024-01-18,293.87,Lot-133,1,0
+Logistica Italia,Amazon Italia,Parma,2023-05-29,241.02,Lot-173,2,0
+RapidWay Trans,Local Market,Venezia,2023-12-14,226.22,Lot-191,1,0
+National Cargo,Amazon Italia,Roma,2022-06-01,210.79,Lot-150,0,0
+InterCity Courier,Mall Outlet,Parma,2024-01-26,224.62,Lot-149,0,0
+Direct Logistics,Negozio di Roma,Firenze,2022-10-28,229.14,Lot-102,0,0
+Quick Ship,eBay,Verona,2023-12-06,210.62,Lot-184,2,0
+Logistica Italia,Boutique Milano,Padova,2022-06-26,308.54,Lot-154,1,0
+RapidWay Trans,Boutique Milano,Roma,2022-09-03,246.18,Lot-151,0,0
+Euro Transport,Direct Sale,Palermo,2023-02-18,336.41,Lot-123,0,0
+Logistica Italia,Amazon Italia,Venezia,2024-02-23,284.32,Lot-189,1,0
+Quick Ship,Mall Outlet,Parma,2024-01-24,289.0,Lot-177,1,0
+Direct Logistics,Mall Outlet,Bologna,2022-10-31,196.73,Lot-126,0,0
+InterCity Courier,Direct Sale,Venezia,2023-05-14,219.37,Lot-170,1,0
+Global Move,Mall Outlet,Napoli,2024-03-18,164.4,Lot-114,0,0
+Global Move,Boutique Milano,Genova,2022-09-18,272.93,Lot-131,1,0
+Euro Transport,Amazon Italia,Roma,2022-07-25,176.69,Lot-102,0,0
+RapidWay Trans,Direct Sale,Padova,2023-03-11,242.65,Lot-160,1,0
+Direct Logistics,Amazon Italia,Bologna,2022-06-26,244.13,Lot-119,1,0
+Direct Logistics,Mall Outlet,Roma,2022-12-21,216.08,Lot-167,1,0
+Euro Transport,Local Market,Genova,2022-10-17,313.29,Lot-105,1,0
+Quick Ship,eBay,Palermo,2023-03-10,265.29,Lot-188,2,0
+Global Move,Local Market,Bologna,2023-06-11,255.04,Lot-114,0,0
+Quick Ship,Boutique Milano,Padova,2023-07-18,264.67,Lot-184,0,0
+Logistica Italia,Online Shop,Genova,2023-08-21,226.14,Lot-163,0,0
+Direct Logistics,eBay,Venezia,2023-08-07,207.44,Lot-155,3,0
+Global Move,eBay,Verona,2023-03-16,244.63,Lot-158,1,0
+Euro Transport,eBay,Palermo,2022-08-06,230.35,Lot-133,1,0
+RapidWay Trans,Local Market,Bologna,2024-02-14,201.79,Lot-196,0,0
+National Cargo,Negozio di Roma,Roma,2022-06-20,312.3,Lot-169,1,0
+InterCity Courier,Boutique Milano,Milano,2023-04-02,240.26,Lot-173,1,0
+RapidWay Trans,Amazon Italia,Napoli,2023-08-04,275.88,Lot-108,1,0
+RapidWay Trans,Amazon Italia,Verona,2023-03-10,231.93,Lot-180,2,0
+InterCity Courier,Local Market,Genova,2023-10-01,269.5,Lot-115,0,0
+National Cargo,Local Market,Torino,2022-05-08,147.38,Lot-183,1,0
+Global Move,eBay,Palermo,2022-11-21,242.92,Lot-124,1,0
+National Cargo,Mall Outlet,Palermo,2022-09-01,155.43,Lot-166,0,0
+Direct Logistics,Negozio di Roma,Venezia,2023-11-16,311.49,Lot-178,0,0
+Direct Logistics,Local Market,Bologna,2023-07-01,243.32,Lot-170,0,0
+InterCity Courier,Negozio di Roma,Venezia,2022-05-15,246.74,Lot-179,1,0
+Direct Logistics,Direct Sale,Torino,2023-02-09,309.01,Lot-144,0,0
+Direct Logistics,Local Market,Bologna,2022-05-19,280.88,Lot-103,1,0
+Euro Transport,Local Market,Bologna,2023-12-13,147.47,Lot-126,0,0
+InterCity Courier,Direct Sale,Firenze,2022-05-29,267.96,Lot-188,0,0
+National Cargo,Boutique Milano,Padova,2022-10-04,249.4,Lot-180,1,0
+Direct Logistics,Online Shop,Venezia,2024-01-03,218.2,Lot-184,2,0
+National Cargo,Local Market,Torino,2022-09-23,303.87,Lot-191,0,0
+Euro Transport,Mall Outlet,Bologna,2024-04-14,280.18,Lot-123,2,0
+InterCity Courier,eBay,Genova,2022-09-02,141.81,Lot-110,0,0
+Direct Logistics,eBay,Milano,2023-11-02,241.25,Lot-169,2,0
+Quick Ship,Direct Sale,Genova,2022-05-31,275.76,Lot-106,2,0
+RapidWay Trans,Mall Outlet,Padova,2022-11-22,330.71,Lot-104,0,0
+Global Move,Negozio di Roma,Bologna,2023-08-20,278.83,Lot-156,0,0
+Logistica Italia,Boutique Milano,Genova,2022-07-27,276.22,Lot-136,0,0
+Logistica Italia,eBay,Torino,2023-06-28,270.08,Lot-177,2,0
+RapidWay Trans,Negozio di Roma,Palermo,2022-11-29,205.48,Lot-184,0,0
+Quick Ship,Local Market,Verona,2023-01-27,193.45,Lot-161,2,0
+RapidWay Trans,Mall Outlet,Genova,2023-12-25,309.41,Lot-104,0,0
+Direct Logistics,Negozio di Roma,Verona,2023-03-29,317.6,Lot-195,1,0
+Direct Logistics,Direct Sale,Torino,2022-08-17,260.53,Lot-181,0,0
+Euro Transport,Amazon Italia,Parma,2023-07-26,338.09,Lot-168,2,0
+Quick Ship,Amazon Italia,Padova,2024-02-21,367.3,Lot-169,1,0
+Direct Logistics,Boutique Milano,Torino,2023-03-15,257.47,Lot-104,0,0
+National Cargo,Negozio di Roma,Roma,2023-02-17,265.02,Lot-109,1,0
+Logistica Italia,Online Shop,Venezia,2024-03-03,184.64,Lot-113,0,0
+Quick Ship,Local Market,Firenze,2023-05-03,335.13,Lot-173,0,0
+Logistica Italia,Amazon Italia,Parma,2023-06-07,224.08,Lot-194,0,0
+National Cargo,Negozio di Roma,Firenze,2023-07-04,206.13,Lot-191,0,0
+Quick Ship,Online Shop,Milano,2022-06-01,164.92,Lot-126,1,0
+Logistica Italia,Direct Sale,Torino,2022-09-09,196.78,Lot-118,0,0
+National Cargo,eBay,Roma,2023-04-20,262.29,Lot-164,1,0
+InterCity Courier,Online Shop,Bologna,2022-11-24,301.37,Lot-178,0,0
+Direct Logistics,eBay,Roma,2022-10-20,241.69,Lot-137,1,0
+Quick Ship,eBay,Parma,2022-10-31,208.22,Lot-131,1,0
+National Cargo,Negozio di Roma,Firenze,2023-04-02,329.46,Lot-169,0,0
+RapidWay Trans,Negozio di Roma,Napoli,2022-08-03,155.68,Lot-141,0,0
+RapidWay Trans,Local Market,Napoli,2024-04-02,199.73,Lot-129,2,0
+Euro Transport,Negozio di Roma,Roma,2023-05-22,286.15,Lot-163,0,0
+InterCity Courier,eBay,Napoli,2022-09-19,284.4,Lot-189,2,0
+InterCity Courier,Online Shop,Verona,2023-02-02,243.43,Lot-134,0,0
+Global Move,Mall Outlet,Firenze,2022-08-29,248.88,Lot-125,3,0
+Logistica Italia,eBay,Parma,2023-08-16,202.82,Lot-124,0,0
+Quick Ship,Online Shop,Verona,2022-05-13,306.21,Lot-177,0,0
+RapidWay Trans,Boutique Milano,Parma,2023-12-04,224.95,Lot-185,0,0
+Logistica Italia,Mall Outlet,Padova,2022-12-21,237.18,Lot-184,0,0
+Global Move,Direct Sale,Bologna,2022-08-10,213.91,Lot-167,0,0
+Direct Logistics,Negozio di Roma,Bologna,2023-12-29,293.51,Lot-175,0,0
+Quick Ship,Amazon Italia,Venezia,2023-09-16,203.09,Lot-162,0,0
+Euro Transport,Online Shop,Verona,2023-01-08,175.07,Lot-146,1,0
+InterCity Courier,Amazon Italia,Palermo,2023-04-09,211.97,Lot-120,0,0
+Logistica Italia,Direct Sale,Roma,2022-11-25,302.94,Lot-198,1,0
+RapidWay Trans,Mall Outlet,Milano,2023-03-11,291.84,Lot-144,1,0
+Euro Transport,Negozio di Roma,Venezia,2023-01-10,242.35,Lot-109,0,0
+Logistica Italia,eBay,Verona,2023-01-12,240.35,Lot-175,1,0
+Direct Logistics,Online Shop,Milano,2022-09-28,137.04,Lot-130,0,0
+National Cargo,eBay,Torino,2023-10-12,207.84,Lot-180,0,0
+Direct Logistics,Amazon Italia,Firenze,2023-08-06,229.21,Lot-192,0,0
+Quick Ship,Direct Sale,Torino,2022-07-16,246.77,Lot-149,0,0
+InterCity Courier,eBay,Firenze,2024-01-21,240.77,Lot-170,1,0
+Direct Logistics,Local Market,Roma,2024-01-31,179.87,Lot-149,1,0
+Direct Logistics,eBay,Venezia,2024-01-22,187.52,Lot-111,0,0
+National Cargo,Mall Outlet,Venezia,2022-07-03,343.92,Lot-128,1,0
+Direct Logistics,Local Market,Torino,2023-10-05,234.38,Lot-135,0,0
+Global Move,Local Market,Roma,2023-07-08,278.97,Lot-194,1,0
+Euro Transport,Boutique Milano,Bologna,2023-12-16,215.25,Lot-121,1,0
+Direct Logistics,Local Market,Roma,2023-06-28,294.36,Lot-150,0,0
+National Cargo,Online Shop,Torino,2023-02-26,291.04,Lot-126,0,0
+National Cargo,Local Market,Parma,2022-07-10,204.74,Lot-102,2,0
+Direct Logistics,Boutique Milano,Firenze,2023-12-13,159.54,Lot-164,0,0
+Logistica Italia,eBay,Napoli,2023-02-07,200.04,Lot-125,1,0
+Logistica Italia,Online Shop,Palermo,2023-02-23,235.13,Lot-156,0,0
+Euro Transport,Direct Sale,Roma,2022-07-18,247.08,Lot-166,0,0
+Quick Ship,Direct Sale,Palermo,2024-04-11,245.22,Lot-169,0,0
+National Cargo,Online Shop,Venezia,2024-04-07,191.39,Lot-156,1,0
+Direct Logistics,Direct Sale,Palermo,2023-07-18,301.56,Lot-192,0,0
+National Cargo,eBay,Verona,2023-11-01,255.86,Lot-107,0,0
+Logistica Italia,Mall Outlet,Bologna,2022-10-12,219.33,Lot-128,0,0
+Logistica Italia,Boutique Milano,Milano,2023-08-11,243.7,Lot-126,0,0
+Quick Ship,Local Market,Torino,2024-04-28,233.41,Lot-169,0,0
+Direct Logistics,Amazon Italia,Napoli,2022-09-08,358.17,Lot-188,0,0
+Global Move,Direct Sale,Venezia,2024-03-12,242.33,Lot-130,0,0
+Quick Ship,Online Shop,Verona,2023-05-25,209.2,Lot-153,1,0
+RapidWay Trans,Online Shop,Palermo,2022-05-31,227.4,Lot-191,0,0
+Global Move,Mall Outlet,Milano,2023-11-11,258.96,Lot-100,0,0
+National Cargo,Amazon Italia,Bologna,2022-09-17,332.58,Lot-169,0,0
+Direct Logistics,Online Shop,Firenze,2022-11-26,219.83,Lot-132,0,0
+RapidWay Trans,Mall Outlet,Torino,2023-10-22,146.81,Lot-132,1,0
+Logistica Italia,Negozio di Roma,Parma,2022-10-22,212.87,Lot-159,0,0
+National Cargo,Negozio di Roma,Roma,2023-08-09,244.76,Lot-111,0,0
+Euro Transport,Amazon Italia,Milano,2022-07-12,231.54,Lot-145,0,0
+InterCity Courier,Direct Sale,Padova,2024-03-12,304.81,Lot-142,2,0
+National Cargo,Direct Sale,Venezia,2022-11-30,212.39,Lot-153,0,0
+National Cargo,Online Shop,Verona,2023-12-07,227.84,Lot-101,1,0
+Euro Transport,Local Market,Parma,2022-05-20,216.14,Lot-122,1,0
+Global Move,Direct Sale,Genova,2022-06-25,253.6,Lot-111,0,0
+Euro Transport,Direct Sale,Napoli,2023-02-19,315.0,Lot-105,0,0
+Global Move,Boutique Milano,Genova,2023-06-26,248.35,Lot-179,1,0
+RapidWay Trans,Local Market,Verona,2024-02-14,178.85,Lot-108,2,0
+Euro Transport,Negozio di Roma,Milano,2022-06-20,395.51,Lot-106,0,0
+Global Move,Amazon Italia,Roma,2023-05-09,216.87,Lot-116,0,0
+Euro Transport,Local Market,Firenze,2023-03-16,346.26,Lot-135,0,0
+InterCity Courier,Boutique Milano,Padova,2022-11-08,305.38,Lot-143,1,0
+Direct Logistics,Direct Sale,Napoli,2022-11-16,246.57,Lot-156,0,0
+Direct Logistics,Mall Outlet,Genova,2024-04-15,215.33,Lot-118,0,0
+RapidWay Trans,Local Market,Napoli,2023-11-01,315.12,Lot-195,0,0
+RapidWay Trans,eBay,Palermo,2023-08-09,247.14,Lot-101,1,0
+Global Move,Local Market,Firenze,2023-10-23,238.13,Lot-169,1,0
+Quick Ship,Direct Sale,Roma,2024-04-15,245.53,Lot-188,0,0
+Global Move,Online Shop,Verona,2022-11-16,292.12,Lot-107,1,0
+Logistica Italia,Online Shop,Parma,2023-03-26,326.84,Lot-159,0,0
+Global Move,Local Market,Parma,2024-04-25,197.75,Lot-195,0,0
+RapidWay Trans,Boutique Milano,Bologna,2022-10-07,250.6,Lot-144,0,0
+InterCity Courier,eBay,Roma,2022-10-30,201.98,Lot-117,1,0
+National Cargo,Mall Outlet,Milano,2023-11-03,222.41,Lot-109,0,0
+Logistica Italia,Boutique Milano,Genova,2022-12-20,296.07,Lot-151,0,0
+Direct Logistics,Negozio di Roma,Genova,2024-02-10,210.54,Lot-168,1,0
+Logistica Italia,Online Shop,Genova,2024-02-01,241.4,Lot-114,0,0
+Quick Ship,Online Shop,Verona,2023-10-27,199.0,Lot-192,0,0
+Quick Ship,eBay,Firenze,2024-04-01,257.55,Lot-143,0,0
+Direct Logistics,Online Shop,Genova,2023-12-23,298.45,Lot-123,1,0
+RapidWay Trans,Online Shop,Genova,2022-05-29,246.96,Lot-131,1,0
+InterCity Courier,Mall Outlet,Torino,2023-03-28,206.35,Lot-154,0,0
+RapidWay Trans,Direct Sale,Roma,2023-05-30,287.49,Lot-185,1,0
+National Cargo,Negozio di Roma,Venezia,2023-02-04,344.86,Lot-109,0,0
+Euro Transport,Online Shop,Bologna,2024-01-27,348.73,Lot-160,0,0
+Direct Logistics,Negozio di Roma,Verona,2023-10-12,262.11,Lot-132,0,0
+Logistica Italia,Local Market,Parma,2024-02-29,139.72,Lot-189,0,0
+National Cargo,Amazon Italia,Firenze,2023-11-02,217.9,Lot-199,0,0
+Global Move,Amazon Italia,Firenze,2022-09-30,238.2,Lot-148,0,0
+Direct Logistics,Local Market,Torino,2022-08-03,286.67,Lot-127,0,0
+InterCity Courier,eBay,Torino,2022-09-24,310.39,Lot-158,0,0
+Global Move,Direct Sale,Roma,2022-10-24,353.18,Lot-194,0,0
+RapidWay Trans,Amazon Italia,Milano,2023-06-28,278.6,Lot-128,0,0
+Global Move,Boutique Milano,Parma,2024-03-06,386.64,Lot-195,1,0
+InterCity Courier,Amazon Italia,Napoli,2022-07-30,248.81,Lot-191,0,0
+National Cargo,Direct Sale,Padova,2022-10-04,296.87,Lot-127,1,0
+Logistica Italia,Direct Sale,Genova,2024-03-25,260.87,Lot-127,0,0
+InterCity Courier,Direct Sale,Napoli,2023-09-02,182.17,Lot-158,0,0
+Direct Logistics,Amazon Italia,Roma,2022-11-28,243.59,Lot-143,1,0
+RapidWay Trans,Online Shop,Verona,2022-10-30,267.1,Lot-108,0,0
+InterCity Courier,Negozio di Roma,Parma,2022-08-01,341.0,Lot-160,0,0
+Logistica Italia,Amazon Italia,Venezia,2022-08-22,223.87,Lot-172,0,0
+National Cargo,Amazon Italia,Bologna,2023-05-29,218.12,Lot-145,0,0
+Global Move,Amazon Italia,Torino,2023-01-19,290.42,Lot-121,0,0
+National Cargo,Direct Sale,Verona,2022-12-27,274.95,Lot-116,2,0
+National Cargo,Direct Sale,Milano,2022-10-13,237.75,Lot-101,1,0
+RapidWay Trans,Online Shop,Padova,2022-11-02,395.49,Lot-139,1,0
+Logistica Italia,Mall Outlet,Verona,2022-06-17,316.04,Lot-175,0,0
+InterCity Courier,Amazon Italia,Palermo,2023-06-02,302.18,Lot-125,0,0
+RapidWay Trans,Direct Sale,Verona,2023-04-01,257.51,Lot-129,1,0
+Logistica Italia,eBay,Genova,2022-08-22,198.07,Lot-155,0,0
+Euro Transport,Negozio di Roma,Napoli,2022-10-05,288.98,Lot-108,0,0
+InterCity Courier,Negozio di Roma,Torino,2022-10-08,252.88,Lot-164,1,0
+Logistica Italia,Online Shop,Bologna,2024-04-09,358.76,Lot-130,3,0
+InterCity Courier,Negozio di Roma,Roma,2024-01-07,250.65,Lot-146,0,0
+Global Move,Negozio di Roma,Verona,2023-12-28,162.59,Lot-194,1,0
+National Cargo,eBay,Verona,2023-12-25,239.95,Lot-187,1,0
+RapidWay Trans,Mall Outlet,Roma,2023-08-31,216.1,Lot-134,0,0
+InterCity Courier,Online Shop,Padova,2023-02-13,337.78,Lot-195,1,0
+Quick Ship,Direct Sale,Verona,2022-06-05,302.02,Lot-179,0,0
+RapidWay Trans,Local Market,Torino,2022-08-24,248.52,Lot-168,0,0
+Euro Transport,Amazon Italia,Milano,2023-05-13,329.18,Lot-113,1,0
+National Cargo,Mall Outlet,Firenze,2022-11-04,191.76,Lot-167,0,0
+Logistica Italia,Boutique Milano,Padova,2022-07-10,78.3,Lot-149,0,0
+Euro Transport,Mall Outlet,Genova,2022-06-07,268.49,Lot-192,0,0
+Direct Logistics,Local Market,Parma,2024-01-22,261.67,Lot-116,0,0
+InterCity Courier,eBay,Firenze,2023-06-25,189.89,Lot-102,0,0
+Quick Ship,Online Shop,Palermo,2023-07-20,277.35,Lot-195,1,0
+Global Move,Negozio di Roma,Torino,2022-10-25,228.62,Lot-101,0,0
+Global Move,Mall Outlet,Genova,2023-03-19,332.9,Lot-186,1,0
+InterCity Courier,Amazon Italia,Padova,2023-10-28,311.86,Lot-167,0,0
+RapidWay Trans,Direct Sale,Parma,2023-11-26,187.12,Lot-134,1,0
+Quick Ship,Boutique Milano,Firenze,2024-03-08,245.38,Lot-148,1,0
+Direct Logistics,Local Market,Torino,2023-03-04,267.5,Lot-105,0,0
+InterCity Courier,Direct Sale,Verona,2023-01-13,201.1,Lot-108,2,0
+Direct Logistics,Direct Sale,Parma,2023-09-22,227.52,Lot-131,2,0
+Direct Logistics,Negozio di Roma,Milano,2023-01-12,225.21,Lot-126,3,0
+Direct Logistics,Negozio di Roma,Verona,2022-11-04,238.65,Lot-109,1,0
+Direct Logistics,Local Market,Genova,2024-03-17,221.97,Lot-198,3,0
+Direct Logistics,Negozio di Roma,Genova,2023-11-21,226.83,Lot-181,1,0
+Quick Ship,Online Shop,Padova,2023-11-01,196.35,Lot-125,0,0
+Logistica Italia,Mall Outlet,Verona,2023-05-15,139.3,Lot-151,0,0
+InterCity Courier,Online Shop,Verona,2023-04-28,242.22,Lot-177,1,0
+National Cargo,eBay,Parma,2024-04-06,283.12,Lot-136,1,0
+Direct Logistics,Negozio di Roma,Verona,2023-02-14,222.79,Lot-103,1,0
+RapidWay Trans,eBay,Roma,2023-11-26,329.34,Lot-135,2,0
+National Cargo,Boutique Milano,Bologna,2022-07-04,293.47,Lot-101,1,0
+Euro Transport,eBay,Roma,2024-02-25,267.13,Lot-129,0,0
+Direct Logistics,Direct Sale,Milano,2023-08-02,207.29,Lot-138,0,0
+Quick Ship,Amazon Italia,Venezia,2023-08-21,221.7,Lot-166,0,0
+Direct Logistics,Amazon Italia,Verona,2022-09-24,234.06,Lot-101,1,0
+Global Move,Local Market,Firenze,2022-09-25,295.32,Lot-163,2,0
+Logistica Italia,Local Market,Napoli,2023-03-31,246.67,Lot-125,0,0
+RapidWay Trans,Boutique Milano,Firenze,2023-04-16,220.94,Lot-196,1,0
+Euro Transport,Direct Sale,Napoli,2022-08-09,176.14,Lot-163,1,0
+InterCity Courier,Direct Sale,Roma,2022-05-09,314.0,Lot-169,0,0
+National Cargo,Negozio di Roma,Parma,2023-07-17,222.57,Lot-122,0,0
+InterCity Courier,Local Market,Milano,2022-05-12,263.61,Lot-129,0,0
+Logistica Italia,Local Market,Firenze,2023-01-06,359.06,Lot-133,0,0
+Direct Logistics,Direct Sale,Torino,2022-05-17,260.56,Lot-107,1,0
+Quick Ship,Boutique Milano,Parma,2023-05-16,227.85,Lot-145,1,0
+National Cargo,Negozio di Roma,Torino,2024-02-26,242.48,Lot-177,1,0
+Quick Ship,Negozio di Roma,Venezia,2024-04-12,204.54,Lot-117,1,0
+RapidWay Trans,eBay,Padova,2023-02-05,232.73,Lot-133,0,0
+RapidWay Trans,Local Market,Napoli,2024-03-28,215.77,Lot-138,0,0
+InterCity Courier,Amazon Italia,Firenze,2023-06-03,137.35,Lot-199,0,0
+InterCity Courier,Mall Outlet,Palermo,2022-12-27,323.86,Lot-183,1,0
+Euro Transport,Amazon Italia,Torino,2023-06-11,288.25,Lot-198,0,0
+Logistica Italia,Local Market,Firenze,2022-10-24,274.77,Lot-177,0,0
+Logistica Italia,Mall Outlet,Torino,2023-03-27,332.91,Lot-171,0,0
+National Cargo,Online Shop,Venezia,2022-07-31,332.15,Lot-170,1,0
+InterCity Courier,Mall Outlet,Parma,2024-03-09,249.32,Lot-172,3,0
+RapidWay Trans,Online Shop,Verona,2023-08-03,284.95,Lot-155,0,0
+Logistica Italia,Local Market,Genova,2023-10-30,317.91,Lot-136,1,0
+InterCity Courier,Amazon Italia,Verona,2022-06-22,312.74,Lot-151,2,0
+InterCity Courier,Direct Sale,Bologna,2023-10-17,327.23,Lot-154,0,0
+Euro Transport,Mall Outlet,Padova,2022-08-10,202.22,Lot-114,1,0
+National Cargo,Local Market,Firenze,2022-09-02,262.56,Lot-138,0,0
+Quick Ship,Mall Outlet,Palermo,2023-01-03,319.55,Lot-129,2,0
+National Cargo,Boutique Milano,Roma,2024-01-30,266.12,Lot-112,0,0
+Global Move,Mall Outlet,Milano,2023-08-25,226.82,Lot-100,0,0
+National Cargo,Mall Outlet,Bologna,2023-09-27,280.1,Lot-180,0,0
+Global Move,Local Market,Bologna,2023-06-11,147.61,Lot-108,0,0
+Euro Transport,eBay,Torino,2023-03-25,255.25,Lot-195,0,0
+RapidWay Trans,Local Market,Bologna,2023-01-22,287.42,Lot-163,2,0
+Logistica Italia,Negozio di Roma,Palermo,2023-11-07,192.23,Lot-165,1,0
+RapidWay Trans,Local Market,Milano,2022-06-15,199.28,Lot-162,1,0
+Quick Ship,Mall Outlet,Torino,2023-06-21,227.97,Lot-142,1,0
+Direct Logistics,Amazon Italia,Venezia,2022-10-11,242.35,Lot-170,0,0
