@@ -1,4 +1,4 @@
-About Project999
+About **Project999**
 
 Project999 è una soluzione innovativa progettata per proteggere l'autenticità e l'integrità dei prodotti Made in Italy contro la minaccia globale della contraffazione. Grazie all'utilizzo di tecnologie all'avanguardia come blockchain, NFC, Merkle Trees, intelligenza artificiale e l'integrazione con ERP o database aziendali, questo sistema garantisce la tracciabilità e la verifica dell'originalità dei prodotti, offrendo inoltre un modello di sicurezza scalabile a più livelli, adattabile al rischio di contraffazione specifico per ogni categoria di prodotto.
 
@@ -10,8 +10,8 @@ La forza di Project999 risiede nella sua flessibilità e capacità di adattament
 Questa modularità garantisce che Project999 possa adattarsi subito ad ogni tipologia di Mercato e clientela, e continuare a crescere ed evolversi con le mutevoli minacce alla contraffazione, mantenendo sempre la protezione dei prodotti come priorità.
 Ma non basta, con Project999 i furti non avranno più alcun senso. Quando il cliente segnalerà il prodotto come rubato, mostrando il suo ID consegnatogli all'acquisto in modo del tutto anonimo, l'intelligenza artificiale (in fase di sviluppo) invaliderà immediatamente il prodotto, rendendolo di fatto non più attraente per i malintenzionati.
 
-Project999 è la garanzia di possedere un prodotto originale.
-Project999 è la soluzione definitiva, che estirpa la contraffazione alla radice.
+**Project999 è la garanzia di possedere un prodotto originale.**
+**Project999 è la soluzione definitiva, che estirpa la contraffazione alla radice.**
 
 Fasi e Spiegazione del Processo
 Fase 1: Integrazione e Preparazione NFC
