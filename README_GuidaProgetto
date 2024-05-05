@@ -1,0 +1,43 @@
+Project999: Un Ecosistema Innovativo per la Sicurezza e Autenticazione dei Prodotti
+
+Project999 è un'innovativa piattaforma tecnologica che integra sistemi avanzati per garantire l'autenticità e la sicurezza dei prodotti attraverso ogni fase del loro ciclo di vita. Il sistema è strutturato per servire diversi attori nella catena di distribuzione:
+
+Lato Produttore: Gli sviluppatori possono accedere alla piattaforma attraverso Producer Login, un portale dedicato che consente la gestione e la verifica dei prodotti direttamente dai produttori  (https://chain.project999.it/   ProducerLogin User e Password visibili sulla pagina).
+
+Lato Amministrativo: Un Admin Login permette agli amministratori di assegnare e gestire i diritti ai produttori, garantendo un controllo accurato delle autorizzazioni all'interno della piattaforma (https://chain.project999.it/   AdminLogin User e Password visibili sulla pagina)..
+
+Lato Rivenditore: I rivenditori autorizzati, sia fisici che e-commerce, possono accedere alle loro funzionalità attraverso il sito Project999 per Rivenditori, che facilita la gestione delle vendite e delle verifiche di autenticità. (https://www.project999.net/rivenditori )
+
+Lato Utente Finale: Gli utenti finali possono verificare l'autenticità dei prodotti tramite Lato Utente, un'interfaccia semplice e diretta che consente la verifica immediata tramite smartphone (https://www.project999.net/lato-utente ).
+
+La blockchain sul quale sono state registrate le transazioni di prova e test è su eth sepolia, visualizzabile all'indirizzo: https://sepolia.etherscan.io/address/0x2CbE824d1E53a88A5Fa438871943A1bF8149949e
+
+Al cuore di Project999 ci sono due potenti intelligenze artificiali, in fase di sviluppo,:
+
+Sentinel: Destinata al lato produttore, questa IA è specializzata nell'analisi e nella previsione dei rischi di contraffazione, garantendo che ogni prodotto rispetti gli altissimi standard di sicurezza e autenticità.
+RealCheck: Un sistema di intelligenza artificiale dedicato al monitoraggio e alla verifica dell'autenticità dei prodotti da parte degli utenti finali. RealCheck migliora l'interazione degli utenti con la piattaforma, fornendo conferme immediate sull'autenticità dei prodotti scansionati.
+
+Entrambe le intelligenze artificiali sono gestite e monitorate attraverso un accesso sicuro via VPS:
+Accessibili a questo indirizzo:
+
+Ip: 159.100.17.39
+User: Administrator
+Password: Project999!
+
+Gli eseguibili sono: RealCheck_Start e Sentinel_Start, entrambi nel Desktop a fianco alle relative cartelle del progetto.
+Sentinel è addestrato, utilizza RandomForestClassifier, è previsto l'utilizzo di diversi algoritmi per poi generare i risultati con un'ensemble.
+Sentinel simula alcune delle variabili che potrebbe ricevere da ERP del produttore e da sistemi IoT, per il momento questi dati sono simulati e l'ia calcola su alcuni parametri stabiliti ma logicalmente più dati potrò avere più l'ia sarà addestrata meglio. L'obiettivo con Sentinel è quello di renderlo completamente modulabile per adattarsi alle esigenze di ogni produttore.
+RealCheck al momento è in fase di addestramento, per cui è un'azione simulata, ma con dati reali, del controllo che farà l'IA. 
+
+
+Tutto è comunque raggiungibile e spiegato nel dettaglio nel sito principale e descrittivo del progetto: https://www.project999.net/
+
+Project999 si distingue come un ecosistema completamente modulabile, progettato per garantire l'autenticità e la sicurezza dei prodotti in ogni fase della loro vita. La nostra piattaforma integra la tecnologia blockchain per una registrazione precisa e sicura dei prodotti, consentendo una tracciabilità totale dal produttore al consumatore finale.
+
+Sicurezza Avanzata contro la Contraffazione: Al cuore del nostro sistema di sicurezza c'è Sentinel, un'intelligenza artificiale che monitora costantemente ogni prodotto registrato. Sentinel implementa misure proattive di sicurezza che si adattano dinamicamente alle minacce emergenti, proteggendo i prodotti dalla contraffazione diretta e garantendo la loro integrità lungo tutta la catena di distribuzione.
+
+Protezione per i Rivenditori: Project999 offre un sistema robusto per i rivenditori, assicurando che solo partner autorizzati possano vendere i nostri prodotti. Attraverso un software dedicato, ogni prodotto venduto viene associato a un ID unico cliente, un passaggio cruciale che verifica l'autenticità del prodotto e protegge sia i rivenditori che i consumatori da possibili frodi.
+
+Engagement del Consumatore con RealCheck: Sul fronte del consumatore, la nostra piattaforma RealCheck non solo verifica l'autenticità dei prodotti tramite una semplice scansione NFC, ma raccoglie e analizza i dati di queste interazioni. Questo permette di identificare e prevenire attivamente i pattern di contraffazione, assicurando una sicurezza senza precedenti e arricchendo l'esperienza d'uso grazie alla continua evoluzione della nostra intelligenza artificiale.
+
+Project999 non è solo un sistema di protezione; è un ambiente di fiducia e trasparenza, dove ogni interazione è sicura e ogni prodotto garantito contro le contraffazioni, promuovendo così l'eccellenza del Made in Italy e oltre.
